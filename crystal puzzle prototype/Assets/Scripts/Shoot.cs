@@ -4,17 +4,29 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
-    private GameObject lookDirection;
+    private Rigidbody2D shootRb;
     private float speed = 5f;
     // Start is called before the first frame update
     void Start()
     {
-        lookDirection = GameObject.Find("Player");
+        shootRb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        transform.Translate(Vector2.up * Time.deltaTime * speed);
+    void FixedUpdate()
+    {//makes bullet move
+        shootRb.velocity = transform.up * speed;
+       
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {//Destroys bullets when they hit the wall
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            Destroy(gameObject);
+        }
+        if (collision.gameObject.CompareTag("Block"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

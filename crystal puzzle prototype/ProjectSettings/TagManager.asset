@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Block
   - Bullet
+  - Wall
+  - Goal
+  - Bounce 1
+  - Bounce 2
   layers:
   - Default
   - TransparentFX
