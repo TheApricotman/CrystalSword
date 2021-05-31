@@ -8,10 +8,12 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D playerRb;
     Vector2 move;
     public GameObject projectilePrefab;
+    private Transform shootPoint;
 
     // Start is called before the first frame update
     void Start()
     {
+        shootPoint = GameObject.Find("Shoot Point").GetComponent<Transform>();
         playerRb = GetComponent<Rigidbody2D>();
 
     }
@@ -22,6 +24,7 @@ public class PlayerController : MonoBehaviour
         Shoot();
         move.x = Input.GetAxisRaw("Horizontal");
         move.y = Input.GetAxisRaw("Vertical");
+        Rotate();
     }
     private void FixedUpdate()
     {
@@ -29,7 +32,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void OnControllerColliderHit(ControllerColliderHit hit)
-    {
+    {//Push puzzle blocks
         Rigidbody hitRigidbody = hit.collider.attachedRigidbody;
         if (hitRigidbody != null && hitRigidbody.isKinematic == false)
         {
@@ -37,14 +40,33 @@ public class PlayerController : MonoBehaviour
         }
     }
     void Shoot()
-    {
+    {//fires bullet
         if (Input.GetKeyDown(KeyCode.Q))
         {
             {
-                Instantiate(projectilePrefab, transform.position, Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, transform.eulerAngles.z));
+                Instantiate(projectilePrefab, shootPoint.position, Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, transform.eulerAngles.z));
             }
         }
     }
-
+    void Rotate()
+    {//rotates player to face direction inputted
+        if (move.x == 1)
+        {
+            transform.eulerAngles = new Vector3(0, 0, -90);
+        }
+        if (move.x == -1)
+        {
+            transform.eulerAngles = new Vector3(0, 0, 90);
+        }
+        if (move.y == 1)
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0);
+        }
+        if (move.y == -1)
+        {
+            transform.eulerAngles = new Vector3(0, 0, 180);
+        }
+      
+    }
 }
 

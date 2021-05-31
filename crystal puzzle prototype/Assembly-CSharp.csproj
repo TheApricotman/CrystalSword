@@ -64,8 +64,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\LaserBeam.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PushBlock.cs" />
+    <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\Shoot.cs" />
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>/Users/blakeparker/Documents/Unity games/Crystal Sword/crystal puzzle prototype/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
