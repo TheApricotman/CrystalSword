@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Background Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5df8e6280785c4cd5b2d488b433db30b, type: 3}
+    totalSpriteSurfaceArea: 79046
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300062, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300060, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300066, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300064, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300088, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300070, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300090, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300068, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300092, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300074, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300094, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300114, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300072, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300080, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300112, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300078, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300082, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300110, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300076, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300084, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300108, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300086, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300106, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300104, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300102, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300100, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300016, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300018, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300096, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300098, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300118, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300116, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300000, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300002, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300004, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300006, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300008, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300010, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300012, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300014, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300136, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300038, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300138, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300036, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300124, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300026, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300126, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300024, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300056, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300120, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300022, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300058, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300122, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300020, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300052, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300132, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300034, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300054, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300134, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300032, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300048, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300128, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300030, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300050, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300130, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300142, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300028, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300044, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300140, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300046, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300146, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300040, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300144, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300042, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300002, guid: 128826b8f981846cdb1cb54110d238de, type: 3}
+  - {fileID: 21300006, guid: 128826b8f981846cdb1cb54110d238de, type: 3}
+  - {fileID: 21300000, guid: 128826b8f981846cdb1cb54110d238de, type: 3}
+  - {fileID: 21300004, guid: 128826b8f981846cdb1cb54110d238de, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Towngrass-path_31
+  - Towngrass-path_30
+  - Towngrass-path_33
+  - Towngrass-path_32
+  - Towngrass-path_44
+  - Towngrass-path_35
+  - Towngrass-path_45
+  - Towngrass-path_34
+  - Towngrass-path_46
+  - Towngrass-path_37
+  - Towngrass-path_47
+  - Towngrass-path_57
+  - Towngrass-path_36
+  - Towngrass-path_40
+  - Towngrass-path_56
+  - Towngrass-path_39
+  - Towngrass-path_41
+  - Towngrass-path_55
+  - Towngrass-path_38
+  - Towngrass-path_42
+  - Towngrass-path_54
+  - Towngrass-path_43
+  - Towngrass-path_53
+  - Towngrass-path_52
+  - Towngrass-path_51
+  - Towngrass-path_50
+  - Towngrass-path_8
+  - Towngrass-path_9
+  - Towngrass-path_48
+  - Towngrass-path_49
+  - Towngrass-path_59
+  - Towngrass-path_58
+  - Towngrass-path_0
+  - Towngrass-path_1
+  - Towngrass-path_2
+  - Towngrass-path_3
+  - Towngrass-path_4
+  - Towngrass-path_5
+  - Towngrass-path_6
+  - Towngrass-path_7
+  - Towngrass-path_68
+  - Towngrass-path_19
+  - Towngrass-path_69
+  - Towngrass-path_18
+  - Towngrass-path_62
+  - Towngrass-path_13
+  - Towngrass-path_63
+  - Towngrass-path_12
+  - Towngrass-path_28
+  - Towngrass-path_60
+  - Towngrass-path_11
+  - Towngrass-path_29
+  - Towngrass-path_61
+  - Towngrass-path_10
+  - Towngrass-path_26
+  - Towngrass-path_66
+  - Towngrass-path_17
+  - Towngrass-path_27
+  - Towngrass-path_67
+  - Towngrass-path_16
+  - Towngrass-path_24
+  - Towngrass-path_64
+  - Towngrass-path_15
+  - Towngrass-path_25
+  - Towngrass-path_65
+  - Towngrass-path_71
+  - Towngrass-path_14
+  - Towngrass-path_22
+  - Towngrass-path_70
+  - Towngrass-path_23
+  - Towngrass-path_73
+  - Towngrass-path_20
+  - Towngrass-path_72
+  - Towngrass-path_21
+  - talltree
+  - housefront
+  - Roundtreee
+  - houseside
+  m_Tag: Background Atlas
+  m_IsVariant: 0
