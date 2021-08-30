@@ -13,10 +13,19 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Move();
+       
+    }
 
+    private void FixedUpdate()
+    {
+        playerRb.MovePosition(playerRb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    void Move()
+    {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        
 
         if (movement != Vector2.zero)
         {
@@ -25,10 +34,5 @@ public class PlayerMovement : MonoBehaviour
         }
 
         anim.SetFloat("Speed", movement.sqrMagnitude);
-    }
-
-    private void FixedUpdate()
-    {
-        playerRb.MovePosition(playerRb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }

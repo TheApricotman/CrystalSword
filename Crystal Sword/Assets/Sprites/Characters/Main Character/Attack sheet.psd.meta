@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: 59e5b339ec2de45e5bec96dc76950eb9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Attack sheet_0
+    21300002: south 1
+    21300004: South 2
+    21300006: south 3
+    21300008: south 4
+    21300010: south 5
+    21300012: Attack sheet_6
+    21300014: north 1
+    21300016: north 2
+    21300018: north 3
+    21300020: north 4
+    21300022: north 5
+    21300024: Attack sheet_12
+    21300026: east 1
+    21300028: east 2
+    21300030: east 3
+    21300032: east 4
+    21300034: east 5
+    21300036: Attack sheet_18
+    21300038: west 1
+    21300040: west 2
+    21300042: west 3
+    21300044: west 4
+    21300046: west 5
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Attack sheet_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 223
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906dd870563694c0dbf0a2f347710b7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: south 1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 222
+        width: 37
+        height: 36
+      alignment: 9
+      pivot: {x: 0.35135135, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd501698d27e4e438be97d2e8f67556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: South 2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 199
+        width: 47
+        height: 57
+      alignment: 9
+      pivot: {x: 0.27659574, y: 0.68421054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059f218df6f244e2e80a0ef7eb0185bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: south 3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 207
+        width: 40
+        height: 49
+      alignment: 9
+      pivot: {x: 0.725, y: 0.63265306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d987780bf1a4bd9b35aaefb549403b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: south 4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 222
+        width: 52
+        height: 36
+      alignment: 9
+      pivot: {x: 0.7692308, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e66c332b7d6d4d73b1ed04f8c47baa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: south 5
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 221
+        width: 52
+        height: 36
+      alignment: 9
+      pivot: {x: 0.7692308, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520540eb4c5b94b2db5544617cb694c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack sheet_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 151
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170ae179b331641c292cefdeab67edb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: north 1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 151
+        width: 37
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6216216, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f627c07ab6924958b8ca0d23f7e95da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: north 2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 151
+        width: 45
+        height: 46
+      alignment: 9
+      pivot: {x: 0.6888889, y: 0.4130435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f96ea69e2f94ee2806e4c1a7d8916e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: north 3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 151
+        width: 44
+        height: 36
+      alignment: 9
+      pivot: {x: 0.27272728, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9399e213bb240838ddfe885c5bc714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: north 4
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 151
+        width: 54
+        height: 36
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcee3f54dbdbb4147abeccb521339809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: north 5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 151
+        width: 54
+        height: 36
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a468b02a975bf4afb977a5c739f35778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack sheet_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 103
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f387f7a703937446fa92945d78a2a470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: east 1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 86
+        width: 26
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6603774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae34e8d2461a46a18ef703f81c9b791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: east 2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 74
+        width: 47
+        height: 65
+      alignment: 9
+      pivot: {x: 0.7234042, y: 0.72307694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba88d6bdf5db40479b822a2671eaf80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: east 3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 103
+        width: 45
+        height: 36
+      alignment: 9
+      pivot: {x: 0.70971406, y: 0.50000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a798c774a68fa47788368c90a449dd67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: east 4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 103
+        width: 31
+        height: 43
+      alignment: 9
+      pivot: {x: 0.58064514, y: 0.41860464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cb239444fbf4b41a02d2db5a7b1dde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: east 5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 103
+        width: 25
+        height: 46
+      alignment: 9
+      pivot: {x: 0.48, y: 0.39130434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0beb89d9fd9714e53992e8b4618c1e52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack sheet_18
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 31
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b02476eb55b04fdf95a36368042ca0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: west 1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 31
+        width: 27
+        height: 38
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.47368422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2609ea6733064ec7acd217248dc48da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: west 2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 31
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.27083334, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4206641dfe5414754b36a3dfdf8921cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: west 3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 18
+        width: 41
+        height: 49
+      alignment: 9
+      pivot: {x: 0.31707317, y: 0.63265306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86268f1a895a416bb1c22f16a307a61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: west 4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 12
+        width: 29
+        height: 56
+      alignment: 9
+      pivot: {x: 0.44827586, y: 0.67857146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df74dbc4412a483aa80c4bfb4866a92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: west 5
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 11
+        width: 23
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5652174, y: 0.67857146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a225767c54d45d2af52c66e132f15c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dcdc0ab14ea0644c88e55405f497ecf6
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
