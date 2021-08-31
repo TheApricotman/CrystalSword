@@ -4,26 +4,33 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    private float moveSpeed = 5f;
     public Rigidbody2D playerRb;
     Vector2 movement;
     public Animator anim;
-
+    private bool sword;
 
     // Update is called once per frame
     void Update()
     {
+       
         Move();
+        BasicAttack();
        
     }
 
     private void FixedUpdate()
     {
-        playerRb.MovePosition(playerRb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        //Checks if sword is out, if not player can move
+        if (!sword)
+        {
+            playerRb.MovePosition(playerRb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        }
     }
 
     void Move()
     {
+        //Player can move and gives animator correct direction of Player
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
@@ -35,4 +42,26 @@ public class PlayerMovement : MonoBehaviour
 
         anim.SetFloat("Speed", movement.sqrMagnitude);
     }
+    void BasicAttack()
+    {
+        //When space is pushed, character stops and swings sword
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            sword=true;
+            Debug.Log("YAH!");
+            anim.SetBool("Attacking", true);
+
+            StartCoroutine(IsAttacking(1));
+        }
+
+    }
+    IEnumerator IsAttacking(float atkWait)
+    {
+       
+        yield return new WaitForSeconds(atkWait);
+         anim.SetBool("Attacking", false);
+        sword = false;
+        
+    }
+
 }
