@@ -59,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
     {
        
         yield return new WaitForSeconds(atkWait);
+    
          anim.SetBool("Attacking", false);
         sword = false;
         
