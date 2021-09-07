@@ -1,12 +1,14 @@
 ﻿<Properties StartupConfiguration="{03BB4C41-72D9-511D-695D-00086474B5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerAttack.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="50" Column="24" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="27" Column="26" />
+      <File FileName="Assets/Scripts/PlayerAttack.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/EnemyHealth.cs" Line="13" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="941dcb2a-fabd-4b12-9e11-9874bf7a4d53" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cc673719-0e6e-45b9-9857-4a05fe502d65" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -64,6 +64,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Reference Include="Unity.2D.PixelPerfect.Editor">
       <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>

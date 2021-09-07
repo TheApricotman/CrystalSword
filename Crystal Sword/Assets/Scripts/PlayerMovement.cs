@@ -13,19 +13,13 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
         Move();
-        BasicAttack();
-       
     }
 
     private void FixedUpdate()
     {
-        //Checks if sword is out, if not player can move
-        if (!sword)
-        {
-            playerRb.MovePosition(playerRb.position + movement * moveSpeed * Time.fixedDeltaTime);
-        }
+        //moves character with physics
+        playerRb.MovePosition(playerRb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 
     void Move()
@@ -41,28 +35,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         anim.SetFloat("Speed", movement.sqrMagnitude);
-    }
-    void BasicAttack()
-    {
-        //When space is pushed, character stops and swings sword
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            sword=true;
-            Debug.Log("YAH!");
-            anim.SetBool("Attacking", true);
-
-            StartCoroutine(IsAttacking(1));
-        }
-
-    }
-    IEnumerator IsAttacking(float atkWait)
-    {
-       
-        yield return new WaitForSeconds(atkWait);
-    
-         anim.SetBool("Attacking", false);
-        sword = false;
-        
     }
 
 }
