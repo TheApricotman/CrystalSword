@@ -513,7 +513,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934746943}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.15, y: 3, z: 0}
+  m_LocalPosition: {x: -3.75, y: 2.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1590137047}
@@ -580,7 +580,7 @@ MonoBehaviour:
   startAtkWait: 0.7
   anim: {fileID: 934746948}
   atkPos: {fileID: 1590137047}
-  atkRange: -0.93
+  atkRange: 1
   whatIsEnemy:
     serializedVersion: 2
     m_Bits: 256
@@ -19371,6 +19371,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1590137047}
+  - component: {fileID: 1590137048}
   m_Layer: 0
   m_Name: AttackPos
   m_TagString: Untagged
@@ -19386,12 +19387,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590137046}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.02, y: -1.44, z: 0}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 934746947}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1590137048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590137046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0319994295b6943a98118f91c51c426c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 934746948}
 --- !u!1 &1910639835
 GameObject:
   m_ObjectHideFlags: 0

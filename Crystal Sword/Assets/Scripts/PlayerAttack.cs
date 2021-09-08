@@ -18,6 +18,7 @@ public class PlayerAttack : MonoBehaviour
     private void Update()
     {
         BasicAtk();
+        
     }
 
     private void BasicAtk()
