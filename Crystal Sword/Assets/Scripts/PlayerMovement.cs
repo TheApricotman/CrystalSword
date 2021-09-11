@@ -11,14 +11,21 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        Move();
+    {  
+        Move();  
     }
 
     private void FixedUpdate()
     {
-        //moves character with physics
+        //checks to see if player is attacking,if true, player cannot move
+        if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+        {
+            //moves character with physics
         playerRb.MovePosition(playerRb.position + movement * moveSpeed * Time.fixedDeltaTime);
+            
+        }
+       
+        
     }
 
     void Move()
@@ -26,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
         //Player can move and gives animator correct direction of Player
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        movement = movement.normalized;
 
         if (movement != Vector2.zero)
         {
