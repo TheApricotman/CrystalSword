@@ -42,10 +42,15 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 5df8e6280785c4cd5b2d488b433db30b, type: 3}
-    totalSpriteSurfaceArea: 79393
+    totalSpriteSurfaceArea: 81930
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300006, guid: 88dc8be0ffef94f74be00d3152a0e33d, type: 3}
+  - {fileID: 21300004, guid: 88dc8be0ffef94f74be00d3152a0e33d, type: 3}
+  - {fileID: 21300002, guid: 88dc8be0ffef94f74be00d3152a0e33d, type: 3}
+  - {fileID: 21300000, guid: 88dc8be0ffef94f74be00d3152a0e33d, type: 3}
+  - {fileID: 21300006, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300062, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300060, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300066, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
@@ -81,11 +86,15 @@ SpriteAtlas:
   - {fileID: 21300000, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300002, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300004, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
-  - {fileID: 21300006, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
-  - {fileID: 21300008, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
-  - {fileID: 21300010, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300042, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300012, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300014, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300024, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300044, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300028, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300008, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300046, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
+  - {fileID: 21300010, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300136, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300038, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300138, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
@@ -93,7 +102,6 @@ SpriteAtlas:
   - {fileID: 21300124, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300026, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300126, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
-  - {fileID: 21300024, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300056, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300120, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300022, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
@@ -112,19 +120,20 @@ SpriteAtlas:
   - {fileID: 21300050, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300130, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300142, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
-  - {fileID: 21300028, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
-  - {fileID: 21300044, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300140, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
-  - {fileID: 21300046, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300146, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300040, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300144, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
-  - {fileID: 21300042, guid: adb187e77eee2405cbe551c49c7c4ab0, type: 3}
   - {fileID: 21300002, guid: 128826b8f981846cdb1cb54110d238de, type: 3}
   - {fileID: 21300006, guid: 128826b8f981846cdb1cb54110d238de, type: 3}
   - {fileID: 21300000, guid: 128826b8f981846cdb1cb54110d238de, type: 3}
   - {fileID: 21300004, guid: 128826b8f981846cdb1cb54110d238de, type: 3}
   m_PackedSpriteNamesToIndex:
+  - healthcrystalssprtsht_3
+  - healthcrystalssprtsht_2
+  - healthcrystalssprtsht_1
+  - healthcrystalssprtsht_0
+  - Towninner tlc
   - Towngrass-path_31
   - Towngrass-path_30
   - Towngrass-path_33
@@ -160,11 +169,15 @@ SpriteAtlas:
   - Towngrass-path_0
   - Towngrass-path_1
   - Towngrass-path_2
-  - Towngrass-path_3
-  - Towngrass-path_4
-  - Towngrass-path_5
+  - Town inner blc
   - Towngrass-path_6
   - Towngrass-path_7
+  - Town inner l
+  - Town inner b
+  - Town inner r
+  - Town inner t
+  - Town inner brc
+  - Town inner trc
   - Towngrass-path_68
   - Towngrass-path_19
   - Towngrass-path_69
@@ -172,7 +185,6 @@ SpriteAtlas:
   - Towngrass-path_62
   - Towngrass-path_13
   - Towngrass-path_63
-  - Towngrass-path_12
   - Towngrass-path_28
   - Towngrass-path_60
   - Towngrass-path_11
@@ -191,14 +203,10 @@ SpriteAtlas:
   - Towngrass-path_25
   - Towngrass-path_65
   - Towngrass-path_71
-  - Towngrass-path_14
-  - Towngrass-path_22
   - Towngrass-path_70
-  - Towngrass-path_23
   - Towngrass-path_73
   - Towngrass-path_20
   - Towngrass-path_72
-  - Towngrass-path_21
   - talltree
   - housefront
   - Roundtreee

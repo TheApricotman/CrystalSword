@@ -5,27 +5,27 @@ TextureImporter:
     21300000: Towngrass-path_0
     21300002: Towngrass-path_1
     21300004: Towngrass-path_2
-    21300006: Towngrass-path_3
-    21300008: Towngrass-path_4
-    21300010: Towngrass-path_5
+    21300006: Towninner tlc
+    21300008: Town inner t
+    21300010: Town inner trc
     21300012: Towngrass-path_6
     21300014: Towngrass-path_7
     21300016: Towngrass-path_8
     21300018: Towngrass-path_9
     21300020: Towngrass-path_10
     21300022: Towngrass-path_11
-    21300024: Towngrass-path_12
+    21300024: Town inner l
     21300026: Towngrass-path_13
-    21300028: Towngrass-path_14
+    21300028: Town inner r
     21300030: Towngrass-path_15
     21300032: Towngrass-path_16
     21300034: Towngrass-path_17
     21300036: Towngrass-path_18
     21300038: Towngrass-path_19
     21300040: Towngrass-path_20
-    21300042: Towngrass-path_21
-    21300044: Towngrass-path_22
-    21300046: Towngrass-path_23
+    21300042: Town inner blc
+    21300044: Town inner b
+    21300046: Town inner brc
     21300048: Towngrass-path_24
     21300050: Towngrass-path_25
     21300052: Towngrass-path_26
@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Towngrass-path_3
+      name: Towninner tlc
       rect:
         serializedVersion: 2
         x: 120
@@ -227,7 +227,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Towngrass-path_4
+      name: Town inner t
       rect:
         serializedVersion: 2
         x: 144
@@ -247,7 +247,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Towngrass-path_5
+      name: Town inner trc
       rect:
         serializedVersion: 2
         x: 168
@@ -387,7 +387,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Towngrass-path_12
+      name: Town inner l
       rect:
         serializedVersion: 2
         x: 120
@@ -427,7 +427,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Towngrass-path_14
+      name: Town inner r
       rect:
         serializedVersion: 2
         x: 168
@@ -575,7 +575,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Towngrass-path_21
+      name: Town inner blc
       rect:
         serializedVersion: 2
         x: 120
@@ -595,7 +595,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Towngrass-path_22
+      name: Town inner b
       rect:
         serializedVersion: 2
         x: 144
@@ -615,7 +615,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Towngrass-path_23
+      name: Town inner brc
       rect:
         serializedVersion: 2
         x: 168

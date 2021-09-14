@@ -13,7 +13,6 @@ public class PlayerAttack : MonoBehaviour
     public float atkRange;
     public LayerMask whatIsEnemy;
     public int damage;
-    
 
 
     private void Update()

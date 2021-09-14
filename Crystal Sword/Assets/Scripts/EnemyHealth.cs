@@ -19,7 +19,4 @@ public class EnemyHealth : MonoBehaviour
         health -= damage;
         Debug.Log("Hit!");
     }
-
-
-
 }
