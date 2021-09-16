@@ -2,15 +2,15 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Health.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="36" Column="40" />
-      <File FileName="Assets/Scripts/PlayerAttack.cs" Line="15" Column="23" />
-      <File FileName="Assets/Scripts/EnemyHealth.cs" Line="21" Column="6" />
-      <File FileName="Assets/Scripts/AtkPos.cs" Line="15" Column="41" />
+      <File FileName="Assets/Scripts/PlayerAttack.cs" />
+      <File FileName="Assets/Scripts/EnemyHealth.cs" />
+      <File FileName="Assets/Scripts/AtkPos.cs" />
       <File FileName="Assets/Scripts/Health.cs" Line="53" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="45ec284d-6e0c-43b5-8f02-62731e04695b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="49730671-5dc5-4d31-a503-f7ea603bcee9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
