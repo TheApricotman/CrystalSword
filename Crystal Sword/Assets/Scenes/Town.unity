@@ -1258,6 +1258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startAtkWait: 0.7
+  startChargeTime: 3
   anim: {fileID: 934746948}
   atkPos: {fileID: 1590137047}
   atkRange: 1
@@ -1265,6 +1266,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   damage: 1
+  charged: 0
 --- !u!114 &934746951
 MonoBehaviour:
   m_ObjectHideFlags: 0

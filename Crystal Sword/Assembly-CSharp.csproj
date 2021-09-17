@@ -82,6 +82,9 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <None Include="Assets\2d-extras-2018.3\Assets\Tilemap\Tiles\Rule Tile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
     <None Include="Assets\2d-extras-2018.3\Assets\Tilemap\Brushes\Tint Brush Smooth\Shaders\TintedTilemap.shader" />
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
       <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
@@ -103,17 +106,14 @@
     <Reference Include="Unity.2D.PixelPerfect">
       <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

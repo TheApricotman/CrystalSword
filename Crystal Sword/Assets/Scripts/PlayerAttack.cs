@@ -6,6 +6,9 @@ public class PlayerAttack : MonoBehaviour
 {
     private float atkWait;
     public float startAtkWait;
+    private float chargeTime;
+    public float startChargeTime;
+
 
     public Animator anim;
 
@@ -13,18 +16,55 @@ public class PlayerAttack : MonoBehaviour
     public float atkRange;
     public LayerMask whatIsEnemy;
     public int damage;
+    public bool charged;
 
 
     private void Update()
     {
         BasicAtk();
-        
+        AOE();
+    }
+
+    private void AOE()
+    {
+        //holding down space starts charging timer
+        if (Input.GetKey(KeyCode.Space))
+        {
+            chargeTime -= Time.deltaTime;
+            anim.SetBool("Charging", true);
+            if (chargeTime <= 0)
+            {
+                charged = true;
+                Debug.Log("Charged");
+            }
+        }
+        //if space is not held down for long enough, player returns to idle state
+        if (Input.GetKeyUp(KeyCode.Space) && (!charged))
+        {
+            anim.SetBool("Charging", false);
+            Debug.Log("Stopped charging!");
+            charged = false;
+            chargeTime = startChargeTime;
+
+        }
+        //if space is held down long enough, player will perform AOE attack
+        if (Input.GetKeyUp(KeyCode.Space) && charged)
+        {
+            anim.SetBool("Charging", false);
+            Debug.Log("Fully charged!");
+            charged = false;
+            chargeTime = startChargeTime;
+        }
+
+
+
+
     }
 
     private void BasicAtk()
     {
         if (atkWait <= 0)
-            //checks timer to see if player can attack
+        //checks timer to see if player can attack
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
