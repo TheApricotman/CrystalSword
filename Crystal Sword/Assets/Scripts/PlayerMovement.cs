@@ -5,14 +5,15 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private float moveSpeed = 5f;
+    private float slowSpeed = 2f;
     public Rigidbody2D playerRb;
     Vector2 movement;
     public Animator anim;
 
     // Update is called once per frame
     void Update()
-    {  
-        Move();  
+    {
+        Move();
     }
 
     private void FixedUpdate()
@@ -21,10 +22,13 @@ public class PlayerMovement : MonoBehaviour
         if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
         {
             //moves character with physics
-        playerRb.MovePosition(playerRb.position + movement * moveSpeed * Time.fixedDeltaTime);
-            
+            playerRb.MovePosition(playerRb.position + movement * moveSpeed * Time.fixedDeltaTime);
         }
-       
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("AOE Charge Walk"))
+        {
+            playerRb.MovePosition(playerRb.position + movement * slowSpeed * Time.fixedDeltaTime);
+            Debug.Log("SOOOOO SLOOOOWWW");
+        }
         
     }
 

@@ -77,6 +77,9 @@
     <Compile Include="Assets\2d-extras-2018.3\Assets\Tilemap\Tiles\Rule Override Tile\Scripts\Editor\RuleOverrideTileEditor.cs" />
     <Compile Include="Assets\2d-extras-2018.3\Assets\Tilemap\Tiles\Rule Tile\Scripts\Editor\CustomRuleTileMenu.cs" />
     <Compile Include="Assets\2d-extras-2018.3\Assets\Tilemap\Tiles\Rule Tile\Scripts\Editor\RuleTileEditor.cs" />
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
       <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
@@ -98,17 +101,14 @@
     <Reference Include="Unity.2D.PixelPerfect">
       <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>/Users/blakeparker/Documents/Git/CrystalSword/Crystal Sword/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
