@@ -14,13 +14,19 @@ public class PlayerAttack : MonoBehaviour
 
     public Transform atkPos;
     public float atkRange;
+    public float aoeRange;
     public LayerMask whatIsEnemy;
     public int damage;
     public bool charged;
 
+    private void Start()
+    {
+        chargeTime = startChargeTime;
+    }
 
     private void Update()
     {
+        
         BasicAtk();
         AOE();
     }
@@ -35,6 +41,7 @@ public class PlayerAttack : MonoBehaviour
             if (chargeTime <= 0)
             {
                 charged = true;
+                anim.SetBool("Ready", true);
                 Debug.Log("Charged");
             }
         }
@@ -47,16 +54,22 @@ public class PlayerAttack : MonoBehaviour
             chargeTime = startChargeTime;
 
         }
-        //if space is held down long enough, player will perform AOE attack
+        //if space is held down long enough and released, player will perform AOE attack
         if (Input.GetKeyUp(KeyCode.Space) && charged)
         {
+            Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(transform.position, aoeRange, whatIsEnemy);
+            for (int i = 0; i < enemiesToDamage.Length; i++)
+            {
+                enemiesToDamage[i].GetComponent<EnemyHealth>().TakeDamage(damage);
+            }
+
+            anim.SetTrigger("Release");
+            anim.SetBool("Ready", false);
             anim.SetBool("Charging", false);
             Debug.Log("Fully charged!");
             charged = false;
             chargeTime = startChargeTime;
         }
-
-
 
 
     }
@@ -88,6 +101,8 @@ public class PlayerAttack : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(atkPos.position, atkRange);
         //draws a circle where the attack range is
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position, aoeRange);
     }
 
 }

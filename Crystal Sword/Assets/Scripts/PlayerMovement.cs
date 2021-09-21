@@ -18,13 +18,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //checks to see if player is attacking,if true, player cannot move
-        if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+        //checks to see if player is attacking or AOEing,if true, player cannot move
+        if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack") && !anim.GetCurrentAnimatorStateInfo(0).IsName("AOE Release"))
         {
             //moves character with physics
             playerRb.MovePosition(playerRb.position + movement * moveSpeed * Time.fixedDeltaTime);
         }
-        if (anim.GetCurrentAnimatorStateInfo(0).IsName("AOE Charge Walk"))
+        //if charging AOE attack, limit movement
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("AOE Charge Walk") || anim.GetCurrentAnimatorStateInfo(0).IsName("AOE Ready Walk"))
         {
             playerRb.MovePosition(playerRb.position + movement * slowSpeed * Time.fixedDeltaTime);
             Debug.Log("SOOOOO SLOOOOWWW");
