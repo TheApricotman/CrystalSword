@@ -1,0 +1,424 @@
+fileFormatVersion: 2
+guid: b742fac96a9c341a18c4ffffb93ddaa4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SHOOT SHEET_0
+    21300002: ShootRight1
+    21300004: ShootRight2
+    21300006: ShootRight3
+    21300008: SHOOT SHEET_4
+    21300010: ShootDown1
+    21300012: ShootDown2
+    21300014: ShootDown3
+    21300016: SHOOT SHEET_8
+    21300018: ShootLeft1
+    21300020: ShootLeft2
+    21300022: ShootLeft3
+    21300024: SHOOT SHEET_12
+    21300026: ShootUp1
+    21300028: ShootUp2
+    21300030: ShootUp3
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SHOOT SHEET_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 211
+        width: 23
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b39dcb791f24ba5a79a4ab4be47b10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShootRight1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 211
+        width: 25
+        height: 42
+      alignment: 9
+      pivot: {x: 0.48, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788fce94356f54184ab075e846f82d7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShootRight2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 211
+        width: 47
+        height: 36
+      alignment: 9
+      pivot: {x: 0.25531915, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba2dc697482f46e095938762b9500c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShootRight3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 211
+        width: 47
+        height: 36
+      alignment: 9
+      pivot: {x: 0.25531915, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bba5fe4935da40469b455d53a0d7623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHOOT SHEET_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 163
+        width: 24
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0a10a047d6849bb983a4b9c83c5132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShootDown1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 163
+        width: 24
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750c3f948bb4644b480761d66bf7fce1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShootDown2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 140
+        width: 25
+        height: 57
+      alignment: 9
+      pivot: {x: 0.52, y: 0.40350878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085dccf33e1974155823319048e392cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShootDown3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 140
+        width: 25
+        height: 57
+      alignment: 9
+      pivot: {x: 0.52, y: 0.40350878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01866567ac9b540ff91c03318e3d9e6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHOOT SHEET_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 91
+        width: 23
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fded9a2e5954f4981f22d65295fd79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShootLeft1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 91
+        width: 25
+        height: 41
+      alignment: 9
+      pivot: {x: 0.48, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c7072feb88e4d93abebbb68dbbc27a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShootLeft2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 91
+        width: 46
+        height: 36
+      alignment: 9
+      pivot: {x: 0.76086956, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1258fd682573490fb1186cc044d82cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShootLeft3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 91
+        width: 46
+        height: 36
+      alignment: 9
+      pivot: {x: 0.76086956, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e0b8c1e34f4453199dcbf4746cb733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHOOT SHEET_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 43
+        width: 24
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6580eee6a3c584a649725a0e6c7f8275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShootUp1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 43
+        width: 26
+        height: 37
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28eb8e659a384d748345697518df84d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShootUp2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 43
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec21afb2fc0d64324beaf7d9990d9fca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShootUp3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 43
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1573957a4dbfd4e0aaf5861a310f51c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9e17e50aa7f9d41d3a727793c6f41356
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

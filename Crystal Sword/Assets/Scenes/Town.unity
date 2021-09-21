@@ -1262,6 +1262,7 @@ MonoBehaviour:
   anim: {fileID: 934746948}
   atkPos: {fileID: 1590137047}
   atkRange: 1
+  aoeRange: 2
   whatIsEnemy:
     serializedVersion: 2
     m_Bits: 256
