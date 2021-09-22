@@ -1095,6 +1095,7 @@ GameObject:
   - component: {fileID: 934746948}
   - component: {fileID: 934746949}
   - component: {fileID: 934746951}
+  - component: {fileID: 934746952}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1295,6 +1296,22 @@ MonoBehaviour:
   - {fileID: 539287901}
   fullBlock: {fileID: 21300008, guid: 3cbd641e650e64fefa643f54906425b7, type: 3}
   emptyBlock: {fileID: 21300010, guid: 3cbd641e650e64fefa643f54906425b7, type: 3}
+--- !u!114 &934746952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934746943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 837a920ccc70842a39b993123c89b508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 934746948}
+  playerRb: {fileID: 934746945}
+  startDashTime: 1
+  dashSpeed: 10
 --- !u!1 &1052347062
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,8 +18,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //checks to see if player is attacking or AOEing,if true, player cannot move
-        if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack") && !anim.GetCurrentAnimatorStateInfo(0).IsName("AOE Release"))
+        //checks to see if player is attacking or AOEing,if true, player cannot move, if dashing, disables moveposition
+        if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack") && !anim.GetCurrentAnimatorStateInfo(0).IsName("AOE Release")
+            && !anim.GetCurrentAnimatorStateInfo(0).IsName("Dash"))
         {
             //moves character with physics
             playerRb.MovePosition(playerRb.position + movement * moveSpeed * Time.fixedDeltaTime);
@@ -30,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
             playerRb.MovePosition(playerRb.position + movement * slowSpeed * Time.fixedDeltaTime);
             Debug.Log("SOOOOO SLOOOOWWW");
         }
-        
+
     }
 
     void Move()
