@@ -9,7 +9,8 @@ public class PlayerDash : MonoBehaviour
     private Vector2 direction;
     private float dashTime;
     public float startDashTime;
-    public float dashSpeed;
+    private float dashSpeed;
+    public float startDashSpeed;
 
 
     // Update is called once per frame
@@ -28,14 +29,20 @@ public class PlayerDash : MonoBehaviour
         //stops player from spamming dash attack
         if (dashTime <= 0)
         {
-            if (Input.GetKeyDown(KeyCode.Q))
+            if (Input.GetKeyDown(KeyCode.E))
             {
+                float dashMulti = 5f;
                 anim.SetTrigger("Dashing");
+                //playerRb.MovePosition(playerRb.position + direction * dashSpeed * Time.fixedDeltaTime);
                 playerRb.velocity = direction * dashSpeed;
+                dashSpeed -= dashSpeed * dashMulti * Time.deltaTime;
+                
                 dashTime = startDashTime;
                 Debug.Log("WOOO!");
             }
         }
         else dashTime -= Time.deltaTime;
+        dashSpeed = startDashSpeed;
+
     }
 }
