@@ -3,7 +3,7 @@
     <Files>
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="21" Column="133" />
       <File FileName="Assets/Scripts/PlayerAttack.cs" />
-      <File FileName="Assets/Scripts/PlayerDash.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/PlayerDash.cs" />
       <File FileName="Assets/Scripts/PlayerShoot.cs" />
       <File FileName="Assets/Scripts/EnemyHealth.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/AtkPos.cs" />
@@ -12,7 +12,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2dc92398-494f-479c-bd64-2f40831d1c6d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="299185d4-625b-4a9f-9c59-681a9a0e5564" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
