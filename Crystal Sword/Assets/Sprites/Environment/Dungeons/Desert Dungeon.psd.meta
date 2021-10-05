@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cfee1ebf4c7c54f36a134c6696dacc82
+guid: 25c2941d6ac3c4246b6e845a553f43a9
 TextureImporter:
   fileIDToRecycleName:
     21300000: Desert Dungeon_0
@@ -74,6 +74,12 @@ TextureImporter:
     21300138: Desert Dungeon_69
     21300140: Desert Dungeon_70
     21300142: Desert Dungeon_71
+    21300144: Desert Dungeon_72
+    21300146: Desert Dungeon_73
+    21300148: Desert Dungeon_74
+    21300150: Desert Dungeon_75
+    21300152: Desert Dungeon_76
+    21300154: Desert Dungeon_77
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -153,13 +159,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8593021af365f4acb9f9b3827619ba34
+      spriteID: 4fa3fc10b66784e2b99b94535a9b8564
       vertices: []
       indices: 
       edges: []
@@ -173,13 +179,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df2b6127012374245b8928034fc979a6
+      spriteID: 044750a5b906e43708efd7ee8a8cf341
       vertices: []
       indices: 
       edges: []
@@ -193,13 +199,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef7beb2c8f8b64a81847916df91f5cbc
+      spriteID: 08cb498f17f694d6b85dc194ba6b66cd
       vertices: []
       indices: 
       edges: []
@@ -213,13 +219,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d090135da0934405aab717bee299fce
+      spriteID: 9a02a3dc66af34be29b4d6a324491fc9
       vertices: []
       indices: 
       edges: []
@@ -233,13 +239,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbd166b60f56542a8952e07f35f43996
+      spriteID: dd27813fc698b453fa892d71225cd8bc
       vertices: []
       indices: 
       edges: []
@@ -253,13 +259,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3a7988eb268f43ee93313d7234682a8
+      spriteID: 3fc914e6e03d04513a2ad3e0aa50ffc4
       vertices: []
       indices: 
       edges: []
@@ -273,13 +279,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35e4a7c96ea114600950f6b0f81fcffd
+      spriteID: d38a5008a721f4bf3b23c7a397326565
       vertices: []
       indices: 
       edges: []
@@ -293,13 +299,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fd3585038f2e426e89b82b83b278800
+      spriteID: a7fb3fabdb9694e27b33891f2942482e
       vertices: []
       indices: 
       edges: []
@@ -313,13 +319,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aae7a4e442d4d406c965009f770073b4
+      spriteID: b6d019313f44a4fc195b6ba1c2a5a5ff
       vertices: []
       indices: 
       edges: []
@@ -333,13 +339,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0aaef77391e24bb483a3f64a5c8c4a2
+      spriteID: e8acce37692b14337afb40242a57c244
       vertices: []
       indices: 
       edges: []
@@ -353,13 +359,17 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: -8, y: 12}
+        - {x: -8, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: bd62e922eff414e8989e1faaad1a6fe1
+      spriteID: 070a411577dbd404cb018b147a3fe64b
       vertices: []
       indices: 
       edges: []
@@ -373,13 +383,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b84188c514f4ab8aa7bbdebcbfcaac
+      spriteID: e6b69c81fbb9143d3b9458e2e5d46b3b
       vertices: []
       indices: 
       edges: []
@@ -393,13 +403,17 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: -12}
+        - {x: 8, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: 6e3081b2bc5a740dea07cc20e6f22f4c
+      spriteID: e4f158f0f74e84c3597e9b252cde259e
       vertices: []
       indices: 
       edges: []
@@ -413,13 +427,17 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: -9, y: 12}
+        - {x: -9, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: fb038aed1d04144688dd8f95848ebb38
+      spriteID: a16db3d14494f486f9a371b251a65836
       vertices: []
       indices: 
       edges: []
@@ -433,13 +451,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f69afda525adc4bd790398b1cfd67f37
+      spriteID: 1a67c334c487544e8963f7d9e2d30706
       vertices: []
       indices: 
       edges: []
@@ -453,13 +471,17 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 9, y: -12}
+        - {x: 9, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: 9e34732fafe4a4c29a0ccd5545e93963
+      spriteID: 557271956a5164afca4c495d9368661b
       vertices: []
       indices: 
       edges: []
@@ -473,13 +495,17 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: -1, y: 12}
+        - {x: -1, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: e86e077e39f114bffaa372d7910df5bf
+      spriteID: aaee6484d42d640c483ebf4d55403b61
       vertices: []
       indices: 
       edges: []
@@ -493,13 +519,17 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 1, y: -12}
+        - {x: 1, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: 1002d91f457d04c02b7490520447bb50
+      spriteID: 7e2b8bf1050294d0983c025fc6ddcfb5
       vertices: []
       indices: 
       edges: []
@@ -513,13 +543,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: -7, y: 12}
+        - {x: -7, y: -12}
+      - - {x: -8, y: -9}
+        - {x: -10, y: -12}
+        - {x: 12, y: -12}
+        - {x: 12, y: -9}
       tessellationDetail: 0
       bones: []
-      spriteID: 72dfef88e9e044c39a9783b0afce89b6
+      spriteID: 7ad5d206db1454e1db9790d6d14ea5e6
       vertices: []
       indices: 
       edges: []
@@ -533,13 +571,17 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: af30cdf1dfca245d7ba3ab175e71e54c
+      spriteID: 193f6a2cc2ee64504885ce4171c4fbd9
       vertices: []
       indices: 
       edges: []
@@ -553,13 +595,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: -12}
+        - {x: 8, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      - - {x: -12, y: -12}
+        - {x: -12, y: -10}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: 624ff309a365b4a78b2fccdb8baa2d78
+      spriteID: 4dffd0ae944f848298d19425e8e2f1af
       vertices: []
       indices: 
       edges: []
@@ -573,13 +623,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3f33fc6dd8484f90a71636492dd058d
+      spriteID: 7b8e71cddef2145ceb8d1688a2b07dd1
       vertices: []
       indices: 
       edges: []
@@ -593,13 +643,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ba99b0581f1e4c9ab0be8f568d4aa80
+      spriteID: 40b694340ef924499a4cb19d527d94bc
       vertices: []
       indices: 
       edges: []
@@ -613,13 +663,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df74b2c0bb1e64a35b138de58ed55c75
+      spriteID: bc6529bad5e524be98fd21d109c18e61
       vertices: []
       indices: 
       edges: []
@@ -633,13 +683,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d79ea7fe4c79c4efc853e075d628f88c
+      spriteID: 3316acb0cbbd449bd810512550a388c1
       vertices: []
       indices: 
       edges: []
@@ -653,13 +703,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b31ef5309c2aa405eb78ff00898183d6
+      spriteID: ca109ea316a414030b2d2e5b2dfead33
       vertices: []
       indices: 
       edges: []
@@ -673,13 +723,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 044c92a090b204df79cfdfbb03df3387
+      spriteID: e49be771c8af340c0b0538719c07a704
       vertices: []
       indices: 
       edges: []
@@ -693,13 +743,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df97e7fc30d5a4f04803d96310e02cfd
+      spriteID: 72851c8ece6c2476a83dc980dc5804d6
       vertices: []
       indices: 
       edges: []
@@ -713,13 +763,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e80534c4b57f94501a2650fc3822de37
+      spriteID: ab0ae5075fb404d899e4ec274edf4f6e
       vertices: []
       indices: 
       edges: []
@@ -733,13 +783,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ab4e6c861eab4596b3c1d8b18a62aca
+      spriteID: 2f27c0a76f8fe440993886734271ee48
       vertices: []
       indices: 
       edges: []
@@ -753,13 +803,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb218cf3adcff41e4a2e059b1fa6fa7c
+      spriteID: 1240a80e2f7b14ce582b9e4fdd748b8c
       vertices: []
       indices: 
       edges: []
@@ -773,13 +823,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cedf063ea48b4b06933c650c719484f
+      spriteID: d7d964311c55d4aff999e3e7b381c408
       vertices: []
       indices: 
       edges: []
@@ -793,13 +843,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95dadee9b0d2947b4831ec7c5f95a83f
+      spriteID: a1de79b70a63c446399989b43e1da336
       vertices: []
       indices: 
       edges: []
@@ -813,13 +863,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70f924743d26e48a2a4152d7fe68d1a4
+      spriteID: 4a41a8f590c91455aa88f9d5adf94708
       vertices: []
       indices: 
       edges: []
@@ -833,13 +883,17 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: -1, y: 12}
+        - {x: -1, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: 012dc9b0f2c4f41d19086a8d571717a2
+      spriteID: a5d90a36faf384bfda1d3e46d8f23ca7
       vertices: []
       indices: 
       edges: []
@@ -853,13 +907,17 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 1, y: -12}
+        - {x: 1, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: aa0a62c669c164c04975dcdee8a32524
+      spriteID: 9d47f187bc30e432cb7a29af4070b544
       vertices: []
       indices: 
       edges: []
@@ -873,13 +931,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 143bad1a9ad9945898da811bd3bed8e7
+      spriteID: 6482107a8d8cc4475aad8bcaf0e473da
       vertices: []
       indices: 
       edges: []
@@ -893,13 +951,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 938def1a4b9314fb68adca52397469ea
+      spriteID: 9f90ecfd0d4dc454399d7c7b339f7c29
       vertices: []
       indices: 
       edges: []
@@ -913,13 +971,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e50c5a858633a48d9b1ff6f91d6f8af8
+      spriteID: e1f38493b2c0149beb42f3c25f8d0b87
       vertices: []
       indices: 
       edges: []
@@ -933,13 +991,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1287293e5ec9455f86db426685d0ccd
+      spriteID: 6091c660c470c4119bd553a5b3051d5c
       vertices: []
       indices: 
       edges: []
@@ -953,13 +1011,13 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4f278bed1c6241d790846e7b4c65cd2
+      spriteID: 3d3c7183e32c94c2298a7fd76cb21f23
       vertices: []
       indices: 
       edges: []
@@ -968,18 +1026,18 @@ TextureImporter:
       name: Desert Dungeon_41
       rect:
         serializedVersion: 2
-        x: 127
+        x: 120
         y: 120
-        width: 11
-        height: 18
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d8bab7b08fba4b8c9ce9a915aa4e577
+      spriteID: 76e461f6b578b4d45849ca3d31c64c62
       vertices: []
       indices: 
       edges: []
@@ -988,18 +1046,18 @@ TextureImporter:
       name: Desert Dungeon_42
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 144
+        y: 120
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51a9d3179d21643ee9f21e18863f1f70
+      spriteID: 82caad8e85fd24d25aafdafe2100d672
       vertices: []
       indices: 
       edges: []
@@ -1008,18 +1066,18 @@ TextureImporter:
       name: Desert Dungeon_43
       rect:
         serializedVersion: 2
-        x: 24
-        y: 96
+        x: 168
+        y: 120
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 204ff1b93dac94b9599485eb9e674405
+      spriteID: b4ba825edff6a4dbf9ff1894df5a0138
       vertices: []
       indices: 
       edges: []
@@ -1028,18 +1086,18 @@ TextureImporter:
       name: Desert Dungeon_44
       rect:
         serializedVersion: 2
-        x: 48
+        x: 0
         y: 96
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a556a338393bd494baffb10bfddd0800
+      spriteID: 952e97bbe85624890b96b03cfc75db51
       vertices: []
       indices: 
       edges: []
@@ -1048,18 +1106,18 @@ TextureImporter:
       name: Desert Dungeon_45
       rect:
         serializedVersion: 2
-        x: 72
+        x: 24
         y: 96
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af9926656030d489a8bd0f814f4148fc
+      spriteID: 1ab8849405a8d415185323db438cbe2d
       vertices: []
       indices: 
       edges: []
@@ -1068,18 +1126,18 @@ TextureImporter:
       name: Desert Dungeon_46
       rect:
         serializedVersion: 2
-        x: 96
+        x: 48
         y: 96
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fed0c720816d4477955ec99eac421aa
+      spriteID: 1f6d7d782d9e3415c857f9e3569e8257
       vertices: []
       indices: 
       edges: []
@@ -1088,18 +1146,18 @@ TextureImporter:
       name: Desert Dungeon_47
       rect:
         serializedVersion: 2
-        x: 120
+        x: 72
         y: 96
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95e77a8a4a8da4a0f891ad6006e4b8d2
+      spriteID: 247767704cca24a50ab208d96c665a05
       vertices: []
       indices: 
       edges: []
@@ -1108,18 +1166,18 @@ TextureImporter:
       name: Desert Dungeon_48
       rect:
         serializedVersion: 2
-        x: 0
-        y: 72
+        x: 96
+        y: 96
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25fe46dd90efd4e4cb3c51b2510273d0
+      spriteID: 21001736f82cc4f1d80519c23fea50c8
       vertices: []
       indices: 
       edges: []
@@ -1128,18 +1186,18 @@ TextureImporter:
       name: Desert Dungeon_49
       rect:
         serializedVersion: 2
-        x: 24
-        y: 72
+        x: 120
+        y: 96
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac15f78ce1fae4395ab5c79ea7ffb5b6
+      spriteID: 2edb49a32f9e7443096a07d9daddbeaa
       vertices: []
       indices: 
       edges: []
@@ -1148,18 +1206,18 @@ TextureImporter:
       name: Desert Dungeon_50
       rect:
         serializedVersion: 2
-        x: 48
+        x: 0
         y: 72
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 939418aeffce54d82860b68a0c104e5f
+      spriteID: 74a802d23a65e427da499c441b5fe145
       vertices: []
       indices: 
       edges: []
@@ -1168,18 +1226,18 @@ TextureImporter:
       name: Desert Dungeon_51
       rect:
         serializedVersion: 2
-        x: 72
+        x: 24
         y: 72
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d75041eb85b8244c59028c8e292fbdcf
+      spriteID: a7563ec04696b498d9e7e9fcbf478e08
       vertices: []
       indices: 
       edges: []
@@ -1188,18 +1246,22 @@ TextureImporter:
       name: Desert Dungeon_52
       rect:
         serializedVersion: 2
-        x: 96
+        x: 48
         y: 72
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -1, y: -12}
+        - {x: 5, y: -5}
+        - {x: 12, y: 1}
+        - {x: 12, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: 7b9ec0fcf918a4bf7b904516300606e5
+      spriteID: 7edf0d414477846f895450ed9bc2e846
       vertices: []
       indices: 
       edges: []
@@ -1208,18 +1270,22 @@ TextureImporter:
       name: Desert Dungeon_53
       rect:
         serializedVersion: 2
-        x: 120
+        x: 72
         y: 72
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 2}
+        - {x: -5, y: -4}
+        - {x: 2, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: f6772b0e8114d412e87c0d73064211ac
+      spriteID: 0ca64513593e84c65a9cc3db08d189cc
       vertices: []
       indices: 
       edges: []
@@ -1228,18 +1294,18 @@ TextureImporter:
       name: Desert Dungeon_54
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
+        x: 96
+        y: 72
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a63e016ac5e014465b9d6c5e24658266
+      spriteID: 02b67dbdc40b24f1aa59a480fb0dbd30
       vertices: []
       indices: 
       edges: []
@@ -1248,18 +1314,18 @@ TextureImporter:
       name: Desert Dungeon_55
       rect:
         serializedVersion: 2
-        x: 24
-        y: 48
+        x: 120
+        y: 72
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a9f3bb9253344474a4caaa3f542c985
+      spriteID: ce5b0ff62f10a439894e9c9e837580a8
       vertices: []
       indices: 
       edges: []
@@ -1268,18 +1334,22 @@ TextureImporter:
       name: Desert Dungeon_56
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
+        x: 144
+        y: 72
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 0, y: -10}
+        - {x: 0, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: dd81d1cb8d12e4865be34ac59ec9d02b
+      spriteID: f43195488564d40c58bf7ab9be6622ea
       vertices: []
       indices: 
       edges: []
@@ -1288,18 +1358,22 @@ TextureImporter:
       name: Desert Dungeon_57
       rect:
         serializedVersion: 2
-        x: 72
-        y: 48
+        x: 168
+        y: 72
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 1, y: -12}
+        - {x: 0, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: 52d05e5cf0e7a4edba22fc8f0d7be5ee
+      spriteID: a994fba0ab5b9473ab4d312384340561
       vertices: []
       indices: 
       edges: []
@@ -1308,18 +1382,18 @@ TextureImporter:
       name: Desert Dungeon_58
       rect:
         serializedVersion: 2
-        x: 96
+        x: 0
         y: 48
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4221aa5ec804748568559ee73532194f
+      spriteID: 0dce21b1b06ad4404930f1652daa85d7
       vertices: []
       indices: 
       edges: []
@@ -1328,18 +1402,18 @@ TextureImporter:
       name: Desert Dungeon_59
       rect:
         serializedVersion: 2
-        x: 120
+        x: 24
         y: 48
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15925d988f77d40fe9c3e9062c70de2f
+      spriteID: fc79c0e0ef384405eb071bd57e3535d0
       vertices: []
       indices: 
       edges: []
@@ -1348,18 +1422,26 @@ TextureImporter:
       name: Desert Dungeon_60
       rect:
         serializedVersion: 2
-        x: 0
-        y: 24
+        x: 48
+        y: 48
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -10, y: -12}
+        - {x: -6, y: 7}
+        - {x: -1, y: 12}
+        - {x: -8, y: 0}
+      - - {x: -9, y: -9}
+        - {x: -10, y: -12}
+        - {x: -1, y: -12}
+        - {x: -2, y: -10}
       tessellationDetail: 0
       bones: []
-      spriteID: 53144a87b55574b14b058e38d7fbd8e9
+      spriteID: 164f84a6b7c614c6c89c6047106a74d4
       vertices: []
       indices: 
       edges: []
@@ -1368,18 +1450,26 @@ TextureImporter:
       name: Desert Dungeon_61
       rect:
         serializedVersion: 2
-        x: 24
-        y: 24
+        x: 72
+        y: 48
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: -1}
+        - {x: 1, y: 11}
+        - {x: 5, y: 8}
+        - {x: 9, y: -12}
+      - - {x: 0, y: -12}
+        - {x: 3, y: -10}
+        - {x: 9, y: -8}
+        - {x: 10, y: -12}
       tessellationDetail: 0
       bones: []
-      spriteID: 279754747404548f6ad3c4fdc809a061
+      spriteID: 6502962235a1141fd8f5662201db67b5
       vertices: []
       indices: 
       edges: []
@@ -1388,18 +1478,18 @@ TextureImporter:
       name: Desert Dungeon_62
       rect:
         serializedVersion: 2
-        x: 48
-        y: 24
+        x: 96
+        y: 48
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e75f052f328ee4d4b9281d39fa30fab2
+      spriteID: a15e58766223143c3bc1802f48fe6bc1
       vertices: []
       indices: 
       edges: []
@@ -1408,18 +1498,18 @@ TextureImporter:
       name: Desert Dungeon_63
       rect:
         serializedVersion: 2
-        x: 72
-        y: 24
+        x: 120
+        y: 48
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acf758805edb54221a3cbc41c0a5d59f
+      spriteID: a3d129e4f0e2441d8a7ab3d5c3d63494
       vertices: []
       indices: 
       edges: []
@@ -1428,18 +1518,18 @@ TextureImporter:
       name: Desert Dungeon_64
       rect:
         serializedVersion: 2
-        x: 96
-        y: 24
+        x: 144
+        y: 48
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35471808d285243eb805a7950a5b03b8
+      spriteID: fdf57657e5172419dbd5d71c6aa05b4b
       vertices: []
       indices: 
       edges: []
@@ -1448,18 +1538,18 @@ TextureImporter:
       name: Desert Dungeon_65
       rect:
         serializedVersion: 2
-        x: 120
-        y: 24
+        x: 168
+        y: 48
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c482975801c54cf88d13f7d86eb71c6
+      spriteID: dc72e593ac29f4ec99b5234aaf60d750
       vertices: []
       indices: 
       edges: []
@@ -1469,17 +1559,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 24
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cdfc21472f5a480a8192a2d780734c9
+      spriteID: ba666cf7ee2ed4975bf7551190aa696f
       vertices: []
       indices: 
       edges: []
@@ -1489,17 +1579,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 24
-        y: 0
+        y: 24
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9740156c6aed49c7bd68da022b62a6d
+      spriteID: 8036a7950c53640c38888464244640d2
       vertices: []
       indices: 
       edges: []
@@ -1509,17 +1599,21 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 0
+        y: 24
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 10}
+        - {x: -10, y: 12}
+        - {x: -1, y: 12}
+        - {x: -1, y: 8}
       tessellationDetail: 0
       bones: []
-      spriteID: 12b5dd6e6638348aeb7af9550b5b8515
+      spriteID: 290f9653382c0468eb79c7ff5a32e374
       vertices: []
       indices: 
       edges: []
@@ -1529,17 +1623,21 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 72
-        y: 0
+        y: 24
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 0, y: 7}
+        - {x: 0, y: 12}
+        - {x: 10, y: 12}
+        - {x: 6, y: 10}
       tessellationDetail: 0
       bones: []
-      spriteID: 2f4fc25a56cf64591b2bea083a67b1c3
+      spriteID: 21be13e58972d46fd99eb72314b472f5
       vertices: []
       indices: 
       edges: []
@@ -1549,17 +1647,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 0
+        y: 24
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56fe4e74cdd7b4f12a46a9da909632ad
+      spriteID: 837ab463720a94e0983aabca428fad83
       vertices: []
       indices: 
       edges: []
@@ -1569,17 +1667,137 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 120
-        y: 0
+        y: 24
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c913f9819207548aebe26b686d652157
+      spriteID: c9d8be1ceb8284de79635cf45d827683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert Dungeon_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260651c12e1ac41478233d689b7cfd58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert Dungeon_73
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f07038f2bc0463c982ab7549e09bbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert Dungeon_74
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef009e484d06408dab735cf89cb8e58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert Dungeon_75
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52753aa3bab6f49ef941c786b53e993a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert Dungeon_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52064ccd981644760a02773d1461e15a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert Dungeon_77
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0cf4a3758bc4d0a90b842ad3434b30
       vertices: []
       indices: 
       edges: []
@@ -1587,7 +1805,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 62d88c28bb3304e5f98bb31a22942c0e
+    spriteID: 5f251884989a344219fa536c8462d12d
     vertices: []
     indices: 
     edges: []
