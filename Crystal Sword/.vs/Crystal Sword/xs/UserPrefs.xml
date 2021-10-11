@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{03BB4C41-72D9-511D-695D-00086474B5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyHealth.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneTransition.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="21" Column="133" />
       <File FileName="Assets/Scripts/PlayerAttack.cs" />
@@ -8,11 +8,12 @@
       <File FileName="Assets/Scripts/EnemyHealth.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/AtkPos.cs" />
       <File FileName="Assets/Scripts/Health.cs" />
+      <File FileName="Assets/Scripts/SceneTransition.cs" Line="14" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="203d4eb1-07c6-4e84-a895-72e7581d1e9e" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b88f88d0-a561-4015-a933-e4758226e86c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
