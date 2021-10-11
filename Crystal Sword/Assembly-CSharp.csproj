@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\PlayerDash.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
+    <Compile Include="Assets\Scripts\SceneTransition.cs" />
     <None Include="Assets\2d-extras-2018.3\Assets\Tilemap\Tiles\Rule Tile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
     <None Include="Assets\2d-extras-2018.3\Assets\Tilemap\Brushes\Tint Brush Smooth\Shaders\TintedTilemap.shader" />
     <Reference Include="Cinemachine">
