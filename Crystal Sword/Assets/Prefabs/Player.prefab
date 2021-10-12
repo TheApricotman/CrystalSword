@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 4230291778806151653}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,7 +63,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4230291778806151571}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.81, y: -1.57, z: -0.19018266}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerRb: {fileID: 4230291778806151661}
   anim: {fileID: 4230291778806151656}
+  startPos: {fileID: 0}
 --- !u!114 &4230291778806151658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,6 +280,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 4230291778806151656}
   playerRb: {fileID: 4230291778806151661}
+  projectile: {fileID: 8903073450576805251, guid: d6fef00bad89d402ca7e57e34de856c2,
+    type: 3}
   startShootTime: 2
 --- !u!1 &4230291779453088378
 GameObject:
