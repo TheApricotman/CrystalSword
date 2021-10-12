@@ -6,7 +6,9 @@ public class PlayerShoot : MonoBehaviour
 {
     public Animator anim;
     public Rigidbody2D playerRb;
+    public GameObject projectile;
     private Vector2 direction;
+    private Vector3 shtDir;
     private float shootTime;
     public float startShootTime;
     
@@ -18,6 +20,7 @@ public class PlayerShoot : MonoBehaviour
         direction.x = anim.GetFloat("Horizontal");
         direction.y = anim.GetFloat("Vertical");
 
+        shtDir = new Vector3(direction.x, direction.y, 0);
         Shoot();
     }
     private void Shoot()
@@ -27,9 +30,11 @@ public class PlayerShoot : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Q))
             {
+                
                 anim.SetTrigger("Shooting");
                 shootTime = startShootTime;
                 Debug.Log("POW!");
+                Instantiate(projectile,transform.position, Quaternion.Euler(shtDir));
             }
         }
         else shootTime -= Time.deltaTime;

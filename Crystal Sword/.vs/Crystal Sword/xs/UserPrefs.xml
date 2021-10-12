@@ -1,19 +1,21 @@
 ﻿<Properties StartupConfiguration="{03BB4C41-72D9-511D-695D-00086474B5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneTransition.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Bullet.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="21" Column="133" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="16" Column="51" />
       <File FileName="Assets/Scripts/PlayerAttack.cs" />
-      <File FileName="Assets/Scripts/PlayerDash.cs" />
-      <File FileName="Assets/Scripts/PlayerShoot.cs" />
-      <File FileName="Assets/Scripts/EnemyHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerDash.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerShoot.cs" Line="23" Column="9" />
+      <File FileName="Assets/Scripts/EnemyHealth.cs" />
       <File FileName="Assets/Scripts/AtkPos.cs" />
-      <File FileName="Assets/Scripts/Health.cs" />
-      <File FileName="Assets/Scripts/SceneTransition.cs" Line="14" Column="49" />
+      <File FileName="Assets/Scripts/Health.cs" Line="28" Column="1" />
+      <File FileName="Assets/Scripts/SceneTransition.cs" Line="17" Column="51" />
+      <File FileName="Assets/Scripts/Push.cs" Line="13" Column="5" />
+      <File FileName="Assets/Scripts/Bullet.cs" Line="11" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b88f88d0-a561-4015-a933-e4758226e86c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="309a44a8-23a0-47a0-8275-e0290cc2823a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
