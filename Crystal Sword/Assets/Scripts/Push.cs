@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class Push : MonoBehaviour
 {
+    public Rigidbody2D rb2D;
     public Animator playerAnim;
-   
+
     private bool touching;
     private bool pushing;
     private bool returning;
+    private bool moving;
     private Vector3 oGPos;
-    private Vector3 destination;
+    private Vector2 destination;
+    private Vector3 lastPos;
+    private RaycastHit2D hit;
+    public LayerMask walls;
 
     private void Start()
     {
@@ -26,24 +31,29 @@ public class Push : MonoBehaviour
     private void PushCalc()
     {
         //allows player to push block around, sliding gently according to grid
-        if (touching)
+        //checks if player is in contact with block and is not moving
+        if (touching && !moving)
         {
+            
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 pushing = true;
                 //Finds direction of character and gives correct coordinates to push block
                 destination.x = transform.position.x + playerAnim.GetFloat("Horizontal");
                 destination.y = transform.position.y + playerAnim.GetFloat("Vertical");
+               
             }
         }
         if (pushing)
         {
             transform.position = Vector2.MoveTowards(transform.position, destination, 1 * Time.deltaTime);
+            moving = true;
 
-            if (transform.position == destination)
+            if ((Vector2)transform.position == destination)
             {
                 pushing = false;
                 transform.position = destination;
+                moving = false;
             }
         }
     }
@@ -83,6 +93,11 @@ public class Push : MonoBehaviour
         {
             touching = false;
         }
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(transform.position, destination);
     }
 
 }
