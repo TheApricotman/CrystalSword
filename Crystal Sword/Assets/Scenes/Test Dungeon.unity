@@ -112,12 +112,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!95 &398597286 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 4230291778806151656, guid: 73038eceb38eb4944953a41530fe85b8,
-    type: 3}
-  m_PrefabInstance: {fileID: 949199447}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &766242572 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8528575388776591236, guid: e39c6ae2c5454456fbc1a29b466c49c3,
@@ -65026,11 +65020,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3674013714293152392, guid: 0d856d189a42f4957a69125eea81c98e,
-        type: 3}
-      propertyPath: playerAnim
-      value: 
-      objectReference: {fileID: 398597286}
     - target: {fileID: 3674013714293152399, guid: 0d856d189a42f4957a69125eea81c98e,
         type: 3}
       propertyPath: m_Name
@@ -65044,7 +65033,7 @@ PrefabInstance:
     - target: {fileID: 3674013714293152404, guid: 0d856d189a42f4957a69125eea81c98e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3674013714293152404, guid: 0d856d189a42f4957a69125eea81c98e,
         type: 3}
