@@ -6,7 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
     private float moveSpeed = 5f;
     private float slowSpeed = 2f;
-    public Rigidbody2D playerRb;
+    [SerializeField]
+    private Rigidbody2D playerRb;
     Vector2 movement;
     public Animator anim;
     public VectorValue startPos;

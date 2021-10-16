@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour
 {
-    public string sceneToLoad;
-
-    public Vector2 playerPos;
-    public VectorValue playerStorage;
+    [SerializeField]
+    private string sceneToLoad;
+    [SerializeField]
+    private Vector2 playerPos;
+    [SerializeField]
+    private VectorValue playerStorage;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
