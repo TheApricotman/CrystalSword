@@ -16,7 +16,8 @@ public class Push : MonoBehaviour
     private Vector2 destination;
     private Vector2 direction;
     private RaycastHit2D hit;
-    public LayerMask walls;
+    [SerializeField]
+    private LayerMask walls;
 
     private void Start()
     {
@@ -28,7 +29,7 @@ public class Push : MonoBehaviour
     {
         PushCalc();
         ReturnCalc();
-        
+
     }
     private void FixedUpdate()
     {
@@ -46,9 +47,9 @@ public class Push : MonoBehaviour
          * if theres a wall, stops player from pushing block through it
          * checks if player is in contact with block and is not moving before executing
         */
-        if (touching && !moving)
+        if (touching && !moving && !returning)
         {
-            
+
             if (Input.GetKeyDown(KeyCode.Space) && canMove)
             {
                 pushing = true;
@@ -59,7 +60,7 @@ public class Push : MonoBehaviour
         }
         if (pushing)
         {
-            
+
             transform.position = Vector2.MoveTowards(transform.position, destination, 1 * Time.deltaTime);
             moving = true;
 
@@ -69,7 +70,7 @@ public class Push : MonoBehaviour
                 transform.position = destination;
                 moving = false;
             }
-        } 
+        }
     }
     private void ReturnCalc()
     {

@@ -5,9 +5,11 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     private Vector2 direction;
-    public float speed = 20;
+    [SerializeField]
+    private float speed = 20;
     private Animator playerAnim;
-    public Rigidbody2D bulletRB;
+    [SerializeField]
+    private Rigidbody2D bulletRB;
 
     private void Start()
     {

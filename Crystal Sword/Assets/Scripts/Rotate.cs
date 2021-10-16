@@ -5,10 +5,13 @@ using UnityEngine;
 public class Rotate : MonoBehaviour
 {
     private Quaternion ogRot;
-    private Vector3 rotate = new Vector3(0, 0, 90);
-    private float speed = 0.1f;
-    public bool spinning;
-    private Vector3 destination;
+    private Quaternion rotate = Quaternion.Euler(0, 0, 90);
+    private Quaternion destination;
+    private float speed = 100f;
+    private bool spinning;
+    private bool returning;
+
+
     private void Start()
     {
         ogRot = transform.rotation;
@@ -16,30 +19,53 @@ public class Rotate : MonoBehaviour
 
     private void Update()
     {
-        destination = transform.rotation.eulerAngles + rotate;
-        if (spinning)
+        RotCalc();
+        ReturnCalc();
+    }
+
+    private void RotCalc()
+    {
+        //checks if bullet has collided with block, rotates smoothly 90 degrees
+        if (spinning && !returning)
         {
-
-            //Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, 90), Time.time * speed);
-            transform.eulerAngles = Vector3.Lerp(transform.rotation.eulerAngles, destination, speed * Time.time);
-
-
-
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, destination, speed * Time.deltaTime);
         }
-        if (transform.rotation.eulerAngles == destination)
+        if (transform.rotation == destination)
         {
             spinning = false;
-            transform.eulerAngles = destination;
+            transform.rotation = destination;
+        }
+    }
+
+    private void ReturnCalc()
+    {
+        //Logic for returning puzzle blocks to original rotation for restart, functionally the same as RotCalc()
+        //using input for control for now, but will be controlled with sword in stone
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            returning = true;
         }
 
+        if (returning)
+        {
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, ogRot, speed * Time.deltaTime);
+
+            if (transform.rotation == ogRot)
+            {
+                returning = false;
+                transform.rotation = ogRot;
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        //if player shoots block, starts logic for rotating it
         if (other.gameObject.CompareTag("Bullet"))
         {
             Destroy(other.gameObject);
             spinning = true;
+            destination = transform.rotation * rotate;
         }
     }
 }
