@@ -37,7 +37,7 @@ public class Rotate : MonoBehaviour
         }
     }
 
-    private void ReturnCalc()
+    public void ReturnCalc()
     {
         //Logic for returning puzzle blocks to original rotation for restart, functionally the same as RotCalc()
         //using input for control for now, but will be controlled with sword in stone

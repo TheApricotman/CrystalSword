@@ -23,6 +23,7 @@ public class Push : MonoBehaviour
     {
         oGPos = transform.position;
         playerAnim = GameObject.Find("Player").GetComponent<Animator>();
+        
     }
 
     private void Update()
@@ -72,7 +73,7 @@ public class Push : MonoBehaviour
             }
         }
     }
-    private void ReturnCalc()
+    public void ReturnCalc()
     {
         //Logic for returning puzzle blocks to original position for restart, functionally the same as PushCalc()
         //using input for control for now, but will be controlled with sword in stone
