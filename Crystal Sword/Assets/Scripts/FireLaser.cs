@@ -4,54 +4,65 @@ using UnityEngine;
 
 public class FireLaser : MonoBehaviour
 {
-    private int maxBounces = 5;
+    private Vector3 bendLaser = new Vector3(0, 0, 90);
+    private int bounce;
     private LineRenderer lR;
     [SerializeField]
     private Transform startPos;
     [SerializeField]
     private LayerMask mirrors;
-    
+    public Transform shootPoint1;
+    public Transform shootPoint2;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         lR = GetComponent<LineRenderer>();
-        lR.SetPosition(0, startPos.position);
+        bounce = 5;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        CastLaser(transform.position, -transform.up);
-        Debug.DrawRay(transform.position, -transform.up * 300, Color.green);
-    }
-
-    private void CastLaser(Vector3 pos, Vector3 dir)
-    {
-
-        lR.SetPosition(0, startPos.position);
-
-        for (int i = 0; i < maxBounces; i++)
+        if (Input.GetKeyDown(KeyCode.Z))
         {
-            Ray2D ray = new Ray2D(pos, dir);
-            RaycastHit2D hit;
-            hit = Physics2D.Raycast(ray.origin, ray.direction, 300, mirrors);
-            if (hit.collider != null)
-            {
-                Debug.Log("Bounce!");
-                pos = hit.point;
-                dir = Vector2.Reflect(dir, hit.normal);
-                lR.SetPosition(i + 1, hit.point);
+            CastRay(transform.position, -transform.up);
+        }
+    }
 
-                if (hit.collider)
-                {
-                    for (int j = (i + 1); j < 5; j++)
-                    {
-                        lR.SetPosition(j, hit.point);
-                    }
-                    break;
-                }
+    private void CastRay(Vector2 position, Vector2 direction)
+    {
+
+        RaycastHit2D hit = Physics2D.Raycast(position, direction);
+        lR.positionCount = 1;
+        lR.SetPosition(0, transform.position);
+        for (int i = 0; i < bounce; i++)
+        {
+            lR.positionCount += 1;
+            lR.SetPosition(lR.positionCount - 1, hit.point);
+
+            if (hit.collider.name == "Mirror 1")
+            {
+                Debug.Log("Boing!");
+                position = hit.point;
+                direction = transform.right;
+                hit = Physics2D.Raycast(position, direction);
+
             }
-            else lR.SetPosition(1, startPos.position + new Vector3(0, -300, 0));
+            if (hit.collider.name == "Mirror 2")
+            {
+                Debug.Log("Boing 2!");
+                position = hit.point;
+                direction = hit.transform.up;
+                hit = Physics2D.Raycast(position, direction);
+            }
+            if (hit.collider.CompareTag("Button"))
+            {
+                Debug.Log("Win!");
+            }
+
+
         }
     }
 }
