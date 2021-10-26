@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\Push.cs" />
+    <Compile Include="Assets\Scripts\ReflectLaser.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\SceneTransition.cs" />
     <Compile Include="Assets\Scripts\Scriptable Objects\VectorValue.cs" />
