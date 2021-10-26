@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FireLaser : MonoBehaviour
-{
-    private Vector3 bendLaser = new Vector3(0, 0, 90);
+{ 
     private int bounce;
     private LineRenderer lR;
     [SerializeField]
@@ -13,6 +12,7 @@ public class FireLaser : MonoBehaviour
     private LayerMask mirrors;
     public Transform shootPoint1;
     public Transform shootPoint2;
+    public ReflectLaser reflectLaser;
 
 
 
@@ -25,13 +25,50 @@ public class FireLaser : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKey(KeyCode.Z))
         {
             CastRay(transform.position, -transform.up);
         }
     }
 
     private void CastRay(Vector2 position, Vector2 direction)
+    {
+        RaycastHit2D hit = Physics2D.Raycast(position, direction);
+        Debug.DrawRay(position, direction, Color.blue);
+        lR.positionCount = 2;
+        lR.SetPosition(0, transform.position);
+        Vector3 savePos;
+        if (hit.collider != null)
+        {
+            savePos = hit.point;
+            if (hit.collider.name == "Mirror 1")
+            {
+                lR.SetPosition(1, savePos);
+                position = shootPoint1.position;
+                direction = shootPoint1.transform.up;
+                hit = Physics2D.Raycast(position, direction);
+                Debug.DrawRay(position, direction, Color.blue);
+                reflectLaser.HitMirror1(hit.point);
+
+            }
+            if (hit.collider.name == "Mirror 2")
+            {
+                lR.SetPosition(1, savePos);
+                position = shootPoint2.position;
+                direction = shootPoint2.transform.up;
+                hit = Physics2D.Raycast(position, direction);
+                Debug.DrawRay(position, direction, Color.blue);
+                reflectLaser.HitMirror2(hit.point);
+            }
+            if (hit.collider.CompareTag("Button"))
+            {
+                lR.SetPosition(1, savePos);
+                Debug.Log("Win!");
+            }
+        }
+    }
+
+    /*private void CastRay(Vector2 position, Vector2 direction)
     {
 
         RaycastHit2D hit = Physics2D.Raycast(position, direction);
@@ -64,5 +101,5 @@ public class FireLaser : MonoBehaviour
 
 
         }
-    }
+    }*/
 }
