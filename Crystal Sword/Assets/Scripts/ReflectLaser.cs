@@ -6,23 +6,23 @@ public class ReflectLaser : MonoBehaviour
 {
     private LineRenderer lR;
 
-    public Transform shootPoint1;
-    public Transform shootPoint2;
     private void Start()
     {
-        lR = GetComponent<LineRenderer>();
+        lR = GetComponent<LineRenderer>();       
         lR.positionCount = 2;
     }
 
-    public void HitMirror1(Vector3 position)
+    public void HitMirror1(Vector3[] positions)
     {
-        lR.SetPosition(0, shootPoint1.position);
-        lR.SetPosition(1, position);
+        //Sets puzzle blocks Line renderer to shoot out correct end
+        lR.SetPositions(positions);
+        Debug.DrawLine(positions[0], positions[1], Color.green);
+        
         Debug.Log("Im reflecting!");
     }
-    public void HitMirror2(Vector3 position)
+    public void HitMirror2(Vector3[] positions)
     {
-        lR.SetPosition(0, shootPoint2.position);
-        lR.SetPosition(1, position);
+        lR.SetPositions(positions);
+        Debug.DrawLine(positions[0], positions[1], Color.green);
     }
 }
