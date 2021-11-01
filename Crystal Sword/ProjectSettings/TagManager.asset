@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Button
   - Mirror
+  - Hole
   layers:
   - Default
   - TransparentFX

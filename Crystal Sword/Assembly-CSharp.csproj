@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\FireLaser.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\AtkPos.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\FallinHoles.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerDash.cs" />

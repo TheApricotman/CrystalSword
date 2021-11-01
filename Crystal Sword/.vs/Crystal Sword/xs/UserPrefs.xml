@@ -1,21 +1,22 @@
 ﻿<Properties StartupConfiguration="{03BB4C41-72D9-511D-695D-00086474B5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ReflectLaser.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/FallinHoles.cs">
     <Files>
-      <File FileName="Assets/Scripts/Rotate.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" />
-      <File FileName="Assets/Scripts/Scriptable Objects/VectorValue.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/Health.cs" />
-      <File FileName="Assets/Scripts/EnemyHealth.cs" />
+      <File FileName="Assets/Scripts/Sign.cs" Line="43" Column="40" />
+      <File FileName="Assets/Scripts/Rotate.cs" />
+      <File FileName="Assets/Scripts/Scriptable Objects/VectorValue.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/Health.cs" Line="53" Column="13" />
+      <File FileName="Assets/Scripts/EnemyHealth.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Bullet.cs" />
       <File FileName="Assets/Scripts/SceneTransition.cs" />
       <File FileName="Assets/Scripts/Push.cs" />
       <File FileName="Assets/Scripts/FireLaser.cs" />
       <File FileName="Assets/Scripts/ReflectLaser.cs" Line="24" Column="6" />
+      <File FileName="Assets/Scripts/Player Scripts/FallinHoles.cs" Line="14" Column="111" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b16c63c3-1689-4488-bedc-cbab84bff36b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e20e1239-f9e4-4cf2-858f-506af7e74598" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
