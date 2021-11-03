@@ -29,8 +29,6 @@ public class Push : MonoBehaviour
     private void Update()
     {
         PushCalc();
-        ReturnCalc();
-
     }
     private void FixedUpdate()
     {
@@ -77,12 +75,8 @@ public class Push : MonoBehaviour
     {
         //Logic for returning puzzle blocks to original position for restart, functionally the same as PushCalc()
         //using input for control for now, but will be controlled with sword in stone
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
-            returning = true;
-        }
-
-        if (returning)
+        returning = true;
+        if (returning && transform.position != oGPos)
         {
             transform.position = Vector2.MoveTowards(transform.position, oGPos, 1 * Time.deltaTime);
 

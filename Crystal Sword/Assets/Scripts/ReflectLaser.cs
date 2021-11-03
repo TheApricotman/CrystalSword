@@ -18,11 +18,20 @@ public class ReflectLaser : MonoBehaviour
         lR.SetPositions(positions);
         Debug.DrawLine(positions[0], positions[1], Color.green);
         
+        StartCoroutine(TurnOffLaser(1));
+
         Debug.Log("Im reflecting!");
     }
     public void HitMirror2(Vector3[] positions)
     {
         lR.SetPositions(positions);
         Debug.DrawLine(positions[0], positions[1], Color.green);
+      
+        StartCoroutine(TurnOffLaser(1));
+    }
+    IEnumerator TurnOffLaser(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        lR.enabled = false;
     }
 }
