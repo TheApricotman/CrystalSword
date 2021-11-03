@@ -10,6 +10,10 @@ public class FireLaser : MonoBehaviour
     private Transform startPos;
     [SerializeField]
     private LayerMask mirrors;
+    [SerializeField]
+    private PuzzleStartButton button;
+    public bool win;
+    public bool lose;
 
 
     // Start is called before the first frame update
@@ -22,10 +26,19 @@ public class FireLaser : MonoBehaviour
     private void Update()
     {
         //for debugging purposes, input activated, but will activate when player interacts with sword in stone in future
-        if (Input.GetKey(KeyCode.Z))
+        if (button.startPuzzle)
         {
             CastRay(transform.position, -transform.up);
+            lR.enabled = true;
+           
+            StartCoroutine(TurnOffLaser(1));
         }
+    }
+
+    IEnumerator TurnOffLaser(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        lR.enabled = false;
     }
 
     private void CastRay(Vector2 position, Vector2 direction)
@@ -33,7 +46,9 @@ public class FireLaser : MonoBehaviour
         //casts ray from laser emitter and draws a line to where it hits
         RaycastHit2D hit = Physics2D.Raycast(position, direction);
         Debug.DrawRay(position, direction, Color.blue);
+
         lR.positionCount = 2;
+
         lR.SetPosition(0, transform.position);
         Vector3 savePos;
         if (hit.collider != null)
@@ -74,7 +89,16 @@ public class FireLaser : MonoBehaviour
                     Debug.Log("Win!");
                     Vector3[] positions = { position, hit.point };
                     hit.transform.gameObject.GetComponentInChildren<ReflectLaser>().HitMirror1(positions);
+                    win = true;
                     break;
+                }
+                if (hit.collider.CompareTag("Wall"))
+                {
+                    lose = true;
+                }
+                else
+                {
+                    lose = true;
                 }
             }
         }

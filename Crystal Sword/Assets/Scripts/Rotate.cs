@@ -20,7 +20,6 @@ public class Rotate : MonoBehaviour
     private void Update()
     {
         RotCalc();
-        ReturnCalc();
     }
 
     private void RotCalc()
@@ -41,19 +40,15 @@ public class Rotate : MonoBehaviour
     {
         //Logic for returning puzzle blocks to original rotation for restart, functionally the same as RotCalc()
         //using input for control for now, but will be controlled with sword in stone
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
             returning = true;
-        }
-
-        if (returning)
+       
+        if (returning && transform.rotation != ogRot)
         {
             transform.rotation = Quaternion.RotateTowards(transform.rotation, ogRot, speed * Time.deltaTime);
 
             if (transform.rotation == ogRot)
             {
                 returning = false;
-                transform.rotation = ogRot;
             }
         }
     }

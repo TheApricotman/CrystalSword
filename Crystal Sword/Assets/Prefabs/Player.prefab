@@ -50,6 +50,7 @@ GameObject:
   - component: {fileID: 4230291778806151652}
   - component: {fileID: 4230291778806151653}
   - component: {fileID: 466190552}
+  - component: {fileID: 202508000}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -155,7 +156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerRb: {fileID: 4230291778806151661}
   anim: {fileID: 4230291778806151656}
-  startPos: {fileID: 0}
+  startPos: {fileID: 11400000, guid: 0052cd5d3bfc841909aaba050a3122b0, type: 2}
 --- !u!114 &4230291778806151658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -300,6 +301,24 @@ MonoBehaviour:
   playerAnim: {fileID: 4230291778806151656}
   startPos: {fileID: 11400000, guid: 0052cd5d3bfc841909aaba050a3122b0, type: 2}
   health: {fileID: 4230291778806151659}
+--- !u!114 &202508000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4230291778806151571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11727d94410f746dd94521de9fe2d5ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotate: {fileID: 1683437063, guid: 0d856d189a42f4957a69125eea81c98e, type: 3}
+  push: {fileID: 3674013714293152392, guid: 0d856d189a42f4957a69125eea81c98e, type: 3}
+  laser: {fileID: 0}
+  playerAnim: {fileID: 4230291778806151656}
+  startPuzzle: 0
+  winPuzzle: 0
 --- !u!1 &4230291779453088378
 GameObject:
   m_ObjectHideFlags: 0
