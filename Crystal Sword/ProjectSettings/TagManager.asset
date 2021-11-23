@@ -10,6 +10,7 @@ TagManager:
   - Button
   - Mirror
   - Hole
+  - Interactable
   layers:
   - Default
   - TransparentFX
