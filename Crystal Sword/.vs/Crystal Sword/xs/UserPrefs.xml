@@ -4,21 +4,21 @@
       <File FileName="Assets/Scripts/Sign.cs" Line="23" Column="14" />
       <File FileName="Assets/Scripts/Scriptable Objects/VectorValue.cs" />
       <File FileName="Assets/Scripts/Player Scripts/Health.cs" />
-      <File FileName="Assets/Scripts/EnemyHealth.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Bullet.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SceneTransition.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Rotate.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyHealth.cs" />
+      <File FileName="Assets/Scripts/Bullet.cs" />
+      <File FileName="Assets/Scripts/SceneTransition.cs" />
+      <File FileName="Assets/Scripts/Rotate.cs" />
       <File FileName="Assets/Scripts/Push.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/FallinHoles.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ReflectLaser.cs" Line="29" Column="7" />
-      <File FileName="Assets/Scripts/PuzzleStartButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/FallinHoles.cs" />
+      <File FileName="Assets/Scripts/ReflectLaser.cs" />
+      <File FileName="Assets/Scripts/PuzzleStartButton.cs" />
       <File FileName="Assets/Scripts/FireLaser.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/InteractSign.cs" Line="13" Column="43" />
+      <File FileName="Assets/Scripts/Player Scripts/InteractSign.cs" Line="11" Column="88" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="46863e35-5854-4846-b736-0dd1f2b498e5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2e4a8baf-9d0d-49e5-8ada-790092b13585" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

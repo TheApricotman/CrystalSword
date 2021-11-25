@@ -8,6 +8,7 @@ public class InteractSign : MonoBehaviour
     private GameObject interact;
     private bool interacting;
 
+    //Logic for interact sign above players head to appear when infront of interactable
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.R) && interacting)
@@ -24,6 +25,7 @@ public class InteractSign : MonoBehaviour
             interacting = true;
         }
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Interactable"))
