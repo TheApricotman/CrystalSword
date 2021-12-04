@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{03BB4C41-72D9-511D-695D-00086474B5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/InteractSign.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NPC Scripts/BoundedNPC.cs">
     <Files>
       <File FileName="Assets/Scripts/Sign.cs" Line="23" Column="14" />
       <File FileName="Assets/Scripts/Scriptable Objects/VectorValue.cs" />
@@ -8,17 +8,18 @@
       <File FileName="Assets/Scripts/Bullet.cs" />
       <File FileName="Assets/Scripts/SceneTransition.cs" />
       <File FileName="Assets/Scripts/Rotate.cs" />
-      <File FileName="Assets/Scripts/Push.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/FallinHoles.cs" />
-      <File FileName="Assets/Scripts/ReflectLaser.cs" />
-      <File FileName="Assets/Scripts/PuzzleStartButton.cs" />
+      <File FileName="Assets/Scripts/Push.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/FallinHoles.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ReflectLaser.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PuzzleStartButton.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/FireLaser.cs" />
       <File FileName="Assets/Scripts/Player Scripts/InteractSign.cs" Line="11" Column="88" />
+      <File FileName="Assets/Scripts/NPC Scripts/BoundedNPC.cs" Line="93" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2e4a8baf-9d0d-49e5-8ada-790092b13585" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e484c898-d815-44d9-8f54-c9408a746e70" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
