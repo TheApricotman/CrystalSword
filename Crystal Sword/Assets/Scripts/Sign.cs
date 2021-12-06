@@ -9,7 +9,8 @@ public class Sign : MonoBehaviour
     public Text dialogText;
     public string dialog;
     public bool playerInRange;
-   
+    public bool person;
+
     // Update is called once per frame
     void Update()
     {
@@ -22,7 +23,14 @@ public class Sign : MonoBehaviour
             else
             {
                 dialogBox.SetActive(true);
-                dialogText.text = dialog;
+                if (person)
+                {
+                    dialogText.text = "";
+
+                    StartCoroutine("PlayText");
+                }
+                else
+                    dialogText.text = dialog;
             }
 
         }
@@ -44,4 +52,13 @@ public class Sign : MonoBehaviour
             Debug.Log("Player left range");
         }
     }
+    IEnumerator PlayText()
+    {
+        foreach (char c in dialog)
+        {
+            dialogText.text += c;
+            yield return new WaitForSeconds(0.125f);
+        }
+    }
+
 }

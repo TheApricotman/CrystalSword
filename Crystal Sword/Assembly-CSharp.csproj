@@ -77,7 +77,6 @@
     <Compile Include="Assets\2d-extras-2018.3\Assets\Tilemap\Tiles\Weighted Random Tile\WeightedRandomTile.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
-    <Compile Include="Assets\Scripts\FireLaser.cs" />
     <Compile Include="Assets\Scripts\NPC Scripts\BoundedNPC.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\AtkPos.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FallinHoles.cs" />
@@ -87,10 +86,11 @@
     <Compile Include="Assets\Scripts\Player Scripts\PlayerDash.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerShoot.cs" />
-    <Compile Include="Assets\Scripts\Push.cs" />
-    <Compile Include="Assets\Scripts\PuzzleStartButton.cs" />
-    <Compile Include="Assets\Scripts\ReflectLaser.cs" />
-    <Compile Include="Assets\Scripts\Rotate.cs" />
+    <Compile Include="Assets\Scripts\Puzzle Scripts\FireLaser.cs" />
+    <Compile Include="Assets\Scripts\Puzzle Scripts\Push.cs" />
+    <Compile Include="Assets\Scripts\Puzzle Scripts\PuzzleStartButton.cs" />
+    <Compile Include="Assets\Scripts\Puzzle Scripts\ReflectLaser.cs" />
+    <Compile Include="Assets\Scripts\Puzzle Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\SceneTransition.cs" />
     <Compile Include="Assets\Scripts\Scriptable Objects\VectorValue.cs" />
     <Compile Include="Assets\Scripts\Sign.cs" />
