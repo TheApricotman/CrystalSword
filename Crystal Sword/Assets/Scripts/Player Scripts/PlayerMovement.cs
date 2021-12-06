@@ -25,9 +25,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //checks to see if player is attacking, AOEing or shooting,if true, player cannot move, if dashing, disables normal movement
+        //checks to see if player is attacking, AOEing or shooting,if true, player cannot move
         if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack") && !anim.GetCurrentAnimatorStateInfo(0).IsName("AOE Release")
-            && !anim.GetCurrentAnimatorStateInfo(0).IsName("Dash") && !anim.GetCurrentAnimatorStateInfo(0).IsName("Shoot") && !anim.GetCurrentAnimatorStateInfo(0).IsName("PlayerFall"))
+             && !anim.GetCurrentAnimatorStateInfo(0).IsName("Shoot") && !anim.GetCurrentAnimatorStateInfo(0).IsName("PlayerFall"))
         {
             //moves character with physics
             //playerRb.MovePosition(playerRb.position + movement * moveSpeed * Time.fixedDeltaTime);

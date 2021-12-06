@@ -79,9 +79,7 @@ public class BoundedNPC : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //if (!collision.gameObject.CompareTag("Player"))
-        //{
-            //Character changes direction if colliding with something
+       
             Vector3 temp = directionVector;
             int loops = 0;
             ChangeDirection();
@@ -90,7 +88,7 @@ public class BoundedNPC : MonoBehaviour
                 loops++;
                 ChangeDirection();
             }
-       // }
+      
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
