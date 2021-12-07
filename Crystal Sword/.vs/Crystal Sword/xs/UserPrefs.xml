@@ -1,27 +1,24 @@
 ﻿<Properties StartupConfiguration="{03BB4C41-72D9-511D-695D-00086474B5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Sign.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DialogManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/Sign.cs" Line="10" Column="18" />
+      <File FileName="Assets/Scripts/DialogManager.cs" Line="27" Column="1" />
+      <File FileName="Assets/Scripts/Sign.cs" Line="31" Column="6" />
       <File FileName="Assets/Scripts/Scriptable Objects/VectorValue.cs" />
       <File FileName="Assets/Scripts/Player Scripts/Health.cs" />
       <File FileName="Assets/Scripts/EnemyHealth.cs" />
       <File FileName="Assets/Scripts/Bullet.cs" />
       <File FileName="Assets/Scripts/SceneTransition.cs" />
-      <File FileName="Assets/Scripts/Rotate.cs" />
-      <File FileName="Assets/Scripts/Push.cs" Line="18" Column="30" />
       <File FileName="Assets/Scripts/Player Scripts/FallinHoles.cs" />
-      <File FileName="Assets/Scripts/ReflectLaser.cs" />
-      <File FileName="Assets/Scripts/PuzzleStartButton.cs" />
-      <File FileName="Assets/Scripts/FireLaser.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/InteractSign.cs" Line="11" Column="88" />
-      <File FileName="Assets/Scripts/NPC Scripts/BoundedNPC.cs" Line="82" Column="8" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" Line="42" Column="80" />
+      <File FileName="Assets/Scripts/Player Scripts/InteractSign.cs" Line="16" Column="39" />
+      <File FileName="Assets/Scripts/NPC Scripts/BoundedNPC.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" />
       <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="28" Column="95" />
+      <File FileName="Assets/Scripts/DialogTrigger.cs" Line="33" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="550b47ca-4cd2-4cba-a684-eae4889a3295" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8cc6d4bc-f77e-4b2e-8b07-3b2d9e1e7ca8" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
