@@ -6,6 +6,7 @@ public class DialogTrigger : MonoBehaviour
 {
     public GameObject dialogBox;
 	public Dialog dialog;
+    
     private bool playerInRange;
     public DialogManager dialogManager;
 
@@ -32,8 +33,7 @@ public class DialogTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            playerInRange = true;
-            Debug.Log("player entered range");
+            playerInRange = true;           
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -42,7 +42,6 @@ public class DialogTrigger : MonoBehaviour
         {
             playerInRange = false;
             dialogBox.SetActive(false);
-            Debug.Log("Player left range");
         }
     }
 

@@ -8,6 +8,7 @@ public class Sign : MonoBehaviour
     public GameObject dialogBox;
     public Text dialogText;
     public Dialog talkDialog;
+    [TextArea (3,10)]
     public string dialog;
     public bool playerInRange;
     public bool person;
