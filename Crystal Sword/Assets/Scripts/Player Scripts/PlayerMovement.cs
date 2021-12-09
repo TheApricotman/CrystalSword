@@ -30,7 +30,6 @@ public class PlayerMovement : MonoBehaviour
              && !anim.GetCurrentAnimatorStateInfo(0).IsName("Shoot") && !anim.GetCurrentAnimatorStateInfo(0).IsName("PlayerFall"))
         {
             //moves character with physics
-            //playerRb.MovePosition(playerRb.position + movement * moveSpeed * Time.fixedDeltaTime);
             playerRb.velocity = movement * moveSpeed;
         }
         else playerRb.velocity = Vector2.zero;
