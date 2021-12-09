@@ -12,8 +12,6 @@ public class BoundedNPC : MonoBehaviour
     private Animator nPCAnim;
     public Collider2D bounds;
     private bool playerInRange;
-    private bool chasing;
-    [SerializeField] private bool isEnemy;
     private float prevSpeed;
 
     // Start is called before the first frame update
@@ -32,11 +30,7 @@ public class BoundedNPC : MonoBehaviour
         {
             Move();
         }
-       
-        if (isEnemy)
-        {
-            SightPlayer();
-        }
+     
     }
 
     private void Move()
@@ -46,10 +40,10 @@ public class BoundedNPC : MonoBehaviour
         {
             rB2D.MovePosition(temp);
         }
-        else if (!bounds.bounds.Contains(temp) && !chasing)
+        else if (!bounds.bounds.Contains(temp))
         {
             ChangeDirection();
-            ReturnToBounds();
+
         }
     }
 
@@ -105,49 +99,24 @@ public class BoundedNPC : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!isEnemy)
+
+        if (collision.CompareTag("Player"))
         {
-            if (collision.CompareTag("Player"))
+            playerInRange = true;
+            prevSpeed = nPCAnim.speed;
+            nPCAnim.speed = 0;
+            if (collision.transform.position.x > transform.position.x)
             {
-                playerInRange = true;
-                prevSpeed = nPCAnim.speed;
-                nPCAnim.speed = 0;
-                if (collision.transform.position.x < transform.position.x)
-                {
-                    directionVector = Vector3.down;
-                }
-                else directionVector = Vector3.up;
-                if (collision.transform.position.y < transform.position.y)
-                {
-                    directionVector = Vector3.left;
-                }
-                else directionVector = Vector3.right;
+                directionVector = Vector3.down;
             }
+            else directionVector = Vector3.up;
+            if (collision.transform.position.y < transform.position.y)
+            {
+                directionVector = Vector3.left;
+            }
+            else directionVector = Vector3.right;
         }
-    }
 
-    private void SightPlayer()
-    {
-        Vector2 currentPos = transform.position;
-
-        if (Vector2.Distance(transform.position, player.position) < 6)
-        {
-            chasing = true;
-            Vector2 relativePos = player.position - transform.position;
-            Vector2 temp = Vector2.MoveTowards(currentPos, relativePos, speed * Time.deltaTime);
-            rB2D.MovePosition(temp);
-            ChangeAnim();
-        }
-        else chasing = false;
-    }
-
-    private void ReturnToBounds()
-    {
-        Vector2 temp = Vector2.MoveTowards(currentPos, relativePos, speed * Time.deltaTime); ;
-        if (!bounds.bounds.Contains(temp))
-        {
-            rB2D.MovePosition(temp);
-        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)

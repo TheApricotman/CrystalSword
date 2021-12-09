@@ -15,6 +15,7 @@ public class PlayerAttack : MonoBehaviour
     public LayerMask whatIsEnemy;
     public int damage;
     public bool charged;
+    public KnockBack knockBack;
 
     private void Start()
     {
@@ -23,7 +24,6 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        
         BasicAtk();
         AOE();
     }
@@ -78,9 +78,14 @@ public class PlayerAttack : MonoBehaviour
             {
                 anim.SetTrigger("Attack");
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(atkPos.position, atkRange, whatIsEnemy);
-                for (int i = 0; i < enemiesToDamage.Length; i++)
+                if (enemiesToDamage != null)
                 {
-                    enemiesToDamage[i].GetComponent<EnemyHealth>().TakeDamage(damage);
+                    for (int i = 0; i < enemiesToDamage.Length; i++)
+                    {
+                        enemiesToDamage[i].GetComponent<EnemyHealth>().TakeDamage(damage);
+                        Rigidbody2D enemyRB = enemiesToDamage[i].GetComponent<Rigidbody2D>();
+                        knockBack.KnockBackGo(enemyRB);
+                    }
                 }
                 //looks for enemies in range of sword attack and deals damage
 

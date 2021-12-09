@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 466190552}
   - component: {fileID: 202508000}
   - component: {fileID: 5289331673621610209}
+  - component: {fileID: 1212743210}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -261,6 +262,7 @@ MonoBehaviour:
     m_Bits: 256
   damage: 1
   charged: 0
+  knockBack: {fileID: 1212743210}
 --- !u!95 &4230291778806151656
 Animator:
   serializedVersion: 3
@@ -417,6 +419,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interact: {fileID: 821833574136270183}
+--- !u!114 &1212743210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4230291778806151571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db8a8d9ace215477cbf51200cb29f707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrust: 10
+  knockTime: 0.2
 --- !u!1 &4230291779453088378
 GameObject:
   m_ObjectHideFlags: 0

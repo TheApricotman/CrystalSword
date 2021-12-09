@@ -28,7 +28,6 @@ public class PlayerDash : MonoBehaviour
         Dash();
     }
 
-
     private void Dash()
     {
         //stops player from spamming dash attack
@@ -60,25 +59,4 @@ public class PlayerDash : MonoBehaviour
         else dashSpeed = startDashSpeed;
     }
 
-    /* private void Dash()
- {
-     //stops player from spamming dash attack
-     if (dashTime <= 0)
-     {
-         if (Input.GetKeyDown(KeyCode.E))
-         {
-             float dashMulti = 5f;
-             anim.SetTrigger("Dashing");
-             //playerRb.MovePosition(playerRb.position + direction * dashSpeed * Time.fixedDeltaTime);
-             playerRb.velocity = direction * dashSpeed;
-             dashSpeed -= dashSpeed * dashMulti * Time.deltaTime;
-
-             dashTime = startDashTime;
-             Debug.Log("WOOO!");
-         }
-     }
-     else dashTime -= Time.deltaTime;
-     dashSpeed = startDashSpeed;
-
- }*/
 }
