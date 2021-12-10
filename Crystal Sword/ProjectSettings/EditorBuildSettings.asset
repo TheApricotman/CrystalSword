@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test Dungeon.unity
     guid: 08f13d1e836914cf180d843188aaafa9
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: 80e520bfafe3440f9bea9692835a6e79
   m_configObjects: {}

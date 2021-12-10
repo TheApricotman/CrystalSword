@@ -319,3 +319,4 @@ MonoBehaviour:
   baseAtk: 1
   homePos: {fileID: 3967979105671098963}
   chaseRadius: 6
+  bounds: {fileID: 3967979105671098962}
