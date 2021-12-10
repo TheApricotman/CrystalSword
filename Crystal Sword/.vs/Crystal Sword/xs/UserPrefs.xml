@@ -1,42 +1,25 @@
 ﻿<Properties StartupConfiguration="{03BB4C41-72D9-511D-695D-00086474B5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy Scripts/Slime.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/Health.cs">
     <Files>
       <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="32" Column="43" />
-      <File FileName="Assets/Scripts/DialogManager.cs" Line="11" Column="33" />
+      <File FileName="Assets/Scripts/DialogManager.cs" />
       <File FileName="Assets/Scripts/Sign.cs" Line="11" Column="11" />
-      <File FileName="Assets/Scripts/Player Scripts/Health.cs" Line="71" Column="6" />
-      <File FileName="Assets/Scripts/EnemyHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/Health.cs" Line="37" Column="1" />
       <File FileName="Assets/Scripts/Bullet.cs" />
-      <File FileName="Assets/Scripts/SceneTransition.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Player Scripts/FallinHoles.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SceneTransition.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/FallinHoles.cs" />
       <File FileName="Assets/Scripts/Player Scripts/InteractSign.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" Line="61" Column="1" />
-      <File FileName="Assets/Scripts/Enemy Scripts/BoundedEnemy.cs" Line="42" Column="10" />
-      <File FileName="Assets/Scripts/NPC Scripts/BoundedNPC.cs" Line="108" Column="49" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" Line="10" Column="24" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Slime.cs" Line="47" Column="6" />
-      <File FileName="Assets/Scripts/Enemy Scripts/KnockBack.cs" Line="44" Column="11" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" Line="95" Column="10" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/BoundedEnemy.cs" />
+      <File FileName="Assets/Scripts/NPC Scripts/BoundedNPC.cs" Line="48" Column="6" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Slime.cs" Line="120" Column="81" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Crystal Sword" expanded="True" selected="True" />
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="42f9c1b2-19da-49f7-b08c-04ac0a12c99a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a1ef872a-3b1f-4f44-a57b-bbbb560ee8c3" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
