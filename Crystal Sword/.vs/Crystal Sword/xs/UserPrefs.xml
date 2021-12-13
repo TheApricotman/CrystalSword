@@ -3,7 +3,7 @@
     <Files>
       <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="32" Column="43" />
       <File FileName="Assets/Scripts/DialogManager.cs" />
-      <File FileName="Assets/Scripts/Sign.cs" Line="11" Column="11" />
+      <File FileName="Assets/Scripts/Sign.cs" />
       <File FileName="Assets/Scripts/Player Scripts/Health.cs" Line="37" Column="1" />
       <File FileName="Assets/Scripts/Bullet.cs" />
       <File FileName="Assets/Scripts/SceneTransition.cs" />
@@ -11,15 +11,15 @@
       <File FileName="Assets/Scripts/Player Scripts/InteractSign.cs" />
       <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" />
       <File FileName="Assets/Scripts/Enemy Scripts/BoundedEnemy.cs" />
-      <File FileName="Assets/Scripts/NPC Scripts/BoundedNPC.cs" Line="48" Column="6" />
+      <File FileName="Assets/Scripts/NPC Scripts/BoundedNPC.cs" />
       <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Slime.cs" Line="120" Column="81" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Slime.cs" />
       <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a1ef872a-3b1f-4f44-a57b-bbbb560ee8c3" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="34012834-57f4-4eb6-bef4-930ddbe80cf7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
