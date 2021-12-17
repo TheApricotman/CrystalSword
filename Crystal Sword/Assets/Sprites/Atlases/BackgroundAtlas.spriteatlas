@@ -42,10 +42,20 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 5df8e6280785c4cd5b2d488b433db30b, type: 3}
-    totalSpriteSurfaceArea: 378549
+    totalSpriteSurfaceArea: 384309
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300006, guid: 4b8c7b11d5ed240d3978339eef3b9504, type: 3}
+  - {fileID: 21300004, guid: 4b8c7b11d5ed240d3978339eef3b9504, type: 3}
+  - {fileID: 21300002, guid: 4b8c7b11d5ed240d3978339eef3b9504, type: 3}
+  - {fileID: 21300000, guid: 4b8c7b11d5ed240d3978339eef3b9504, type: 3}
+  - {fileID: 21300014, guid: 4b8c7b11d5ed240d3978339eef3b9504, type: 3}
+  - {fileID: 21300012, guid: 4b8c7b11d5ed240d3978339eef3b9504, type: 3}
+  - {fileID: 21300010, guid: 4b8c7b11d5ed240d3978339eef3b9504, type: 3}
+  - {fileID: 21300008, guid: 4b8c7b11d5ed240d3978339eef3b9504, type: 3}
+  - {fileID: 21300018, guid: 4b8c7b11d5ed240d3978339eef3b9504, type: 3}
+  - {fileID: 21300016, guid: 4b8c7b11d5ed240d3978339eef3b9504, type: 3}
   - {fileID: 21300042, guid: b2ea2093afbc74b9bb607c5194314e7a, type: 3}
   - {fileID: 21300040, guid: b2ea2093afbc74b9bb607c5194314e7a, type: 3}
   - {fileID: 21300046, guid: b2ea2093afbc74b9bb607c5194314e7a, type: 3}
@@ -632,6 +642,16 @@ SpriteAtlas:
   - {fileID: 21300140, guid: d65f738f87cf64d388ae979a438dee1a, type: 3}
   - {fileID: 21300142, guid: d65f738f87cf64d388ae979a438dee1a, type: 3}
   m_PackedSpriteNamesToIndex:
+  - Bridge ocean_3
+  - Bridge ocean_2
+  - Bridge ocean_1
+  - Bridge ocean_0
+  - Bridge ocean_7
+  - Bridge ocean_6
+  - Bridge ocean_5
+  - Bridge ocean_4
+  - Bridge ocean_9
+  - Bridge ocean_8
   - Desert_21
   - Desert_20
   - Desert_23
