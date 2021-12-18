@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: a30dea8c4d5874f3b8a14e06f83521f2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ocean tilecorners_0
+    21300002: ocean tilecorners_1
+    21300004: ocean tilecorners_2
+    21300006: ocean 3
+    21300008: ocean tilecorners_4
+    21300010: ocean tilecorners_5
+    21300012: ocean tilecorners_6
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ocean tilecorners_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 49
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6a6b6f6e0944d3c95450f3d86e6628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ocean tilecorners_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 49
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af3fdf248d2448bba054fd82d14e0e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ocean tilecorners_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 49
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -8}
+        - {x: 12, y: -8}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc21af796cf34f9d82f8d00e510d992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ocean 3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 49
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3a0240b7752401f9042516230c9680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ocean tilecorners_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 49
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -8}
+        - {x: 12, y: -8}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ed6520d48ae4204bd96312ff5f54ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ocean tilecorners_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 25
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: -9, y: 12}
+        - {x: -9, y: -12}
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cb7eabed9ed4e8691b538e3e80e187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ocean tilecorners_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 25
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 9, y: -12}
+        - {x: 9, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4614ecc393a3247108a3b952b3585d43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d0fb5ad452aa1407ba56c781e22ef689
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
