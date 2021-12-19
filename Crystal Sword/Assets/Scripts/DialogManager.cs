@@ -17,7 +17,7 @@ public class DialogManager : MonoBehaviour
 
     public void StartDialog(Dialog dialog)
     {
-        //dialogBox.SetActive(true);
+        
         sentences.Clear();
 
         foreach (string sentence in dialog.sentences)

@@ -263,6 +263,7 @@ MonoBehaviour:
   damage: 1
   charged: 0
   knockBack: {fileID: 1212743210}
+  health: {fileID: 0}
 --- !u!95 &4230291778806151656
 Animator:
   serializedVersion: 3

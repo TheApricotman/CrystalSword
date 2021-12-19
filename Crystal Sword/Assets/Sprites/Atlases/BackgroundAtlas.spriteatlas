@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 5df8e6280785c4cd5b2d488b433db30b, type: 3}
-    totalSpriteSurfaceArea: 390645
+    totalSpriteSurfaceArea: 392949
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -210,6 +210,10 @@ SpriteAtlas:
   - {fileID: 21300028, guid: 72ad173523ef347ef9e4e2b1fc6311ab, type: 3}
   - {fileID: 21300030, guid: 72ad173523ef347ef9e4e2b1fc6311ab, type: 3}
   - {fileID: 21300036, guid: 72ad173523ef347ef9e4e2b1fc6311ab, type: 3}
+  - {fileID: 21300002, guid: 35fc091692fe14fd68758705d1b84813, type: 3}
+  - {fileID: 21300000, guid: 35fc091692fe14fd68758705d1b84813, type: 3}
+  - {fileID: 21300006, guid: 35fc091692fe14fd68758705d1b84813, type: 3}
+  - {fileID: 21300004, guid: 35fc091692fe14fd68758705d1b84813, type: 3}
   - {fileID: 21300000, guid: 6a994a7871e7849fdb71a6188b03f1a2, type: 3}
   - {fileID: 21300002, guid: 6a994a7871e7849fdb71a6188b03f1a2, type: 3}
   - {fileID: 21300004, guid: 6a994a7871e7849fdb71a6188b03f1a2, type: 3}
@@ -817,6 +821,10 @@ SpriteAtlas:
   - Forest dungeon_14
   - Forest dungeon_15
   - Forest dungeon_18
+  - ocean cliffs_1
+  - ocean cliffs_0
+  - ocean cliffs_3
+  - ocean cliffs_2
   - Desert 1_0
   - Desert 1_1
   - Desert 1_2
