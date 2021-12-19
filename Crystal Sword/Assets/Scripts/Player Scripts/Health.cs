@@ -55,6 +55,17 @@ public class Health : MonoBehaviour
             health -= damage;
             Debug.Log("Ouch!");    
     }
+
+    public void GetHealth()
+    {
+        if (health > numOfBlocks)
+        {
+            health = numOfBlocks;
+        }
+        else health++;
+        Debug.Log("Gained Health");
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))

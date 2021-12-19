@@ -16,10 +16,12 @@ public class PlayerAttack : MonoBehaviour
     public int damage;
     public bool charged;
     public KnockBack knockBack;
+    public Health health;
 
     private void Start()
     {
         chargeTime = startChargeTime;
+        health = GetComponent<Health>();
     }
 
     private void Update()
@@ -56,6 +58,12 @@ public class PlayerAttack : MonoBehaviour
             Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(transform.position, aoeRange, whatIsEnemy);
             for (int i = 0; i < enemiesToDamage.Length; i++)
             {
+                if (enemiesToDamage[i].GetComponent<EnemyHealth>().isCrystal)
+                {
+                    health.GetHealth();
+                    enemiesToDamage[i].GetComponent<EnemyHealth>().TakeDamage(damage);
+                }
+                else
                 enemiesToDamage[i].GetComponent<EnemyHealth>().TakeDamage(damage);
             }
 
@@ -65,8 +73,6 @@ public class PlayerAttack : MonoBehaviour
             charged = false;
             chargeTime = startChargeTime;
         }
-
-
     }
 
     private void BasicAtk()
@@ -82,9 +88,17 @@ public class PlayerAttack : MonoBehaviour
                 {
                     for (int i = 0; i < enemiesToDamage.Length; i++)
                     {
-                        enemiesToDamage[i].GetComponent<EnemyHealth>().TakeDamage(damage);
-                        Rigidbody2D enemyRB = enemiesToDamage[i].GetComponent<Rigidbody2D>();
-                        knockBack.KnockBackGo(enemyRB);
+                        if (enemiesToDamage[i].GetComponent<EnemyHealth>().isCrystal)
+                        {
+                            health.GetHealth();
+                            enemiesToDamage[i].GetComponent<EnemyHealth>().TakeDamage(damage);
+                        }
+                        else
+                        {
+                            enemiesToDamage[i].GetComponent<EnemyHealth>().TakeDamage(damage);
+                            Rigidbody2D enemyRB = enemiesToDamage[i].GetComponent<Rigidbody2D>();
+                            knockBack.KnockBackGo(enemyRB);
+                        }
                     }
                 }
                 //looks for enemies in range of sword attack and deals damage

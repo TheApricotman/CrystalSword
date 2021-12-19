@@ -5,12 +5,13 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public int health;
+    public bool isCrystal;
 
     private void Update()
     {
         if(health <= 0)
         {
-            Destroy(gameObject);
+            Destroy(gameObject, 0.3f);
         }
     }
 

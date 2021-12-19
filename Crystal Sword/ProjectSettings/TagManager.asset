@@ -12,6 +12,7 @@ TagManager:
   - Hole
   - Interactable
   - Ladder
+  - Breakable
   layers:
   - Default
   - TransparentFX
