@@ -2,21 +2,21 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/PlayerAttack.cs">
     <Files>
       <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="32" Column="43" />
-      <File FileName="Assets/Scripts/DialogManager.cs" Line="20" Column="9" />
-      <File FileName="Assets/Scripts/Sign.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Player Scripts/Health.cs" Line="61" Column="13" />
-      <File FileName="Assets/Scripts/Bullet.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DialogManager.cs" />
+      <File FileName="Assets/Scripts/Sign.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/Health.cs" />
+      <File FileName="Assets/Scripts/Bullet.cs" />
       <File FileName="Assets/Scripts/Player Scripts/InteractSign.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Slime.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Slime.cs" />
       <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" Line="63" Column="38" />
-      <File FileName="Assets/Scripts/Breakable.cs" Line="22" Column="1" />
-      <File FileName="Assets/Scripts/Enemy Scripts/EnemyHealth.cs" Line="24" Column="1" />
+      <File FileName="Assets/Scripts/Breakable.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/EnemyHealth.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9df6205a-1000-41b5-a4cd-b1383845abe5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="21b56a63-c049-431e-8b34-98bf322879b9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
