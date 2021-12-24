@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Random Brush
   m_EditorClassIdentifier: 
   m_Cells:
-  - m_Tile: {fileID: 0}
+  - m_Tile: {fileID: 11400000, guid: d810850357c044cef938c6ec4649ec2c, type: 2}
     m_Matrix:
       e00: 1
       e01: 0
@@ -35,6 +35,16 @@ MonoBehaviour:
   m_Size: {x: 1, y: 1, z: 1}
   m_Pivot: {x: 0, y: 0, z: 0}
   randomTileSetSize: {x: 1, y: 1, z: 1}
-  randomTileSets: []
-  pickRandomTiles: 0
-  addToRandomTiles: 0
+  randomTileSets:
+  - randomTiles:
+    - {fileID: 11400000, guid: 2c92bf36ccf9948d4b9b4fec0b5b7111, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 540db4fd66fb14c2ca8cdee8efba658e, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: e7d6165b9d3ba4564968d73ba5d147e7, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 5eb6ae34439b245f9890479aeb7363a9, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: d810850357c044cef938c6ec4649ec2c, type: 2}
+  pickRandomTiles: 1
+  addToRandomTiles: 1
