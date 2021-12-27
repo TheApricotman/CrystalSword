@@ -8,9 +8,10 @@ public class PlayerMovement : MonoBehaviour
     private float slowSpeed = 2f;
     [SerializeField]
     private Rigidbody2D playerRb;
-    Vector2 movement;
+    public Vector2 movement;
     public Animator anim;
     public VectorValue startPos;
+    private bool stairing;
 
     private void Start()
     {
@@ -36,7 +37,6 @@ public class PlayerMovement : MonoBehaviour
         //if charging AOE attack, limit movement
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("AOE Charge Walk") || anim.GetCurrentAnimatorStateInfo(0).IsName("AOE Ready Walk"))
         {
-            //playerRb.MovePosition(playerRb.position + movement * slowSpeed * Time.fixedDeltaTime);
             playerRb.velocity = movement * slowSpeed;
             Debug.Log("SOOOOO SLOOOOWWW");
         }
@@ -56,8 +56,29 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("Horizontal", movement.x);
             anim.SetFloat("Vertical", movement.y);
         }
+        if (stairing)
+        {
+            movement.y += movement.x;
+            movement = movement.normalized;
+        }
 
         anim.SetFloat("Speed", movement.sqrMagnitude);
     }
-
+ 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        //Checking to see if on stairs, if true, player moves diagonally to go up stairs
+        if (collision.CompareTag("Stair"))
+        {
+            stairing = true;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        //if not on stairs, movement goes back to normal
+        if (collision.CompareTag("Stair"))
+        {
+            stairing = false;
+        }
+    }
 }

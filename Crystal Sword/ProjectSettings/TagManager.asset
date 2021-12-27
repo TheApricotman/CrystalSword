@@ -13,6 +13,7 @@ TagManager:
   - Interactable
   - Ladder
   - Breakable
+  - Stair
   layers:
   - Default
   - TransparentFX
