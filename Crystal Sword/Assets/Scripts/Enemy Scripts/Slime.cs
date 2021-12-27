@@ -11,7 +11,6 @@ public class Slime : Enemy
     public Collider2D bounds;
     private Rigidbody2D rigid;
     private Vector3 directionVector;
-    Vector3 randomDir;
     private bool chasing;
 
 
@@ -23,7 +22,6 @@ public class Slime : Enemy
         rigid = GetComponent<Rigidbody2D>();
         ChangeDirection();
 
-        Vector3 randomDir = new Vector3(Random.Range(-1, 1), Random.Range(-1, 1));
     }
 
     // Update is called once per frame
@@ -99,6 +97,7 @@ public class Slime : Enemy
     {
         //updates animator to reflect movement
         anim.SetFloat("Horizontal", directionVector.x);
+
     }
 
 

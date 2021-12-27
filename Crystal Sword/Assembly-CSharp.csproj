@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\Enemy Scripts\BoundedEnemy.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\Humanoid.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\Slime.cs" />
     <Compile Include="Assets\Scripts\NPC Scripts\BoundedNPC.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\AtkPos.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="Assets\Scripts\Player Scripts\PlayerDash.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerShoot.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\Stairs.cs" />
     <Compile Include="Assets\Scripts\Puzzle Scripts\FireLaser.cs" />
     <Compile Include="Assets\Scripts\Puzzle Scripts\Push.cs" />
     <Compile Include="Assets\Scripts\Puzzle Scripts\PuzzleStartButton.cs" />
