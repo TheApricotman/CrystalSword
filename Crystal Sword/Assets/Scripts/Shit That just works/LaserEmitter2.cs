@@ -1,0 +1,89 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class LaserEmitter2 : MonoBehaviour
+{
+    public LayerMask mask;
+    //this game object's Transform
+    private Transform goTransform;
+    //the attached line renderer
+    private LineRenderer lineRenderer;
+    private Ray ray;
+    //the number of reflections
+    public int nReflections = 5;
+    //max length
+    public float maxLength = 500f;
+    //the number of points at the line renderer
+    public bool win;
+
+    void Awake()
+    {
+        //get the attached Transform component  
+        goTransform = GetComponent<Transform>();
+        //get the attached LineRenderer component  
+        lineRenderer = GetComponent<LineRenderer>();
+        win = false;
+    }
+
+    public void StartPuzzle()
+    {
+        //clamp the number of reflections between 1 and int capacity  
+        nReflections = Mathf.Clamp(nReflections, 1, nReflections);
+        ray = new Ray(goTransform.position, -goTransform.up);
+        //start with just the origin
+        lineRenderer.positionCount = 1;
+        lineRenderer.SetPosition(0, goTransform.position);
+        float remainingLength = maxLength;
+        //bounce up to n times
+        for (int i = 0; i < nReflections; i++)
+        {
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, remainingLength, mask.value);
+            Debug.DrawRay(ray.origin, ray.direction);
+            Debug.Log("I've bounced " + i + "times");
+            // ray cast
+            if (hit)
+            {
+                //we hit, update line renderer
+                lineRenderer.positionCount += 1;
+                lineRenderer.SetPosition(lineRenderer.positionCount - 1, hit.point);
+                // update remaining length and set up ray for next loop
+                remainingLength -= Vector3.Distance(ray.origin, hit.point);
+                if (hit.collider.name == "Mirror 1")
+                {
+                    ray = new Ray(hit.transform.Find("ShootPoint 1").position, hit.transform.Find("ShootPoint 1").transform.up);
+                    Debug.DrawRay(hit.transform.Find("ShootPoint 1").position, hit.transform.Find("ShootPoint 1").transform.up, Color.blue);
+                }
+                if (hit.collider.name == "Mirror 2")
+                {
+                    ray = new Ray(hit.transform.Find("ShootPoint 2").position, hit.transform.Find("ShootPoint 2").transform.up);
+                    Debug.DrawRay(hit.transform.Find("ShootPoint 2").position, hit.transform.Find("ShootPoint 2").transform.up, Color.green);
+                }
+                if (hit.collider.name == "Sword button")
+                {
+                    Debug.Log("You Win with " + i + " reflections");
+                    win = true;
+                    break;
+                }
+
+                // break loop if we don't hit a Mirror
+                if (hit.collider.tag != "Mirror" && !win)
+                {
+                    Debug.Log("You Lose");
+                    
+                    break;
+                }
+            }
+
+            else
+            {
+                // We didn't hit anything, draw line to end of ramainingLength
+                lineRenderer.positionCount += 1;
+                lineRenderer.SetPosition(lineRenderer.positionCount - 1, ray.origin + ray.direction * remainingLength);
+                break;
+            }
+        }
+    }
+}
+
+

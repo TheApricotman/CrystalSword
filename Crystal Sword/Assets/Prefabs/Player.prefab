@@ -237,6 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRb: {fileID: 4230291778806151661}
+  movement: {x: 0, y: 0}
   anim: {fileID: 4230291778806151656}
   startPos: {fileID: 11400000, guid: 0052cd5d3bfc841909aaba050a3122b0, type: 2}
 --- !u!114 &4230291778806151658
@@ -398,15 +399,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4230291778806151571}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11727d94410f746dd94521de9fe2d5ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 2cd414d8bee824dd899031e31c575f6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotate: {fileID: 1683437063, guid: 0d856d189a42f4957a69125eea81c98e, type: 3}
-  push: {fileID: 3674013714293152392, guid: 0d856d189a42f4957a69125eea81c98e, type: 3}
-  laser: {fileID: 0}
-  playerAnim: {fileID: 4230291778806151656}
-  startPuzzle: 0
-  winPuzzle: 0
 --- !u!114 &5289331673621610209
 MonoBehaviour:
   m_ObjectHideFlags: 0
