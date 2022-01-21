@@ -32,7 +32,6 @@ public class PlayerShoot : MonoBehaviour
                 
                 anim.SetTrigger("Shooting");
                 shootTime = startShootTime;
-                Debug.Log("POW!");
                 Instantiate(projectile, atkPos.position, Quaternion.identity);
             }
         }

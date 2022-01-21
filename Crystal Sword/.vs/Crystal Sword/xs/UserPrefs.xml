@@ -1,20 +1,24 @@
 ﻿<Properties StartupConfiguration="{03BB4C41-72D9-511D-695D-00086474B5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PuzzleManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Projectile.cs">
     <Files>
       <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="78" Column="57" />
       <File FileName="Assets/Scripts/Breakable.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Enemy Scripts/EnemyHealth.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Humanoid.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/NPC Scripts/BoundedNPC.cs" />
-      <File FileName="Assets/Scripts/Shit That just works/LaserEmitter2.cs" Line="87" Column="1" />
+      <File FileName="Assets/Scripts/Shit That just works/LaserEmitter2.cs" />
       <File FileName="Assets/Scripts/PuzzleManager.cs" Line="37" Column="17" />
-      <File FileName="Assets/Scripts/Shit That just works/Push.cs" Line="94" Column="41" />
-      <File FileName="Assets/Scripts/Shit That just works/StartPuzzle.cs" Line="8" Column="11" />
+      <File FileName="Assets/Scripts/Shit That just works/Push.cs" />
+      <File FileName="Assets/Scripts/Shit That just works/StartPuzzle.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Turret.cs" Line="10" Column="11" />
+      <File FileName="Assets/Scripts/Bullet.cs" Line="24" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerShoot.cs" Line="34" Column="44" />
+      <File FileName="Assets/Scripts/Projectile.cs" Line="40" Column="6" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Slime.cs" Line="34" Column="10" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Humanoid.cs" Line="31" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7ecb3771-8934-4166-9851-4665fb14a949" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="affbbe0b-af5a-412c-9be4-a5817c98f8d0" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

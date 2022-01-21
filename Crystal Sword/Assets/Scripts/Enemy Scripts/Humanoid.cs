@@ -28,14 +28,14 @@ public class Humanoid : Enemy
     void Update()
     {
 
-
+        CheckDist();
         if (InHome() && !chasing)
         {
             Move();
         }
         else
         {
-            CheckDist();
+            
             GoHome();
         }
 
@@ -131,7 +131,7 @@ public class Humanoid : Enemy
 
     private bool InHome()
     {
-        return (bounds.bounds.Contains(transform.position));
+        return bounds.bounds.Contains(transform.position);
     }
 }
 
