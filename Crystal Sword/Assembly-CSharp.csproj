@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\Enemy Scripts\BoundedEnemy.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\Ghost.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\Humanoid.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\Slime.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\Turret.cs" />
