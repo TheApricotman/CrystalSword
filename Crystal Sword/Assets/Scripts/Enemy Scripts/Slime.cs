@@ -96,7 +96,7 @@ public class Slime : Enemy
     void ChangeAnim()
     {
         //updates animator to reflect movement
-        anim.SetFloat("Horizontal", directionVector.x);
+        anim.SetFloat("Vertical", directionVector.x);
 
     }
 
@@ -108,7 +108,7 @@ public class Slime : Enemy
         if (Vector3.Distance(target.position, transform.position) <= chaseRadius)
         {
             rigid.MovePosition(transform.position + direction * baseSpeed * Time.deltaTime);
-            anim.SetFloat("Horizontal", direction.x);
+            anim.SetFloat("Vertical", direction.x);
             chasing = true;
         }
     }
@@ -119,7 +119,7 @@ public class Slime : Enemy
         if (Vector3.Distance(target.position, transform.position) >= chaseRadius)
         {
             rigid.MovePosition(transform.position + direction * baseSpeed * Time.deltaTime);
-            anim.SetFloat("Horizontal", direction.x);
+            anim.SetFloat("Vertical", direction.x);
             chasing = false;
         }
     }
