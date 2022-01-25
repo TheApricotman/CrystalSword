@@ -86,19 +86,7 @@ public class Ghost : Enemy
         }
     }
 
-    /* private void OnCollisionEnter2D(Collision2D collision)
-     {
 
-         Vector3 temp = directionVector;
-         int loops = 0;
-         ChangeDirection();
-         while (temp == directionVector && loops < 100)
-         {
-             loops++;
-             ChangeDirection();
-         }
-
-     }*/
     void ChangeAnim()
     {
         directionVector = directionVector.normalized;

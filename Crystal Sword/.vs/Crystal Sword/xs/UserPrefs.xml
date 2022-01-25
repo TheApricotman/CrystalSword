@@ -1,21 +1,24 @@
 ﻿<Properties StartupConfiguration="{03BB4C41-72D9-511D-695D-00086474B5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy Scripts/Ghost.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy Scripts/Berserker.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="78" Column="57" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="30" Column="66" />
       <File FileName="Assets/Scripts/Breakable.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/EnemyHealth.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Turret.cs" />
-      <File FileName="Assets/Scripts/Bullet.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerShoot.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/EnemyHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Turret.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Bullet.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerShoot.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Projectile.cs" Line="40" Column="6" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Slime.cs" Line="122" Column="36" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Humanoid.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Ghost.cs" Line="15" Column="21" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Slime.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Humanoid.cs" Line="119" Column="18" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Ghost.cs" Line="89" Column="1" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Berserker.cs" Line="91" Column="10" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ae331b98-5a82-4e88-8c8f-81b8e97f6673" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c01ea6ab-d481-40e6-aa47-59a5414bd230" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

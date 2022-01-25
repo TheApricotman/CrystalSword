@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\Dialog.cs" />
     <Compile Include="Assets\Scripts\DialogManager.cs" />
     <Compile Include="Assets\Scripts\DialogTrigger.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\Berserker.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\BoundedEnemy.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\EnemyHealth.cs" />
