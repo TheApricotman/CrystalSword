@@ -19,6 +19,8 @@ public class Berserker : Enemy
     [SerializeField]
     private LayerMask walls;
     private float speedReset;
+    [SerializeField]
+    private GameObject trail;
 
 
     // Start is called before the first frame update
@@ -34,15 +36,6 @@ public class Berserker : Enemy
     void Update()
     {
         CheckDist();
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack") && collision.gameObject.CompareTag("Wall"))
-        {
-            //anim.SetBool("KnockedOut", true);
-          
-        }
     }
 
     IEnumerator KnockedCount(float seconds)
@@ -71,12 +64,13 @@ public class Berserker : Enemy
     void Charge()
     {
         WallCheck();
+        trail.SetActive(true);
         Vector3 direction = target.position - transform.position;
         direction = direction.normalized;
         rigid.MovePosition(transform.position + direction * baseSpeed);
         baseSpeed = speedReset;
-
     }
+
     private void WallCheck()
     {
         Vector3 direction = target.position - transform.position;

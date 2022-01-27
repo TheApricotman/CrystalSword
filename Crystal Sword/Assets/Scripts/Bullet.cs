@@ -10,6 +10,8 @@ public class Bullet : MonoBehaviour
     private Animator playerAnim;
     [SerializeField]
     private Rigidbody2D bulletRB;
+    [SerializeField]
+    private int damage;
 
     private void Start()
     {
@@ -26,6 +28,12 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Wall"))
         {
+            Destroy(gameObject);
+        }
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            collision.GetComponent<EnemyHealth>().TakeDamage(damage);
             Destroy(gameObject);
         }
     }

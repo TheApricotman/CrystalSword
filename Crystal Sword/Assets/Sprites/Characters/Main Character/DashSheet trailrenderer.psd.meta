@@ -26,6 +26,10 @@ TextureImporter:
     21300042: DashSheet trailrenderer_21
     21300044: DashSheet trailrenderer_22
     21300046: trail East
+    21300048: DashSheet trailrenderer_5
+    21300050: DashSheet trailrenderer_11
+    21300052: DashSheet trailrenderer_17
+    21300054: DashSheet trailrenderer_23
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -104,14 +108,14 @@ TextureImporter:
         y: 235
         width: 37
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.35135135, y: 0.083333336}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f5c37f889d9c4ba4be526fd946ab6b1
+      spriteID: 0e6f2efa5b39e493f8899d9f5e57d437
       vertices: []
       indices: 
       edges: []
@@ -124,14 +128,14 @@ TextureImporter:
         y: 212
         width: 45
         height: 57
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.2888889, y: 0.45614034}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46dcb46aa026047cab3baba8e37b2326
+      spriteID: 449ba63e383fa40ebb65d340026b9daa
       vertices: []
       indices: 
       edges: []
@@ -144,14 +148,14 @@ TextureImporter:
         y: 212
         width: 25
         height: 57
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.52, y: 0.45614034}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcc826628d9fb46e38b212e5a1872431
+      spriteID: 589fb8a26a94440ccbddd388f41a2f9b
       vertices: []
       indices: 
       edges: []
@@ -164,14 +168,14 @@ TextureImporter:
         y: 212
         width: 25
         height: 57
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.52, y: 0.45614034}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd1ac0ff314f74ca79c6bd664967c826
+      spriteID: ed9ea63922b914591ae704bf5afe69d5
       vertices: []
       indices: 
       edges: []
@@ -184,34 +188,34 @@ TextureImporter:
         y: 212
         width: 25
         height: 57
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.52, y: 0.45614034}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8eb299678c3d4e63bb4f7d62003fe3b
+      spriteID: 0624ea0d6ab2e4e799fe1efbd9efc347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trail South
+      name: DashSheet trailrenderer_5
       rect:
         serializedVersion: 2
         x: 288
         y: 235
         width: 24
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.0882353}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b113a7e8015649278d96b6ab7b3c7cd
+      spriteID: f3968871daa0347f980650a329ffef5f
       vertices: []
       indices: 
       edges: []
@@ -224,14 +228,14 @@ TextureImporter:
         y: 146
         width: 26
         height: 53
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3584906}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3a14a8f178a548889abe0705bf2ad85
+      spriteID: 0bfc54ba943b2461786d9d230a1de880
       vertices: []
       indices: 
       edges: []
@@ -244,14 +248,14 @@ TextureImporter:
         y: 134
         width: 47
         height: 65
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.7446808, y: 0.47692308}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51622373ea5604adf8fbfbd5ea45f2c5
+      spriteID: 9806e8fef27704af6a04b5863d9dac23
       vertices: []
       indices: 
       edges: []
@@ -264,14 +268,14 @@ TextureImporter:
         y: 163
         width: 47
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.7446808, y: 0.055555556}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2249f338928064527b6e26cced057cf0
+      spriteID: 2115732fc3d274c9ca97a4dfa2e207e5
       vertices: []
       indices: 
       edges: []
@@ -284,14 +288,14 @@ TextureImporter:
         y: 163
         width: 47
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.7446808, y: 0.055555556}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea92e11715a1c4e30a059fd17992ce1e
+      spriteID: 9a1280fbae8ac4a27881494296c723df
       vertices: []
       indices: 
       edges: []
@@ -304,34 +308,34 @@ TextureImporter:
         y: 163
         width: 47
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.7446808, y: 0.055555556}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16713703bacdb4f9a928a0184aaeb97d
+      spriteID: 9bae68ff2361f4b9bbb78ab5c6ab98d1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trail West
+      name: DashSheet trailrenderer_11
       rect:
         serializedVersion: 2
-        x: 288
+        x: 289
         y: 163
-        width: 24
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 23
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.055555556}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9a9bcb2909044ed2b213620793dcb96
+      spriteID: 0325e82c1c45741b49120988859a691b
       vertices: []
       indices: 
       edges: []
@@ -344,14 +348,14 @@ TextureImporter:
         y: 91
         width: 37
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6486487, y: 0.083333336}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06fcd3024fa7b4699b7f5f78dc1158e7
+      spriteID: 993f5adfb4caa4fd99df443252cc2f78
       vertices: []
       indices: 
       edges: []
@@ -364,14 +368,14 @@ TextureImporter:
         y: 91
         width: 45
         height: 46
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.7111111, y: 0.06521739}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7de0d2bd742f64d2f83f78e523d8d624
+      spriteID: 1892a035296e24a9781eecf535bd371a
       vertices: []
       indices: 
       edges: []
@@ -384,14 +388,14 @@ TextureImporter:
         y: 91
         width: 26
         height: 46
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06521739}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15595f07f05b345d5bc97b1f9c83d5ce
+      spriteID: b7868811ebdf2476384cd1a928b66288
       vertices: []
       indices: 
       edges: []
@@ -404,14 +408,14 @@ TextureImporter:
         y: 91
         width: 26
         height: 46
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06521739}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acc6412e16ead4ab18ec335cef5fca5b
+      spriteID: b7e40e4ed2da5474ab64426c91c1c0c4
       vertices: []
       indices: 
       edges: []
@@ -424,34 +428,34 @@ TextureImporter:
         y: 91
         width: 26
         height: 46
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06521739}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b43032cc0be6c4e96a422433b7308e73
+      spriteID: 89c93812cce364d8085c4ea85556f828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trail North
+      name: DashSheet trailrenderer_17
       rect:
         serializedVersion: 2
         x: 312
         y: 91
         width: 24
         height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.08108108}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4d30cde023aa47059b81268f195b6e8
+      spriteID: 24e3a589f2f2a4f849e01eff25a2b35e
       vertices: []
       indices: 
       edges: []
@@ -464,14 +468,14 @@ TextureImporter:
         y: 19
         width: 27
         height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.05263158}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8209e57e561ec4093bef7dc569c0c27b
+      spriteID: a4718d21be2db4127bb90f49c3ca7876
       vertices: []
       indices: 
       edges: []
@@ -484,14 +488,14 @@ TextureImporter:
         y: 19
         width: 48
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.27083334, y: 0.041666668}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a73a4af57eae04df28f1e6adfe57844c
+      spriteID: 2e44d0c4f555a4da58de0598fd51be1d
       vertices: []
       indices: 
       edges: []
@@ -504,14 +508,14 @@ TextureImporter:
         y: 19
         width: 48
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.055555556}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62083f71b045d4da0b6e7ab950d813e6
+      spriteID: c3bbba09720314a578e4f5c44241f91d
       vertices: []
       indices: 
       edges: []
@@ -524,14 +528,14 @@ TextureImporter:
         y: 19
         width: 48
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.055555556}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d21c1145fb99141258654b193eca3340
+      spriteID: e31885019feff47d1823ecf58ce75316
       vertices: []
       indices: 
       edges: []
@@ -544,34 +548,34 @@ TextureImporter:
         y: 19
         width: 48
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.055555556}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e223faaf0f2e04b94b9f45abe977ae3f
+      spriteID: 7c7a1d8966c544298ba932009499cb4b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trail East
+      name: DashSheet trailrenderer_23
       rect:
         serializedVersion: 2
         x: 288
         y: 19
-        width: 24
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 23
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.055555556}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 839e652ac830a41e5a82d3b3aa57fd9c
+      spriteID: d15414a5f725f4275af493528b3a39a6
       vertices: []
       indices: 
       edges: []

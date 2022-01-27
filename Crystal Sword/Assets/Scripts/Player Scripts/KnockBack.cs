@@ -7,7 +7,7 @@ public class KnockBack : MonoBehaviour
     public float thrust;
     public float knockTime;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+   /* private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
@@ -21,7 +21,7 @@ public class KnockBack : MonoBehaviour
                 StartCoroutine(KnockCo(enemy));
             }
         }
-    }
+    }*/
     public void KnockBackGo(Rigidbody2D enemy)
     {
         if (enemy != null)
@@ -38,8 +38,8 @@ public class KnockBack : MonoBehaviour
     {
         if (enemy != null)
         {
-            yield return new WaitForSeconds(knockTime);
             enemy.velocity = Vector2.zero;
+            yield return new WaitForSeconds(knockTime);          
             enemy.isKinematic = true;
         } 
     }
