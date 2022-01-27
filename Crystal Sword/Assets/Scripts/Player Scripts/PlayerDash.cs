@@ -6,7 +6,7 @@ public class PlayerDash : MonoBehaviour
 {
     public Animator anim;
     public Rigidbody2D playerRb;
-    public GameObject ghostTrail;
+    public GameObject trail;
     private RaycastHit2D hit;
     [SerializeField] private LayerMask walls;
     private Vector2 direction;
@@ -39,7 +39,7 @@ public class PlayerDash : MonoBehaviour
                 WallCheck();
                 anim.SetTrigger("Dashing");
                 playerRb.MovePosition(playerRb.position + direction * dashSpeed);
-
+                trail.SetActive(true);
 
                 dashTime = startDashTime;
             }

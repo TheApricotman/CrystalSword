@@ -108,6 +108,7 @@
     <Compile Include="Assets\Scripts\SceneTransition.cs" />
     <Compile Include="Assets\Scripts\Scriptable Objects\VectorValue.cs" />
     <Compile Include="Assets\Scripts\Sign.cs" />
+    <Compile Include="Assets\Scripts\TrailDisable.cs" />
     <None Include="Assets\2d-extras-2018.3\Assets\Tilemap\Tiles\Rule Tile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
     <None Include="Assets\2d-extras-2018.3\Assets\Tilemap\Brushes\Tint Brush Smooth\Shaders\TintedTilemap.shader" />
     <Reference Include="Cinemachine">
