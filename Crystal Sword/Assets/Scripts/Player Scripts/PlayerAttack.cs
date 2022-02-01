@@ -80,7 +80,7 @@ public class PlayerAttack : MonoBehaviour
         if (atkWait <= 0)
         //checks timer to see if player can attack
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.E))
             {
                 anim.SetTrigger("Attack");
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(atkPos.position, atkRange, whatIsEnemy);
