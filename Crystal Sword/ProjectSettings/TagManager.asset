@@ -13,7 +13,8 @@ TagManager:
   - Interactable
   - Ladder
   - Breakable
-  - Stair
+  - StairLeft
+  - StairRight
   layers:
   - Default
   - TransparentFX
