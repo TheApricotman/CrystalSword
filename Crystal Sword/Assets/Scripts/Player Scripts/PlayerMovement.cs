@@ -11,7 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 movement;
     public Animator anim;
     public VectorValue startPos;
-    private bool stairing;
+    private bool stairLeft;
+    private bool stairRight;
 
     private void Start()
     {
@@ -56,9 +57,15 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("Horizontal", movement.x);
             anim.SetFloat("Vertical", movement.y);
         }
-        if (stairing)
+        if (stairRight)
+        {        
+                movement.y += movement.x;
+                movement = movement.normalized;            
+        }
+
+        if (stairLeft)
         {
-            movement.y += movement.x;
+            movement.y -= movement.x;
             movement = movement.normalized;
         }
 
@@ -68,17 +75,25 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
         //Checking to see if on stairs, if true, player moves diagonally to go up stairs
-        if (collision.CompareTag("Stair"))
+        if (collision.CompareTag("StairRight"))
         {
-            stairing = true;
+            stairRight = true;
+        }
+        if (collision.CompareTag("StairLeft"))
+        {
+            stairLeft = true;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         //if not on stairs, movement goes back to normal
-        if (collision.CompareTag("Stair"))
+        if (collision.CompareTag("StairRight"))
         {
-            stairing = false;
+            stairRight = false;
+        }
+        if (collision.CompareTag("StairLeft"))
+        {
+            stairLeft = false;
         }
     }
 }
