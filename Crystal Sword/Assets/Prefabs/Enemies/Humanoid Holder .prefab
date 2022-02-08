@@ -182,7 +182,6 @@ MonoBehaviour:
   baseAtk: 1
   homePos: {fileID: 8437626597046107894}
   chaseRadius: 5
-  bounds: {fileID: 8437626598852764605}
 --- !u!1 &8437626598852764595
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,7 +194,7 @@ GameObject:
   - component: {fileID: 8437626598852764606}
   - component: {fileID: 8437626598852764605}
   m_Layer: 0
-  m_Name: NPC Bounds
+  m_Name: Bounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -208,8 +207,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8437626598852764595}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.35, y: 1.119, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.3499999, y: 1.119, z: 0}
   m_LocalScale: {x: 8.30863, y: 5.345671, z: 1}
   m_Children: []
   m_Father: {fileID: 8437626599053933485}

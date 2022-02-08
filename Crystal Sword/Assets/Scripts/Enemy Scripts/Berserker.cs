@@ -6,15 +6,10 @@ public class Berserker : Enemy
 {
     //Berserker idles until player in range, goes to attack mode and flies straight at player, requiring player to dodge.
     //if berserker hits wall in attack mode, goes to recovery mode where it stays until hit or after certain amount of time
-    private Transform target;
-    [SerializeField]
-    private float chaseRadius;
     [SerializeField]
     private float atkRadius;
     [SerializeField]
     private float knockTimer;
-    private Animator anim;
-    private Rigidbody2D rigid;
     private RaycastHit2D hit;
     [SerializeField]
     private LayerMask walls;
@@ -24,16 +19,14 @@ public class Berserker : Enemy
 
 
     // Start is called before the first frame update
-    void Start()
+    protected override void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
-        anim = GetComponent<Animator>();
-        rigid = GetComponent<Rigidbody2D>();
+        Init();
         speedReset = baseSpeed;
     }
 
     // Update is called once per frame
-    void Update()
+   protected override void Update()
     {
         CheckDist();
     }
@@ -45,7 +38,7 @@ public class Berserker : Enemy
         anim.SetBool("AttackMode", false);
     }
 
-    void CheckDist()
+    protected override void CheckDist()
     {
         Vector3 direction = target.position - transform.position;
         direction = direction.normalized;
@@ -61,7 +54,7 @@ public class Berserker : Enemy
         else anim.SetBool("AttackMode", false);
     }
 
-    void Charge()
+    private void Charge()
     {
         WallCheck();
         trail.SetActive(true);
