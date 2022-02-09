@@ -5941,6 +5941,12 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &722936939 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4230291779453088379, guid: 73038eceb38eb4944953a41530fe85b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4230291778005754540}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &827998223
 GameObject:
   m_ObjectHideFlags: 0
@@ -25673,6 +25679,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1533472570 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1212743210, guid: 73038eceb38eb4944953a41530fe85b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4230291778005754540}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db8a8d9ace215477cbf51200cb29f707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1533472571 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4230291778806151659, guid: 73038eceb38eb4944953a41530fe85b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4230291778005754540}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1e4ef91ef4c42898115cf88d658489, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1534990782
 GameObject:
   m_ObjectHideFlags: 0
@@ -54661,6 +54691,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230291778806151652, guid: 73038eceb38eb4944953a41530fe85b8,
+        type: 3}
+      propertyPath: whatIsEnemy.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230291778806151652, guid: 73038eceb38eb4944953a41530fe85b8,
+        type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 1533472571}
+    - target: {fileID: 4230291778806151652, guid: 73038eceb38eb4944953a41530fe85b8,
+        type: 3}
+      propertyPath: damage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230291778806151652, guid: 73038eceb38eb4944953a41530fe85b8,
+        type: 3}
+      propertyPath: knockBack
+      value: 
+      objectReference: {fileID: 1533472570}
+    - target: {fileID: 4230291778806151652, guid: 73038eceb38eb4944953a41530fe85b8,
+        type: 3}
+      propertyPath: atkPos
+      value: 
+      objectReference: {fileID: 722936939}
+    - target: {fileID: 4230291778806151652, guid: 73038eceb38eb4944953a41530fe85b8,
+        type: 3}
+      propertyPath: atkRange
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4230291778806151659, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}

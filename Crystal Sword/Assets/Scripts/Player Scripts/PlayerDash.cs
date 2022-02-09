@@ -9,11 +9,18 @@ public class PlayerDash : MonoBehaviour
     public GameObject trail;
     private RaycastHit2D hit;
     [SerializeField] private LayerMask walls;
+    [SerializeField] private LayerMask whatIsEnemy;
     private Vector2 direction;
     private float dashTime;
     public float startDashTime;
     private float dashSpeed;
     public float startDashSpeed;
+    public Health health;
+    public int damage;
+    public KnockBack knockBack;
+    public float atkRange;
+    public Transform atkPos;
+
 
     // Update is called once per frame
     void Update()
@@ -41,11 +48,29 @@ public class PlayerDash : MonoBehaviour
                 playerRb.MovePosition(playerRb.position + direction * dashSpeed);
                 trail.SetActive(true);
 
-                dashTime = startDashTime;
+                Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(atkPos.position, atkRange, whatIsEnemy);
+                if (enemiesToDamage != null)
+                {
+                    for (int i = 0; i < enemiesToDamage.Length; i++)
+                    {
+                        if (enemiesToDamage[i].GetComponent<Enemy>().isCrystal)
+                        {
+                            health.GetHealth();
+                            enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
+                        }
+                        else
+                        {
+                            enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
+                            Rigidbody2D enemyRB = enemiesToDamage[i].GetComponent<Rigidbody2D>();
+                            knockBack.KnockBackGo(enemyRB);
+                        }
+                        dashTime = startDashTime;
+                    }
+                }
+                else dashTime -= Time.deltaTime;
+                dashSpeed = startDashSpeed;
             }
         }
-        else dashTime -= Time.deltaTime;
-        dashSpeed = startDashSpeed;
     }
 
     private void WallCheck()
@@ -58,5 +83,6 @@ public class PlayerDash : MonoBehaviour
         }
         else dashSpeed = startDashSpeed;
     }
-
 }
+
+
