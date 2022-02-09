@@ -2,26 +2,26 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy Scripts/Enemy.cs">
     <Files>
       <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="96" Column="22" />
-      <File FileName="Assets/Scripts/Breakable.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/EnemyHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Breakable.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemy Scripts/EnemyHealth.cs" Line="20" Column="26" />
       <File FileName="Assets/Scripts/Bullet.cs" />
       <File FileName="Assets/Scripts/Player Scripts/PlayerShoot.cs" />
-      <File FileName="Assets/Scripts/Projectile.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Projectile.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" Line="64" Column="27" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" Line="97" Column="26" />
       <File FileName="Assets/Scripts/Player Scripts/KnockBack.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/Stairs.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Slime.cs" Line="6" Column="2" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" Line="29" Column="11" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Berserker.cs" Line="22" Column="15" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Humanoid.cs" Line="8" Column="2" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Ghost.cs" Line="40" Column="6" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Turret.cs" Line="35" Column="42" />
+      <File FileName="Assets/Scripts/Player Scripts/Stairs.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Slime.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" Line="51" Column="1" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Berserker.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Humanoid.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Ghost.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Turret.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="89b94f92-9817-4760-b76f-0e57260257ea" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="078b7c96-8072-4461-b369-3c2f639b1b85" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

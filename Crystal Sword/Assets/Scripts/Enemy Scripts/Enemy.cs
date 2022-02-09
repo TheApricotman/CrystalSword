@@ -23,6 +23,7 @@ public abstract class Enemy : MonoBehaviour
     protected Rigidbody2D rigid;
     protected Vector3 directionVector;
     protected bool chasing;
+    public bool isCrystal;
 
     protected virtual void Start()
     {
@@ -48,7 +49,18 @@ public abstract class Enemy : MonoBehaviour
             GoHome();
         }
 
+        if (health <= 0)
+        {
+            Destroy(gameObject, 0.3f);
+        }
     }
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+        Debug.Log("Hit!");
+    }
+
     protected void ChangeDirection()
     {
         //Switch statement to choose a direction to move in

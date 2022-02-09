@@ -58,13 +58,13 @@ public class PlayerAttack : MonoBehaviour
             Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(transform.position, aoeRange, whatIsEnemy);
             for (int i = 0; i < enemiesToDamage.Length; i++)
             {
-                if (enemiesToDamage[i].GetComponent<EnemyHealth>().isCrystal)
+                if (enemiesToDamage[i].GetComponent<Enemy>().isCrystal)
                 {
                     health.GetHealth();
-                    enemiesToDamage[i].GetComponent<EnemyHealth>().TakeDamage(damage);
+                    enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
                 }
                 else
-                enemiesToDamage[i].GetComponent<EnemyHealth>().TakeDamage(damage);
+                enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
             }
 
             anim.SetTrigger("Release");
@@ -80,7 +80,7 @@ public class PlayerAttack : MonoBehaviour
         if (atkWait <= 0)
         //checks timer to see if player can attack
         {
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 anim.SetTrigger("Attack");
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(atkPos.position, atkRange, whatIsEnemy);
@@ -88,14 +88,14 @@ public class PlayerAttack : MonoBehaviour
                 {
                     for (int i = 0; i < enemiesToDamage.Length; i++)
                     {
-                        if (enemiesToDamage[i].GetComponent<EnemyHealth>().isCrystal)
+                        if (enemiesToDamage[i].GetComponent<Enemy>().isCrystal)
                         {
                             health.GetHealth();
-                            enemiesToDamage[i].GetComponent<EnemyHealth>().TakeDamage(damage);
+                            enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
                         }
                         else
                         {
-                            enemiesToDamage[i].GetComponent<EnemyHealth>().TakeDamage(damage);
+                            enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
                             Rigidbody2D enemyRB = enemiesToDamage[i].GetComponent<Rigidbody2D>();
                             knockBack.KnockBackGo(enemyRB);
                         }
