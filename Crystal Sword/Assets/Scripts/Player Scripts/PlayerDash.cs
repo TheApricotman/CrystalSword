@@ -53,24 +53,25 @@ public class PlayerDash : MonoBehaviour
                 {
                     for (int i = 0; i < enemiesToDamage.Length; i++)
                     {
-                        if (enemiesToDamage[i].GetComponent<Enemy>().isCrystal)
+                        if (enemiesToDamage[i].GetComponent<IDamageable>().IsCrystal)
                         {
                             health.GetHealth();
-                            enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
+                            enemiesToDamage[i].GetComponent<IDamageable>().Damage(damage);
                         }
                         else
                         {
-                            enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
+                            enemiesToDamage[i].GetComponent<IDamageable>().Damage(damage);
                             Rigidbody2D enemyRB = enemiesToDamage[i].GetComponent<Rigidbody2D>();
                             knockBack.KnockBackGo(enemyRB);
                         }
                         dashTime = startDashTime;
                     }
                 }
-                else dashTime -= Time.deltaTime;
-                dashSpeed = startDashSpeed;
+                
             }
         }
+        else dashTime -= Time.deltaTime;
+        dashSpeed = startDashSpeed;
     }
 
     private void WallCheck()

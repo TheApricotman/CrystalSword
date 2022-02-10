@@ -6041,12 +6041,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 109990101051767465}
   m_PrefabAsset: {fileID: 0}
---- !u!61 &1104222691 stripped
-BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 8437626598852764605, guid: 5bac206e110f2483a8ef6b565501a848,
-    type: 3}
-  m_PrefabInstance: {fileID: 1435765480715427283}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1126467853 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8528575387976258194, guid: e39c6ae2c5454456fbc1a29b466c49c3,
@@ -6128,12 +6122,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e515f65e3530f457189d1f04294873a8, type: 3}
---- !u!4 &1200915943 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1276662478976533109, guid: f9ea4938d270947c7893020c556a955e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1484264262568845570}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1239033823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54131,6 +54119,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthCrystal (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5820744548358580358, guid: 3164439f5b5bc43cfbdc7aa06bd54381,
+        type: 3}
+      propertyPath: enemyName
+      value: Crystal
+      objectReference: {fileID: 0}
+    - target: {fileID: 5820744548358580358, guid: 3164439f5b5bc43cfbdc7aa06bd54381,
+        type: 3}
+      propertyPath: health
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3164439f5b5bc43cfbdc7aa06bd54381, type: 3}
 --- !u!1001 &1198136009665647144
@@ -54209,21 +54207,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1516489904}
     m_Modifications:
-    - target: {fileID: 8437626597046107892, guid: 5bac206e110f2483a8ef6b565501a848,
-        type: 3}
-      propertyPath: homePos
-      value: 
-      objectReference: {fileID: 7418736691295174255}
-    - target: {fileID: 8437626597046107892, guid: 5bac206e110f2483a8ef6b565501a848,
-        type: 3}
-      propertyPath: bounds
-      value: 
-      objectReference: {fileID: 1104222691}
-    - target: {fileID: 8437626598852764595, guid: 5bac206e110f2483a8ef6b565501a848,
-        type: 3}
-      propertyPath: m_Name
-      value: Bounds
-      objectReference: {fileID: 0}
     - target: {fileID: 8437626599053933484, guid: 5bac206e110f2483a8ef6b565501a848,
         type: 3}
       propertyPath: m_Name
@@ -54293,16 +54276,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1516489904}
     m_Modifications:
-    - target: {fileID: 1276662478976533109, guid: f9ea4938d270947c7893020c556a955e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.19
-      objectReference: {fileID: 0}
-    - target: {fileID: 1276662478976533109, guid: f9ea4938d270947c7893020c556a955e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2727346665380167555, guid: f9ea4938d270947c7893020c556a955e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54363,11 +54336,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret Enemy
       objectReference: {fileID: 0}
-    - target: {fileID: 3900683470342987349, guid: f9ea4938d270947c7893020c556a955e,
-        type: 3}
-      propertyPath: shootPoint
-      value: 
-      objectReference: {fileID: 1200915943}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9ea4938d270947c7893020c556a955e, type: 3}
 --- !u!1001 &2859608997135686149
@@ -54609,7 +54577,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost Holder
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 881155028247744017, guid: dfd3b66a329b94c38a9456fea39409f7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dfd3b66a329b94c38a9456fea39409f7, type: 3}
 --- !u!1001 &3980092662685217319
 PrefabInstance:
@@ -54618,6 +54587,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827998224}
     m_Modifications:
+    - target: {fileID: 1051261474268853048, guid: 590adf9fd302b4620a85a0c4c0a24480,
+        type: 3}
+      propertyPath: enemyName
+      value: Crystal
+      objectReference: {fileID: 0}
+    - target: {fileID: 1051261474268853048, guid: 590adf9fd302b4620a85a0c4c0a24480,
+        type: 3}
+      propertyPath: health
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3980092661711192434, guid: 590adf9fd302b4620a85a0c4c0a24480,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54896,6 +54875,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6671331512206355802, guid: a3dc3b51f7dfc464aba758540b2c80c1,
+        type: 3}
+      propertyPath: enemyName
+      value: friend
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671331512206355802, guid: a3dc3b51f7dfc464aba758540b2c80c1,
+        type: 3}
+      propertyPath: health
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3dc3b51f7dfc464aba758540b2c80c1, type: 3}
 --- !u!1001 &4293165632602367705
@@ -54965,7 +54954,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Berserker
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8533761310715801120, guid: 2c8de20e20a674c4895fbd17cc335f24, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2c8de20e20a674c4895fbd17cc335f24, type: 3}
 --- !u!4 &5618911062452734149 stripped
 Transform:
@@ -55201,12 +55191,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9791fb59238e43f2a64814bf1a6289c, type: 3}
---- !u!4 &7418736691295174255 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8437626598852764604, guid: 5bac206e110f2483a8ef6b565501a848,
-    type: 3}
-  m_PrefabInstance: {fileID: 1435765480715427283}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7593482647276561800
 PrefabInstance:
   m_ObjectHideFlags: 0

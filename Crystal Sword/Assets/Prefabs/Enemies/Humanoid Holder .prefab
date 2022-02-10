@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8437626597046107894}
   - component: {fileID: 8437626597046107890}
   - component: {fileID: 8437626597046107889}
-  - component: {fileID: 8424820372326265654}
   - component: {fileID: 8437626597046107888}
   - component: {fileID: 8437626597046107895}
   - component: {fileID: 8437626597046107892}
@@ -103,20 +102,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8424820372326265654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8437626597046107893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 374dceb5ac04b4fcaa2a47202af47a69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 3
-  isCrystal: 0
 --- !u!50 &8437626597046107888
 Rigidbody2D:
   serializedVersion: 4
@@ -180,8 +165,10 @@ MonoBehaviour:
   baseSpeed: 4
   health: 3
   baseAtk: 1
-  homePos: {fileID: 8437626597046107894}
+  homePos: {fileID: 8437626598852764604}
   chaseRadius: 5
+  bounds: {fileID: 8437626598852764605}
+  isCrystal: 0
 --- !u!1 &8437626598852764595
 GameObject:
   m_ObjectHideFlags: 0
