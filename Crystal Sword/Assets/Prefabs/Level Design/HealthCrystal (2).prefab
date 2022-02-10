@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 109990102122326390}
   - component: {fileID: 109990102122326391}
   - component: {fileID: 109990102122326388}
-  - component: {fileID: 109990102122326389}
+  - component: {fileID: 5820744548358580358}
   m_Layer: 8
   m_Name: HealthCrystal (2)
   m_TagString: Breakable
@@ -99,7 +99,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1, y: 1.25}
+    oldSize: {x: 1, y: 1.2916666}
     newSize: {x: 0.9583333, y: 1.2916666}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68e864a89df3b4476bfc9504fd8a39af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &109990102122326389
+--- !u!114 &5820744548358580358
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,8 +129,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 109990102122326386}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 374dceb5ac04b4fcaa2a47202af47a69, type: 3}
+  m_Script: {fileID: 11500000, guid: 835bc93e6c26d49b988a539992d18ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  enemyName: 
+  baseSpeed: 0
+  health: 0
+  baseAtk: 0
+  homePos: {fileID: 0}
+  chaseRadius: 0
+  bounds: {fileID: 0}
   isCrystal: 1

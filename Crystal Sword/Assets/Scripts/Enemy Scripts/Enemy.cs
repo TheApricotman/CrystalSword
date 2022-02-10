@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Enemy : MonoBehaviour
+public abstract class Enemy : MonoBehaviour, IDamageable
 {//Stores all basic enemy behaviors, chasing, idling etc, individual enemy actions stored in derived class named after enemy
     [SerializeField]
     private string enemyName;
@@ -25,6 +25,9 @@ public abstract class Enemy : MonoBehaviour
     protected bool chasing;
     public bool isCrystal;
 
+    public int Health { get; set; }
+    public bool IsCrystal { get; set; }
+
     protected virtual void Start()
     {
         Init();
@@ -35,6 +38,7 @@ public abstract class Enemy : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         rigid = GetComponentInChildren<Rigidbody2D>();
         ChangeDirection();
+        Health = health;
     }
 
     protected virtual void Update()
@@ -47,18 +51,17 @@ public abstract class Enemy : MonoBehaviour
         else
         {
             GoHome();
-        }
+        }  
+    }
+
+    public void Damage(int damage)
+    {
+        health -= damage;
 
         if (health <= 0)
         {
             Destroy(gameObject, 0.3f);
         }
-    }
-
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-        Debug.Log("Hit!");
     }
 
     protected void ChangeDirection()

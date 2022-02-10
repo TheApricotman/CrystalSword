@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3980092661711192435}
   - component: {fileID: 3980092661711192436}
   - component: {fileID: 3980092661711192437}
-  - component: {fileID: 3980092661711192438}
+  - component: {fileID: 1051261474268853048}
   m_Layer: 8
   m_Name: HealthCrystal (1)
   m_TagString: Breakable
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68e864a89df3b4476bfc9504fd8a39af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3980092661711192438
+--- !u!114 &1051261474268853048
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,8 +129,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3980092661711192439}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 374dceb5ac04b4fcaa2a47202af47a69, type: 3}
+  m_Script: {fileID: 11500000, guid: 835bc93e6c26d49b988a539992d18ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
-  isCrystal: 1
