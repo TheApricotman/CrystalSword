@@ -505,8 +505,16 @@ MonoBehaviour:
   walls:
     serializedVersion: 2
     m_Bits: 2048
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 0
   startDashTime: 0.5
   startDashSpeed: 3
+  health: {fileID: 0}
+  damage: 0
+  knockBack: {fileID: 0}
+  atkRange: 0
+  atkPos: {fileID: 0}
 --- !u!114 &4230291778806151653
 MonoBehaviour:
   m_ObjectHideFlags: 0

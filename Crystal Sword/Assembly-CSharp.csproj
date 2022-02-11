@@ -90,6 +90,7 @@
     <Compile Include="Assets\Scripts\Enemy Scripts\Turret.cs" />
     <Compile Include="Assets\Scripts\IDamageable.cs" />
     <Compile Include="Assets\Scripts\NPC Scripts\BoundedNPC.cs" />
+    <Compile Include="Assets\Scripts\ParallaxBG.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\AtkPos.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FallinHoles.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Health.cs" />

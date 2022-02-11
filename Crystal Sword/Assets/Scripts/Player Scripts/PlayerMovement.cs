@@ -83,9 +83,33 @@ public class PlayerMovement : MonoBehaviour
         {
             stairLeft = true;
         }
+
+        //if near a ladder, snaps to center of ladder and only allows up and down movement
+        if (collision.CompareTag("Ladder"))
+        {
+            float ladderCenter = collision.transform.position.x;
+
+            transform.position = new Vector3(ladderCenter, transform.position.y, 0);
+            movement.x = 0;
+            anim.SetBool("Climbing", true);
+            if (movement == Vector2.zero)
+            {
+                anim.speed = 0;
+            }
+            else anim.speed = 1;
+        }
+
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
+        if (collision.CompareTag("Ladder"))
+        {
+            movement.y = Input.GetAxisRaw("Vertical");
+            anim.SetBool("Climbing", false);
+            anim.speed = 1;
+        }
+
         //if not on stairs, movement goes back to normal
         if (collision.CompareTag("StairRight"))
         {
