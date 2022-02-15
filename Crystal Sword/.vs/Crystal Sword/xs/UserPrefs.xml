@@ -1,30 +1,30 @@
 ﻿<Properties StartupConfiguration="{03BB4C41-72D9-511D-695D-00086474B5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ParallaxBG.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy Scripts/Berserker.cs">
     <Files>
+      <File FileName="Assets/Scripts/Player Scripts/KnockBack.cs" Line="9" Column="1" IsPinned="True" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" Line="101" Column="64" />
       <File FileName="Assets/Scripts/Projectile.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Breakable.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="93" Column="23" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="41" Column="55" />
       <File FileName="Assets/Scripts/Bullet.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerShoot.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerShoot.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" Line="56" Column="77" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/KnockBack.cs" />
       <File FileName="Assets/Scripts/Player Scripts/Stairs.cs" />
       <File FileName="Assets/Scripts/Enemy Scripts/Slime.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Berserker.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Humanoid.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Ghost.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Turret.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" Line="27" Column="7" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Berserker.cs" Line="62" Column="48" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Humanoid.cs" Line="6" Column="2" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Ghost.cs" Line="37" Column="15" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Turret.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/IDamageable.cs" Line="7" Column="31" />
       <File FileName="Assets/Scripts/Crystal.cs" Line="12" Column="26" />
-      <File FileName="Assets/Scripts/Player Scripts/Health.cs" Line="59" Column="17" />
-      <File FileName="Assets/Scripts/ParallaxBG.cs" Line="10" Column="7" />
+      <File FileName="Assets/Scripts/Player Scripts/Health.cs" Line="91" Column="6" />
+      <File FileName="Library/PackageCache/com.unity.2d.pixel-perfect@1.0.1-preview/Runtime/PixelPerfectCamera.cs" Line="205" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="21f968e6-3e60-4bed-be57-fe4173524edc" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6787e39b-2c55-4ee3-8b00-77b33274d44c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

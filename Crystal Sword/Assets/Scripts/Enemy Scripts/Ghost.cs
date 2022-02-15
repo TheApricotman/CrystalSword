@@ -34,7 +34,8 @@ public class Ghost : Enemy
             direction = Quaternion.Euler(0, 0, deathCircleAngle) * direction;
             float distanceThisFrame = (baseSpeed*multi) * Time.deltaTime;
 
-            rigid.MovePosition(transform.position + direction.normalized * distanceThisFrame);
+            //rigid.MovePosition(transform.position + direction.normalized * distanceThisFrame);
+            rigid.velocity = direction.normalized * distanceThisFrame;
 
         }else { anim.SetBool("Chasing", false); }
     }

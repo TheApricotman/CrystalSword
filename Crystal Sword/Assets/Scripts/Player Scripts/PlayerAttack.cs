@@ -97,7 +97,8 @@ public class PlayerAttack : MonoBehaviour
                         {
                             enemiesToDamage[i].GetComponent<IDamageable>().Damage(damage);
                             Rigidbody2D enemyRB = enemiesToDamage[i].GetComponent<Rigidbody2D>();
-                            knockBack.KnockBackGo(enemyRB);
+                                                      
+                                knockBack.KnockBackGo(enemyRB);                            
                         }
                     }
                 }

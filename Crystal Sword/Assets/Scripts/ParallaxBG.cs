@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ParallaxBG : MonoBehaviour
 {
+    //old script from square adventure, for the background of ocean level, effect multiplier is changed in inspector
     private Transform camTransform;
     private Vector3 lastCameraPos;
     [SerializeField] Vector2 parallaxEffectMulti;
