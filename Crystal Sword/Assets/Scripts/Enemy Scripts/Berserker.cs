@@ -58,9 +58,9 @@ public class Berserker : Enemy
     {
         WallCheck();
         trail.SetActive(true);
-        Vector3 direction = target.position - transform.position;
-        direction = direction.normalized;
-        rigid.MovePosition(transform.position + direction * baseSpeed);
+        Vector3 atkDirection = target.position - transform.position;
+        atkDirection = atkDirection.normalized;
+        rigid.MovePosition(transform.position + atkDirection * baseSpeed);
         baseSpeed = speedReset;
     }
 

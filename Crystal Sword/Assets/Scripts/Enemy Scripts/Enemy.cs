@@ -23,7 +23,9 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     protected Rigidbody2D rigid;
     protected Vector3 directionVector;
     protected bool chasing;
-    public bool isCrystal;
+    public bool isKnockable;
+    //public bool isCrystal;
+    
 
     public int Health { get; set; }
     public bool IsCrystal { get; set; }
@@ -98,7 +100,8 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         Vector3 temp = transform.position + directionVector * baseSpeed * Time.deltaTime;
         if (bounds.bounds.Contains(temp))
         {
-            rigid.MovePosition(temp);
+            //rigid.MovePosition(temp);
+            rigid.velocity = directionVector * baseSpeed * Time.deltaTime;
         }
         else if (!bounds.bounds.Contains(temp))
         {
@@ -133,7 +136,8 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         direction = direction.normalized;
         if (Vector3.Distance(target.position, transform.position) <= chaseRadius)
         {
-            rigid.MovePosition(transform.position + direction * baseSpeed * Time.deltaTime);
+            //rigid.MovePosition(transform.position + direction * baseSpeed * Time.deltaTime);
+            rigid.velocity = direction * baseSpeed * Time.deltaTime;
             anim.SetFloat("Horizontal", direction.x);
             anim.SetFloat("Vertical", direction.y);
             chasing = true;
@@ -145,7 +149,8 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         direction = direction.normalized;
         if (Vector3.Distance(target.position, transform.position) >= chaseRadius)
         {
-            rigid.MovePosition(transform.position + direction * baseSpeed * Time.deltaTime);
+            //rigid.MovePosition(transform.position + direction * baseSpeed * Time.deltaTime);
+            rigid.velocity = direction * baseSpeed * Time.deltaTime;
             anim.SetFloat("Horizontal", direction.x);
             anim.SetFloat("Vertical", direction.y);
             chasing = false;

@@ -38,8 +38,7 @@ public class PlayerMovement : MonoBehaviour
         //if charging AOE attack, limit movement
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("AOE Charge Walk") || anim.GetCurrentAnimatorStateInfo(0).IsName("AOE Ready Walk"))
         {
-            playerRb.velocity = movement * slowSpeed;
-            Debug.Log("SOOOOO SLOOOOWWW");
+            playerRb.velocity = movement * slowSpeed; 
         }
        
 
