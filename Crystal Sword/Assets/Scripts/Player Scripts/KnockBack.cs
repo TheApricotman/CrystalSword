@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class KnockBack : MonoBehaviour
 {
-    public float thrust;
-    public float knockTime;
+    [SerializeField]
+    private float thrust;
+    [SerializeField]
+    private float knockTime;
 
     public void KnockBackGo(Rigidbody2D enemy)
     {
