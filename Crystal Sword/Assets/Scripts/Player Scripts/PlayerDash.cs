@@ -25,14 +25,8 @@ public class PlayerDash : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //pulls players direction data
-        direction.x = anim.GetFloat("Horizontal");
-        direction.y = anim.GetFloat("Vertical");
-    }
-
-    private void FixedUpdate()
-    {
         Dash();
+        
     }
 
     private void Dash()
@@ -43,11 +37,13 @@ public class PlayerDash : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.E))
             {
+                direction.x = anim.GetFloat("Horizontal");
+                direction.y = anim.GetFloat("Vertical");
                 WallCheck();
                 anim.SetTrigger("Dashing");
-                playerRb.MovePosition(playerRb.position + direction * dashSpeed);
+                playerRb.MovePosition(playerRb.position + direction.normalized * dashSpeed);
                 trail.SetActive(true);
-
+                dashTime = startDashTime;
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(atkPos.position, atkRange, whatIsEnemy);
                 if (enemiesToDamage != null)
                 {
@@ -63,8 +59,7 @@ public class PlayerDash : MonoBehaviour
                             enemiesToDamage[i].GetComponent<IDamageable>().Damage(damage);
                             Rigidbody2D enemyRB = enemiesToDamage[i].GetComponent<Rigidbody2D>();
                             knockBack.KnockBackGo(enemyRB);
-                        }
-                        dashTime = startDashTime;
+                        }                        
                     }
                 }
                 

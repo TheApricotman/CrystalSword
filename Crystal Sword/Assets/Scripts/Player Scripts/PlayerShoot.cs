@@ -16,10 +16,6 @@ public class PlayerShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //pulls players direction data
-        direction.x = anim.GetFloat("Horizontal");
-        direction.y = anim.GetFloat("Vertical");
-
         Shoot();
     }
     private void Shoot()
@@ -29,7 +25,10 @@ public class PlayerShoot : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Q))
             {
-                
+                //pulls players direction data
+                direction.x = anim.GetFloat("Horizontal");
+                direction.y = anim.GetFloat("Vertical");
+
                 anim.SetTrigger("Shooting");
                 shootTime = startShootTime;
                 Instantiate(projectile, atkPos.position, Quaternion.identity);

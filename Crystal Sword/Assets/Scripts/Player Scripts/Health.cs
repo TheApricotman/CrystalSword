@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
+
     public int health;
     public int numOfBlocks;
     public Image[] healthBlocks;
@@ -12,12 +13,16 @@ public class Health : MonoBehaviour
     public Sprite emptyBlock;
     private Rigidbody2D playerRB;
     private PlayerMovement move;
+    private KnockBack knock;
+    [SerializeField]
+    private float playerKnockTime;
 
 
     private void Start()
     {
         playerRB = GetComponent<Rigidbody2D>();
         move = GetComponent<PlayerMovement>();
+        knock = GetComponent<KnockBack>();
     }
 
     private void Update()
@@ -70,21 +75,26 @@ public class Health : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            //Enemy knockback logic
+            Rigidbody2D enemyRB = collision.gameObject.GetComponent<Rigidbody2D>();
+            knock.KnockBackGo(enemyRB);
+
+            //player knockback logic
             move.enabled = false;
             float thrust = 10;
             TakeDamage(1);
-            Vector3 difference = collision.transform.position - transform.position;
+            Vector3 difference = transform.position - collision.transform.position;
             difference = difference.normalized * thrust;
             playerRB.AddForce(difference , ForceMode2D.Impulse);
-            StartCoroutine(KnockCo(playerRB, 0.3f));
+            StartCoroutine(KnockCo(playerRB));
         }
 
     }
-    private IEnumerator KnockCo(Rigidbody2D player, float knockTime)
+    private IEnumerator KnockCo(Rigidbody2D player)
     {
         if (player != null)
         {
-            yield return new WaitForSeconds(knockTime);
+            yield return new WaitForSeconds(playerKnockTime);
             player.velocity = Vector2.zero;
             move.enabled = true;
         }
