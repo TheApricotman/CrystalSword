@@ -1,0 +1,928 @@
+fileFormatVersion: 2
+guid: 5a1ff782363274615bd8ecc61e67a00a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dungeon tweaks the sequels_0
+    21300002: dungeon tweaks the sequels_1
+    21300004: dungeon tweaks the sequels_2
+    21300006: dungeon tweaks the sequels_3
+    21300008: dungeon tweaks the sequels_4
+    21300010: dungeon tweaks the sequels_5
+    21300012: dungeon tweaks the sequels_6
+    21300014: dungeon tweaks the sequels_7
+    21300016: dungeon tweaks the sequels_8
+    21300018: dungeon tweaks the sequels_9
+    21300020: dungeon tweaks the sequels_10
+    21300022: dungeon tweaks the sequels_11
+    21300024: dungeon tweaks the sequels_12
+    21300026: dungeon tweaks the sequels_13
+    21300028: dungeon tweaks the sequels_14
+    21300030: dungeon tweaks the sequels_15
+    21300032: dungeon tweaks the sequels_16
+    21300034: dungeon tweaks the sequels_17
+    21300036: dungeon tweaks the sequels_18
+    21300038: dungeon tweaks the sequels_19
+    21300040: dungeon tweaks the sequels_20
+    21300042: dungeon tweaks the sequels_21
+    21300044: dungeon tweaks the sequels_22
+    21300046: dungeon tweaks the sequels_23
+    21300048: dungeon tweaks the sequels_24
+    21300050: dungeon tweaks the sequels_25
+    21300052: dungeon tweaks the sequels_26
+    21300054: dungeon tweaks the sequels_27
+    21300056: dungeon tweaks the sequels_28
+    21300058: dungeon tweaks the sequels_29
+    21300060: dungeon tweaks the sequels_30
+    21300062: dungeon tweaks the sequels_31
+    21300064: dungeon tweaks the sequels_32
+    21300066: dungeon tweaks the sequels_33
+    21300068: dungeon tweaks the sequels_34
+    21300070: dungeon tweaks the sequels_35
+    21300072: deadxoneDun_0
+    21300074: deadxoneDun_1
+    21300076: deadxoneDun_2
+    21300078: deadxoneDun_3
+    21300080: deadxoneDun_4
+    21300082: deadxoneDun_5
+    21300084: deadxoneDun_6
+    21300086: deadxoneDun_7
+    21300088: deadxoneDun_8
+    21300090: deadxoneDun_9
+    21300092: deadxoneDun_10
+    21300094: deadxoneDun_11
+    21300096: deadxoneDun_12
+    21300098: deadxoneDun_13
+    21300100: deadxoneDun_14
+    21300102: deadxoneDun_15
+    21300104: deadxoneDun_16
+    21300106: deadxoneDun_17
+    21300108: deadxoneDun_18
+    21300110: deadxoneDun_19
+    21300112: deadxoneDun_20
+    21300114: deadxoneDun_21
+    21300116: deadxoneDun_22
+    21300118: deadxoneDun_23
+    21300120: deadxoneDun_24
+    21300122: deadxoneDun_25
+    21300124: deadxoneDun_26
+    21300126: deadxoneDun_27
+    21300128: deadxoneDun_28
+    21300130: deadxoneDun_29
+    21300132: deadxoneDun_30
+    21300134: deadxoneDun_31
+    21300136: deadxoneDun_32
+    21300138: deadxoneDun_33
+    21300140: deadxoneDun_34
+    21300142: deadxoneDun_35
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: deadxoneDun_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10345199ebe59421b907e14d8054d75a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692a7dfc061944733a91ec2ee2194c25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b786ec320b1d7440388ed58aeba15aab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 247
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fa90cb71ba54825969d7fc9df2200a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 247
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a8b2a177b8d4c14b5dedc23c51fdcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 247
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e3dd227a14b4b4aa564ac3eb464a4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f60933d2627547da9ef355ca329b9ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d319df5efb047b28d2405c9fb5f42b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17fdae82d16b4a7db025f041d6b919a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 199
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9659818f465904eaa997db41e928653b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 199
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de47237a12334a489caf325b0b4f4d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 199
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad7e1cd57fb04896ab83df836f411ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2eadd1d6ea6e4c0297b93f52636bfb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f68f85ed868543798a512f0d664328a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ebfe6a287a04285bcb2ef9d5ef5274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2605527ff1b7842c493589def53eff5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a4c521207fb44388e442cc64baf479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb55845ba980412a82df1b38aa0ba73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_18
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a864a4cde3d64b6a8b13099b4834077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08521dbe127ad48f69a17fb616926b16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_20
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bca3ad4d8a6c4a5cbf2aeffb418eca2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_21
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451a8a049f30146308977a9ca3f32479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e660a648c574d46acb683cccd9c7a631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_23
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7287fed9f0b104769b8e9dbca23db8b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 79
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9421b571488704e5a88d27d364b512b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 79
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9f27fcb009f4fa7afc58980d42e131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 79
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26548183099c4405585929cdc657970a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685dc93617f0b497a97165e05b4eff53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc1aa2cc5f1448bfa17ac4b9b06fd65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: -12, y: -9}
+        - {x: 12, y: -9}
+        - {x: 12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a264282728554270a7c8f25db44ff2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_30
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c7b1d29f85a43ffa815f71a5ddc13c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1b4d76df97c449ea6e33586c60fc3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_32
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fe93ac8e00d4557a748c69d439812c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_33
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bf9afbe6c234a98b3f67a682b2d923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4514239ef5014131bec8876139e3d9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadxoneDun_35
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf64ecd89e2b403db75b7ead2ab453a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3352451f6179e46a185d30aad628a708
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
