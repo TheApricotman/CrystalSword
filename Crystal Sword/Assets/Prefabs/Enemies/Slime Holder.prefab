@@ -300,10 +300,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyName: Slime
-  baseSpeed: 2
+  baseSpeed: 25
   health: 3
   baseAtk: 1
   homePos: {fileID: 7250817476470546447}
   chaseRadius: 6
   bounds: {fileID: 7250817476470546446}
-  isCrystal: 0
+  isKnockable: 1

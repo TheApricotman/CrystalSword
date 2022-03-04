@@ -80923,16 +80923,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1516489904}
     m_Modifications:
-    - target: {fileID: 6030605693416415291, guid: a328e7c27313c49de8ca350b06b8df63,
-        type: 3}
-      propertyPath: baseSpeed
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 6030605693416415291, guid: a328e7c27313c49de8ca350b06b8df63,
-        type: 3}
-      propertyPath: isKnockable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7250817476395939870, guid: a328e7c27313c49de8ca350b06b8df63,
         type: 3}
       propertyPath: m_LocalPosition.x

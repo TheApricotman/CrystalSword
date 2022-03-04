@@ -754,9 +754,9 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: -12, y: -12}
-        - {x: -12, y: 8}
-        - {x: 7, y: -12}
-        - {x: 7, y: -12}
+        - {x: -12, y: 6}
+        - {x: 5, y: -12}
+        - {x: 6, y: -12}
       tessellationDetail: 0
       bones: []
       spriteID: ccd499bc4927f43d6833a05250992735
