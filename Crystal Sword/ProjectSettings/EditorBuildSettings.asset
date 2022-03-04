@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Forest Dungeon.unity
     guid: 917a94dcd05364990bec2c033d92872e
+  - enabled: 1
+    path: Assets/Scenes/Ocean Dungeon.unity
+    guid: 3252ec2f56c924ef7ba367bf4ccca4a6
+  - enabled: 1
+    path: Assets/Scenes/Desert Dungeon.unity
+    guid: c71adebf1399643339c26020e52539ec
   m_configObjects: {}
