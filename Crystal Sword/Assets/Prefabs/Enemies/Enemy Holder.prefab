@@ -149,7 +149,6 @@ GameObject:
   - component: {fileID: 3967979106009689881}
   - component: {fileID: 3967979106009689885}
   - component: {fileID: 3967979106009689886}
-  - component: {fileID: 3955170010083107545}
   - component: {fileID: 3967979106009689887}
   - component: {fileID: 3967979106009689880}
   - component: {fileID: 84062823}
@@ -241,19 +240,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3955170010083107545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3967979106009689882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 374dceb5ac04b4fcaa2a47202af47a69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 3
 --- !u!50 &3967979106009689887
 Rigidbody2D:
   serializedVersion: 4
@@ -320,3 +306,4 @@ MonoBehaviour:
   homePos: {fileID: 3967979105671098963}
   chaseRadius: 6
   bounds: {fileID: 3967979105671098962}
+  isKnockable: 1
