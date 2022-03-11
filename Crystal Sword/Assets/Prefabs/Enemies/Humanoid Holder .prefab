@@ -162,13 +162,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyName: Humanoid
-  baseSpeed: 4
+  baseSpeed: 3.5
   health: 3
   baseAtk: 1
   homePos: {fileID: 8437626598852764604}
   chaseRadius: 5
   bounds: {fileID: 8437626598852764605}
-  isCrystal: 0
+  walls:
+    serializedVersion: 2
+    m_Bits: 2048
+  isKnockable: 1
 --- !u!1 &8437626598852764595
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,9 +10,6 @@ public class Berserker : Enemy
     private float atkRadius;
     [SerializeField]
     private float knockTimer;
-    private RaycastHit2D hit;
-    [SerializeField]
-    private LayerMask walls;
     private float speedReset;
     [SerializeField]
     private GameObject trail;
@@ -60,15 +57,16 @@ public class Berserker : Enemy
         trail.SetActive(true);
         Vector3 atkDirection = target.position - transform.position;
         atkDirection = atkDirection.normalized;
-        rigid.MovePosition(transform.position + atkDirection * baseSpeed);
+        transform.Translate(atkDirection * baseSpeed);
+        //rigid.MovePosition(transform.position + atkDirection * baseSpeed);
         baseSpeed = speedReset;
     }
 
-    private void WallCheck()
+    protected override void WallCheck()
     {
         Vector3 direction = target.position - transform.position;
         direction = direction.normalized;
-        // checks with raycasting if theres a wall, triggers bool to use in PushCalc function
+        // checks with raycasting if theres a wall, 
         hit = Physics2D.Raycast(transform.position, direction, baseSpeed, walls);
         if (hit.collider != null)
         {
