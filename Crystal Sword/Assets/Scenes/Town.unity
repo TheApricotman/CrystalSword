@@ -79788,7 +79788,7 @@ PrefabInstance:
     - target: {fileID: 8437626597046107892, guid: 5bac206e110f2483a8ef6b565501a848,
         type: 3}
       propertyPath: baseSpeed
-      value: 50
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8437626597046107892, guid: 5bac206e110f2483a8ef6b565501a848,
         type: 3}
@@ -79799,6 +79799,11 @@ PrefabInstance:
         type: 3}
       propertyPath: isKnockable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437626597046107892, guid: 5bac206e110f2483a8ef6b565501a848,
+        type: 3}
+      propertyPath: walls.m_Bits
+      value: 2048
       objectReference: {fileID: 0}
     - target: {fileID: 8437626599053933484, guid: 5bac206e110f2483a8ef6b565501a848,
         type: 3}
@@ -79928,6 +79933,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Turret Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900683470342987349, guid: f9ea4938d270947c7893020c556a955e,
+        type: 3}
+      propertyPath: walls.m_Bits
+      value: 2048
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9ea4938d270947c7893020c556a955e, type: 3}
@@ -80113,7 +80123,7 @@ PrefabInstance:
     - target: {fileID: 110190396906915091, guid: dfd3b66a329b94c38a9456fea39409f7,
         type: 3}
       propertyPath: baseSpeed
-      value: 40
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 110190396906915091, guid: dfd3b66a329b94c38a9456fea39409f7,
         type: 3}
@@ -80124,6 +80134,16 @@ PrefabInstance:
         type: 3}
       propertyPath: isKnockable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 110190396906915091, guid: dfd3b66a329b94c38a9456fea39409f7,
+        type: 3}
+      propertyPath: multi
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 110190396906915091, guid: dfd3b66a329b94c38a9456fea39409f7,
+        type: 3}
+      propertyPath: walls.m_Bits
+      value: 2048
       objectReference: {fileID: 0}
     - target: {fileID: 993320822175532682, guid: dfd3b66a329b94c38a9456fea39409f7,
         type: 3}
@@ -80276,7 +80296,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1212743210, guid: 73038eceb38eb4944953a41530fe85b8, type: 3}
       propertyPath: thrust
-      value: 50
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1212743210, guid: 73038eceb38eb4944953a41530fe85b8, type: 3}
+      propertyPath: knockTime
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4230291778806151571, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
@@ -80338,6 +80362,11 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 2.375
       objectReference: {fileID: 0}
+    - target: {fileID: 4230291778806151658, guid: 73038eceb38eb4944953a41530fe85b8,
+        type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 1533472571}
     - target: {fileID: 4230291778806151659, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
       propertyPath: healthBlocks.Array.data[0]
@@ -80391,7 +80420,7 @@ PrefabInstance:
     - target: {fileID: 4230291778806151659, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
       propertyPath: playerKnockTime
-      value: 0.4
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
@@ -80923,6 +80952,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1516489904}
     m_Modifications:
+    - target: {fileID: 6030605693416415291, guid: a328e7c27313c49de8ca350b06b8df63,
+        type: 3}
+      propertyPath: baseSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6030605693416415291, guid: a328e7c27313c49de8ca350b06b8df63,
+        type: 3}
+      propertyPath: walls.m_Bits
+      value: 2048
+      objectReference: {fileID: 0}
     - target: {fileID: 7250817476395939870, guid: a328e7c27313c49de8ca350b06b8df63,
         type: 3}
       propertyPath: m_LocalPosition.x

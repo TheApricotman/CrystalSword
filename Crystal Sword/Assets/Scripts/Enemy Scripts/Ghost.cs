@@ -15,11 +15,14 @@ public class Ghost : Enemy
     protected override void Update()
     {
         CheckDist();
-        GoHome();
         SpiralAtk();
         if (InHome() && !chasing)
         {
             Move();
+        }
+        else
+        {
+            GoHome();
         }
     }
 
@@ -34,8 +37,7 @@ public class Ghost : Enemy
             direction = Quaternion.Euler(0, 0, deathCircleAngle) * direction;
             float distanceThisFrame = (baseSpeed*multi) * Time.deltaTime;
 
-            //rigid.MovePosition(transform.position + direction.normalized * distanceThisFrame);
-            rigid.velocity = direction.normalized * distanceThisFrame;
+            transform.Translate(direction.normalized * distanceThisFrame);
 
         }else { anim.SetBool("Chasing", false); }
     }
