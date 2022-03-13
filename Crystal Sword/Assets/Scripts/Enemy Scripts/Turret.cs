@@ -14,8 +14,6 @@ public class Turret : Enemy
     private float shootTime;
     private float shootTimer;
 
-
-    // Update is called once per frame
     protected override void Update()
     {
         if (shootTimer <= 0)

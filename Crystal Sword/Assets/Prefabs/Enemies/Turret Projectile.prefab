@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigid: {fileID: 7344849646033492380}
-  speed: 2
+  speed: 5
   lifeTime: 3
 --- !u!58 &979791467628871436
 CircleCollider2D:

@@ -17,9 +17,16 @@ public class Health : MonoBehaviour
     [SerializeField]
     private float playerKnockTime;
 
+    private SpriteRenderer sprite;
+    private Color ogColour;
+    private int flicker = 5;
+    private float flickerTime = 0.1f;
+
 
     private void Start()
     {
+        sprite = GetComponent<SpriteRenderer>();
+        ogColour = sprite.color;
         playerRB = GetComponent<Rigidbody2D>();
         move = GetComponent<PlayerMovement>();
         knock = GetComponent<KnockBack>();
@@ -58,7 +65,18 @@ public class Health : MonoBehaviour
     public void TakeDamage(int damage)
     { 
             health -= damage;
+        StartCoroutine(DamageFlash());
             Debug.Log("Ouch!");    
+    }
+    IEnumerator DamageFlash()
+    {
+        for (int i = 0; i < flicker; i++)
+        {
+            sprite.color = new Color(1f, 1f, 1f, .5f);
+            yield return new WaitForSeconds(flickerTime);
+            sprite.color = ogColour;
+            yield return new WaitForSeconds(flickerTime);
+        }
     }
 
     public void GetHealth()
@@ -75,18 +93,18 @@ public class Health : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            //Enemy knockback logic
-            Rigidbody2D enemyRB = collision.gameObject.GetComponent<Rigidbody2D>();
-            knock.KnockBackGo(enemyRB);
-
             //player knockback logic
             move.enabled = false;
             float thrust = 10;
             TakeDamage(1);
             Vector3 difference = transform.position - collision.transform.position;
             difference = difference.normalized * thrust;
-            playerRB.AddForce(difference , ForceMode2D.Impulse);
+            playerRB.AddForce(difference, ForceMode2D.Impulse);
             StartCoroutine(KnockCo(playerRB));
+
+            //Enemy knockback logic
+            Rigidbody2D enemyRB = collision.gameObject.GetComponent<Rigidbody2D>();
+            knock.KnockBackGo(enemyRB);  
         }
 
     }
