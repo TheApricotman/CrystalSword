@@ -12,22 +12,30 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     protected int health;
     [SerializeField]
     protected int baseAtk;
-    protected Transform target;
     [SerializeField]
     protected Transform homePos;
     [SerializeField]
     protected float chaseRadius;
-    protected Animator anim;
     [SerializeField]
     protected Collider2D bounds;
+    protected Transform target;
+    protected Animator anim;
     protected Rigidbody2D rigid;
     protected RaycastHit2D hit;
     [SerializeField]
     protected LayerMask walls;
     protected Vector3 directionVector;
     protected bool chasing;
-    public bool isKnockable;
 
+    public bool isKnockable;
+    //damage flicker stuff
+    protected SpriteRenderer sprite;
+    private int flicker = 5;
+    private float flickerTime = 0.1f;
+    private Color ogColour;
+
+
+    //idamageable Stuff
     public int Health { get; set; }
     public bool IsCrystal { get; set; }
 
@@ -40,8 +48,10 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         target = GameObject.FindGameObjectWithTag("Player").transform;
         anim = GetComponentInChildren<Animator>();
         rigid = GetComponentInChildren<Rigidbody2D>();
+        sprite = GetComponentInChildren<SpriteRenderer>();
         ChangeDirection();
         Health = health;
+        ogColour = sprite.color;
     }
 
     protected virtual void Update()
@@ -51,7 +61,7 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         {
             Move();
         }
-        else
+        else if (!InHome())
         {
             GoHome();
         }  
@@ -60,10 +70,21 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     public void Damage(int damage)
     {
         health -= damage;
-
+       
         if (health <= 0)
         {
             Destroy(gameObject, 0.3f);
+        }
+        else StartCoroutine(DamageFlash());
+    }
+    IEnumerator DamageFlash()
+    {
+        for (int i = 0; i < flicker; i++)
+        {
+            sprite.color = new Color(1f, 1f, 1f, .5f);
+            yield return new WaitForSeconds(flickerTime);
+            sprite.color = ogColour;
+            yield return new WaitForSeconds(flickerTime);
         }
     }
 
