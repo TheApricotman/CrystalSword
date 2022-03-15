@@ -122,9 +122,8 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         Vector3 temp = transform.position + directionVector * baseSpeed * Time.deltaTime;
         if (bounds.bounds.Contains(temp))
         {
-            //rigid.velocity = directionVector * baseSpeed * Time.deltaTime;
-            transform.Translate(directionVector * baseSpeed * Time.deltaTime);
-            
+            WallCheck(transform.position + directionVector);
+            transform.Translate(directionVector * baseSpeed * Time.deltaTime);   
         }
         else if (!bounds.bounds.Contains(temp))
         {
@@ -159,7 +158,6 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         direction = direction.normalized;
         if (Vector3.Distance(target.position, transform.position) <= chaseRadius)
         {
-            //rigid.velocity = direction * baseSpeed * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, target.position, baseSpeed * Time.deltaTime);
             anim.SetFloat("Horizontal", direction.x);
             anim.SetFloat("Vertical", direction.y);
@@ -173,18 +171,16 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         if (Vector3.Distance(target.position, transform.position) >= chaseRadius)
         {
             transform.position = Vector3.MoveTowards(transform.position, homePos.position, baseSpeed * Time.deltaTime);
-            //rigid.velocity = direction * baseSpeed * Time.deltaTime;
             anim.SetFloat("Horizontal", direction.x);
             anim.SetFloat("Vertical", direction.y);
             chasing = false;
         }
     }
-    protected virtual void WallCheck()
+    protected virtual void WallCheck(Vector3 direction)
     {
-        Vector3 direction = target.position - transform.position;
         direction = direction.normalized;
         // checks with raycasting if theres a wall, 
-        hit = Physics2D.Raycast(transform.position, direction, baseSpeed, walls);
+        hit = Physics2D.Raycast(transform.position, direction, 1, walls);
         if (hit.collider != null)
         {
             ChangeDirection();

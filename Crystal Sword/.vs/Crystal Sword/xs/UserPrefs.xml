@@ -1,25 +1,26 @@
 ﻿<Properties StartupConfiguration="{03BB4C41-72D9-511D-695D-00086474B5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/Health.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneTransition.cs">
     <Files>
       <File FileName="Assets/Scripts/Enemy Scripts/Slime.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" Line="24" Column="5" />
-      <File FileName="Assets/Scripts/Player Scripts/Stairs.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" Line="15" Column="20" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Ghost.cs" Line="25" Column="22" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Berserker.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Humanoid.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Turret.cs" Line="35" Column="37" />
-      <File FileName="Assets/Scripts/IDamageable.cs" Line="9" Column="29" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/Stairs.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" Line="183" Column="65" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Ghost.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Berserker.cs" Line="58" Column="43" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Humanoid.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Turret.cs" />
+      <File FileName="Assets/Scripts/IDamageable.cs" />
       <File FileName="Assets/Scripts/Crystal.cs" />
       <File FileName="Assets/Scripts/Player Scripts/Health.cs" Line="107" Column="40" />
       <File FileName="Assets/Scripts/Scriptable Objects/VectorValue.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/KnockBack.cs" Line="17" Column="1" />
-      <File FileName="Assets/Scripts/Projectile.cs" Line="5" Column="14" />
+      <File FileName="Assets/Scripts/Player Scripts/KnockBack.cs" />
+      <File FileName="Assets/Scripts/Projectile.cs" />
+      <File FileName="Assets/Scripts/SceneTransition.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2d929149-7715-4835-a42c-87fff96a0f54" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="827a0058-fbd9-40e9-86cf-31733b995538" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
