@@ -81031,6 +81031,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 156161112, guid: e39c6ae2c5454456fbc1a29b466c49c3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 606077202, guid: e39c6ae2c5454456fbc1a29b466c49c3, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 9a0969c6f9c2247b5817671a732b0a61,
+        type: 3}
+    - target: {fileID: 6560674486935132805, guid: e39c6ae2c5454456fbc1a29b466c49c3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8528575389624828851, guid: e39c6ae2c5454456fbc1a29b466c49c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -81166,5 +81180,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 9100079881405436789, guid: e39c6ae2c5454456fbc1a29b466c49c3,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 9a0969c6f9c2247b5817671a732b0a61,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e39c6ae2c5454456fbc1a29b466c49c3, type: 3}

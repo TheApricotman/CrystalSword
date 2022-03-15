@@ -53,18 +53,18 @@ public class Berserker : Enemy
 
     private void Charge()
     {
-        WallCheck();
         trail.SetActive(true);
         Vector3 atkDirection = target.position - transform.position;
+        WallCheck(atkDirection * baseSpeed);
         atkDirection = atkDirection.normalized;
         transform.Translate(atkDirection * baseSpeed);
         //rigid.MovePosition(transform.position + atkDirection * baseSpeed);
         baseSpeed = speedReset;
     }
 
-    protected override void WallCheck()
+    protected override void WallCheck(Vector3 direction)
     {
-        Vector3 direction = target.position - transform.position;
+        direction = target.position - transform.position;
         direction = direction.normalized;
         // checks with raycasting if theres a wall, 
         hit = Physics2D.Raycast(transform.position, direction, baseSpeed, walls);
