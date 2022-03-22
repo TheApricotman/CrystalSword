@@ -25,8 +25,7 @@ public class PlayerDash : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Dash();
-        
+        Dash();       
     }
 
     private void Dash()
