@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PuzzleManager : MonoBehaviour
 {
@@ -8,6 +9,11 @@ public class PuzzleManager : MonoBehaviour
     private LaserEmitter2 lEmitter;
     [SerializeField]
     private StartPuzzle startPuzzle;
+
+    [SerializeField]
+    private Vector2 playerPos;
+    [SerializeField]
+    private VectorValue playerStorage;
 
     public delegate void ResetPuzzle();
     public static event ResetPuzzle Resetting;
@@ -34,13 +40,18 @@ public class PuzzleManager : MonoBehaviour
             if (Resetting != null)
             {
                 Resetting();
-                
+                playerStorage.intialValue = playerPos;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
 
             Debug.Log("Holy Shit This Hot Trash Returned!");
+            yield break;
         }
 
-        else Debug.Log("You Win");
+        else
+        {
+            yield break;
+        }
     }
         
 }

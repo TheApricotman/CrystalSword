@@ -119,11 +119,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1938605492}
     m_Modifications:
-    - target: {fileID: 4394855754222330409, guid: fbfd54b234a8f4c388e15c11aa256f75,
-        type: 3}
-      propertyPath: m_TagString
-      value: Interactable
-      objectReference: {fileID: 0}
     - target: {fileID: 4992959630325319034, guid: fbfd54b234a8f4c388e15c11aa256f75,
         type: 3}
       propertyPath: m_Name
@@ -324,14 +319,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 170794734195612379, guid: 5c1e7e279c5ff4b7cab9b797b30e5b59,
         type: 3}
-      propertyPath: startPuzzle
-      value: 
-      objectReference: {fileID: 1480390638}
-    - target: {fileID: 170794734195612379, guid: 5c1e7e279c5ff4b7cab9b797b30e5b59,
-        type: 3}
       propertyPath: lEmitter
       value: 
       objectReference: {fileID: 1889917313}
+    - target: {fileID: 170794734195612379, guid: 5c1e7e279c5ff4b7cab9b797b30e5b59,
+        type: 3}
+      propertyPath: startPuzzle
+      value: 
+      objectReference: {fileID: 1480390638}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c1e7e279c5ff4b7cab9b797b30e5b59, type: 3}
 --- !u!114 &766242572 stripped
@@ -64940,12 +64935,12 @@ PrefabInstance:
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5.01
       objectReference: {fileID: 0}
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.86
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
@@ -65063,27 +65058,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
---- !u!1 &966486779 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5281143615940754227, guid: 429ad37b9ef814b1bb263034804998d5,
-    type: 3}
-  m_PrefabInstance: {fileID: 966486778}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &966486780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966486779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de6170d8d5a4d4b31808e097e767433f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneToLoad: Town
-  playerPos: {x: -13, y: 17.5}
-  playerStorage: {fileID: 11400000, guid: 0052cd5d3bfc841909aaba050a3122b0, type: 2}
 --- !u!4 &1105136662 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
@@ -65110,12 +65084,12 @@ PrefabInstance:
     - target: {fileID: 2859608997120035251, guid: 7244b6fe0ff904a9085ff8f7dc89a267,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5.01
       objectReference: {fileID: 0}
     - target: {fileID: 2859608997120035251, guid: 7244b6fe0ff904a9085ff8f7dc89a267,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.86
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 2859608997120035251, guid: 7244b6fe0ff904a9085ff8f7dc89a267,
         type: 3}
@@ -65314,6 +65288,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1938605492}
     m_Modifications:
+    - target: {fileID: 5966583553997073348, guid: d535111bdaa4c4c8b92ba76b00bbb7d1,
+        type: 3}
+      propertyPath: mask.m_Bits
+      value: 802
+      objectReference: {fileID: 0}
     - target: {fileID: 5966583553997073349, guid: d535111bdaa4c4c8b92ba76b00bbb7d1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -65438,12 +65417,12 @@ PrefabInstance:
     - target: {fileID: 3725873852338986808, guid: b65277434e4564d39888007af1cdc788,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5.01
       objectReference: {fileID: 0}
     - target: {fileID: 3725873852338986808, guid: b65277434e4564d39888007af1cdc788,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.86
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 3725873852338986808, guid: b65277434e4564d39888007af1cdc788,
         type: 3}

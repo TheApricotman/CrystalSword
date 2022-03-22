@@ -45,5 +45,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lEmitter: {fileID: 0}
   startPuzzle: {fileID: 0}
-  mirror1: {fileID: 0}
-  mirror2: {fileID: 0}
+  playerPos: {x: 5, y: -1}
+  playerStorage: {fileID: 11400000, guid: 0052cd5d3bfc841909aaba050a3122b0, type: 2}
