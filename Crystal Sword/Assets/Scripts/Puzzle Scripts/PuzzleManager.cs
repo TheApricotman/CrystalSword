@@ -14,6 +14,8 @@ public class PuzzleManager : MonoBehaviour
     private Vector2 playerPos;
     [SerializeField]
     private VectorValue playerStorage;
+    [SerializeField]
+    private Animator transition;
 
     public delegate void ResetPuzzle();
     public static event ResetPuzzle Resetting;
@@ -41,6 +43,8 @@ public class PuzzleManager : MonoBehaviour
             {
                 Resetting();
                 playerStorage.intialValue = playerPos;
+                transition.SetTrigger("StartFade");
+                yield return new WaitForSeconds(1);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
 

@@ -21,11 +21,13 @@ public class Sign : MonoBehaviour
             if (dialogBox.activeInHierarchy)
             {
                 dialogBox.SetActive(false);
+                Time.timeScale = 1f;
             }
             else
             {
                 dialogBox.SetActive(true);
                     dialogText.text = dialog;
+                Time.timeScale = 0f;
             }
         } 
 

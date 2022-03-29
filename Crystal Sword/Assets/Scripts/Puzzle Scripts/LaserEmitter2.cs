@@ -44,20 +44,30 @@ public class LaserEmitter2 : MonoBehaviour
             // ray cast
             if (hit)
             {
-                //we hit, update line renderer
-                lineRenderer.positionCount += 1;
-                lineRenderer.SetPosition(lineRenderer.positionCount - 1, hit.point);
+                //gets puzzle box linerenderer to continue visual reflections
+                LineRenderer reflecter = hit.collider.GetComponentInParent<LineRenderer>();
+                if (i <= 0)
+                {
+                    lineRenderer.positionCount += 1;
+                    lineRenderer.SetPosition(1, hit.point);
+                }
                 // update remaining length and set up ray for next loop
                 remainingLength -= Vector3.Distance(ray.origin, hit.point);
                 if (hit.collider.name == "Mirror 1")
                 {
                     ray = new Ray(hit.transform.Find("ShootPoint 1").position, hit.transform.Find("ShootPoint 1").transform.up);
                     Debug.DrawRay(hit.transform.Find("ShootPoint 1").position, hit.transform.Find("ShootPoint 1").transform.up, Color.blue);
+                    RaycastHit2D tempHit = Physics2D.Raycast(ray.origin, ray.direction, remainingLength, mask.value);
+                    reflecter.SetPosition(0, hit.transform.Find("ShootPoint 1").position);
+                    reflecter.SetPosition(1, tempHit.point);
                 }
                 if (hit.collider.name == "Mirror 2")
                 {
                     ray = new Ray(hit.transform.Find("ShootPoint 2").position, hit.transform.Find("ShootPoint 2").transform.up);
                     Debug.DrawRay(hit.transform.Find("ShootPoint 2").position, hit.transform.Find("ShootPoint 2").transform.up, Color.green);
+                    RaycastHit2D tempHit = Physics2D.Raycast(ray.origin, ray.direction, remainingLength, mask.value);
+                    reflecter.SetPosition(0, hit.transform.Find("ShootPoint 2").position);
+                    reflecter.SetPosition(1, tempHit.point);
                 }
                 if (hit.collider.name == "Sword button")
                 {
@@ -77,9 +87,12 @@ public class LaserEmitter2 : MonoBehaviour
 
             else
             {
-                // We didn't hit anything, draw line to end of ramainingLength
-                lineRenderer.positionCount += 1;
-                lineRenderer.SetPosition(lineRenderer.positionCount - 1, ray.origin + ray.direction * remainingLength);
+                // We didn't hit anything, draw line to end of remainingLength
+                if (i <= 0)
+                {
+                    lineRenderer.positionCount += 1;
+                    lineRenderer.SetPosition(1, ray.origin + ray.direction * remainingLength);
+                }
                 break;
             }
         }

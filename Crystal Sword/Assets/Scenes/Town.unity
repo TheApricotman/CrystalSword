@@ -5805,6 +5805,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 634101944}
     m_Modifications:
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 8528575389097941920}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: sceneToLoad
+      value: Desert
+      objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: playerPos.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: playerPos.y
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 1911591016, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
       propertyPath: playerPos.x
       value: -6
@@ -6129,6 +6145,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 634101944}
     m_Modifications:
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 8528575389097941920}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: sceneToLoad
+      value: Ocean
+      objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: playerPos.x
+      value: -29
+      objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: playerPos.y
+      value: -12
+      objectReference: {fileID: 0}
     - target: {fileID: 1911591016, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
       propertyPath: playerPos.x
       value: -30
@@ -79295,6 +79327,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 634101944}
     m_Modifications:
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 8528575389097941920}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: sceneToLoad
+      value: Forest
+      objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: playerPos.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: playerPos.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1911591016, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
       propertyPath: sceneToLoad
       value: Forest
@@ -79970,12 +80018,12 @@ PrefabInstance:
     - target: {fileID: 2859608997120035251, guid: 7244b6fe0ff904a9085ff8f7dc89a267,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.06
+      value: -13
       objectReference: {fileID: 0}
     - target: {fileID: 2859608997120035251, guid: 7244b6fe0ff904a9085ff8f7dc89a267,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.95
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2859608997120035251, guid: 7244b6fe0ff904a9085ff8f7dc89a267,
         type: 3}
@@ -80039,12 +80087,12 @@ PrefabInstance:
     - target: {fileID: 3725873852338986808, guid: b65277434e4564d39888007af1cdc788,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.06
+      value: -13
       objectReference: {fileID: 0}
     - target: {fileID: 3725873852338986808, guid: b65277434e4564d39888007af1cdc788,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.95
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3725873852338986808, guid: b65277434e4564d39888007af1cdc788,
         type: 3}
@@ -80425,12 +80473,12 @@ PrefabInstance:
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.06
+      value: -13
       objectReference: {fileID: 0}
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.95
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
@@ -80710,6 +80758,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 634101944}
     m_Modifications:
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 8528575389097941920}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: sceneToLoad
+      value: Test Dungeon
+      objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: playerPos.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: playerPos.y
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 3320069360903214568, guid: 429ad37b9ef814b1bb263034804998d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -80769,6 +80833,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scene Transition to test dungeon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681734903459713849, guid: 429ad37b9ef814b1bb263034804998d5,
+        type: 3}
+      propertyPath: m_UsedByComposite
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
@@ -81188,3 +81257,9 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e39c6ae2c5454456fbc1a29b466c49c3, type: 3}
+--- !u!95 &8528575389097941920 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 209909453, guid: e39c6ae2c5454456fbc1a29b466c49c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 8528575389097941919}
+  m_PrefabAsset: {fileID: 0}

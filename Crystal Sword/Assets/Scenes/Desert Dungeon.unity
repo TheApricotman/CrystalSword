@@ -119,6 +119,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 1489013241}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: playerPos.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: playerPos.y
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: sceneToLoad
+      value: Desert
+      objectReference: {fileID: 0}
     - target: {fileID: 1911591016, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
       propertyPath: sceneToLoad
       value: Desert
@@ -213,7 +229,7 @@ PrefabInstance:
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.5
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
@@ -376,7 +392,7 @@ PrefabInstance:
     - target: {fileID: 8528575389624828851, guid: e39c6ae2c5454456fbc1a29b466c49c3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8528575389624828851, guid: e39c6ae2c5454456fbc1a29b466c49c3,
         type: 3}
@@ -450,6 +466,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e39c6ae2c5454456fbc1a29b466c49c3, type: 3}
+--- !u!95 &1489013241 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 209909453, guid: e39c6ae2c5454456fbc1a29b466c49c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1489013240}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2020471463
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -27,6 +27,7 @@ public class DialogTrigger : MonoBehaviour
 	{
 		FindObjectOfType<DialogManager>().StartDialog(dialog);
         dialogBox.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
