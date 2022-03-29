@@ -73,3 +73,4 @@ MonoBehaviour:
   sceneToLoad: Town
   playerPos: {x: -13, y: 16}
   playerStorage: {fileID: 11400000, guid: 0052cd5d3bfc841909aaba050a3122b0, type: 2}
+  transition: {fileID: 0}

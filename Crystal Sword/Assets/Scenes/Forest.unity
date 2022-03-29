@@ -393,12 +393,12 @@ PrefabInstance:
     - target: {fileID: 2859608997120035251, guid: 7244b6fe0ff904a9085ff8f7dc89a267,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -45.02
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2859608997120035251, guid: 7244b6fe0ff904a9085ff8f7dc89a267,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.37
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2859608997120035251, guid: 7244b6fe0ff904a9085ff8f7dc89a267,
         type: 3}
@@ -49335,12 +49335,12 @@ PrefabInstance:
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -45.02
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.37
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
@@ -49809,8 +49809,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Forest Dungeon
-  playerPos: {x: -6, y: -2.5}
+  playerPos: {x: -6, y: -2}
   playerStorage: {fileID: 11400000, guid: 0052cd5d3bfc841909aaba050a3122b0, type: 2}
+  transition: {fileID: 1413189491}
 --- !u!61 &1025787641
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50314,12 +50315,12 @@ PrefabInstance:
     - target: {fileID: 3725873852338986808, guid: b65277434e4564d39888007af1cdc788,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -45.02
+      value: -0.7298732
       objectReference: {fileID: 0}
     - target: {fileID: 3725873852338986808, guid: b65277434e4564d39888007af1cdc788,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.37
+      value: -0.00277
       objectReference: {fileID: 0}
     - target: {fileID: 3725873852338986808, guid: b65277434e4564d39888007af1cdc788,
         type: 3}
@@ -51018,6 +51019,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e39c6ae2c5454456fbc1a29b466c49c3, type: 3}
+--- !u!95 &1413189491 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 209909453, guid: e39c6ae2c5454456fbc1a29b466c49c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1413189490}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1474315301 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8528575387976258194, guid: e39c6ae2c5454456fbc1a29b466c49c3,
@@ -155536,8 +155543,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Town
-  playerPos: {x: -38, y: 0}
+  playerPos: {x: -37, y: 0}
   playerStorage: {fileID: 11400000, guid: 0052cd5d3bfc841909aaba050a3122b0, type: 2}
+  transition: {fileID: 1413189491}
 --- !u!212 &9173769370623780299
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -311,6 +311,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: sceneToLoad
+      value: Desert Dungeon
+      objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 1583702243}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: playerPos.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: playerPos.y
+      value: -3
+      objectReference: {fileID: 0}
     - target: {fileID: 1911591016, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
       propertyPath: sceneToLoad
       value: Desert Dungeon
@@ -382,6 +398,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scene Transition to Desert Dungeon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681734903459713849, guid: 429ad37b9ef814b1bb263034804998d5,
+        type: 3}
+      propertyPath: m_UsedByEffector
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
@@ -1591,12 +1612,12 @@ PrefabInstance:
     - target: {fileID: 2859608997120035251, guid: 7244b6fe0ff904a9085ff8f7dc89a267,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 2859608997120035251, guid: 7244b6fe0ff904a9085ff8f7dc89a267,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 56
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 2859608997120035251, guid: 7244b6fe0ff904a9085ff8f7dc89a267,
         type: 3}
@@ -2117,12 +2138,12 @@ PrefabInstance:
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 56
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4230291778806151663, guid: 73038eceb38eb4944953a41530fe85b8,
         type: 3}
@@ -2604,6 +2625,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e39c6ae2c5454456fbc1a29b466c49c3, type: 3}
+--- !u!95 &1583702243 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 209909453, guid: e39c6ae2c5454456fbc1a29b466c49c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1583702242}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1585655266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2994,12 +3021,12 @@ PrefabInstance:
     - target: {fileID: 3725873852338986808, guid: b65277434e4564d39888007af1cdc788,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 3725873852338986808, guid: b65277434e4564d39888007af1cdc788,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 56
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 3725873852338986808, guid: b65277434e4564d39888007af1cdc788,
         type: 3}
@@ -3092,6 +3119,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 1583702243}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: playerPos.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: playerPos.y
+      value: 29
+      objectReference: {fileID: 0}
     - target: {fileID: 1911591016, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
       propertyPath: sceneToLoad
       value: Town

@@ -52,5 +52,6 @@ public class DialogManager : MonoBehaviour
     void EndDialog()
     {
         dialogBox.SetActive(false);
+        Time.timeScale = 1f;
     }
 }
