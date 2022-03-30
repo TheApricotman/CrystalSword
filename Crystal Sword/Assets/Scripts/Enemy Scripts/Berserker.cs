@@ -13,6 +13,7 @@ public class Berserker : Enemy
     private float speedReset;
     [SerializeField]
     private GameObject trail;
+    private bool charging =false;
 
 
     // Start is called before the first frame update
@@ -51,21 +52,31 @@ public class Berserker : Enemy
         else anim.SetBool("AttackMode", false);
     }
 
+    private void FixedUpdate()
+    {
+        Vector3 direction = transform.position - target.position;
+        if (charging)
+        {
+            rigid.MovePosition((transform.position + direction * baseSpeed) * Time.fixedDeltaTime);
+            charging = false;
+        }
+    }
+
     private void Charge()
     {
         trail.SetActive(true);
         Vector3 atkDirection = target.position - transform.position;
-        WallCheck(atkDirection * baseSpeed);
         atkDirection = atkDirection.normalized;
-        transform.Translate(atkDirection * baseSpeed);
+        WallCheck(atkDirection);
+        charging = true;
+        //transform.Translate(atkDirection * baseSpeed);
+        //transform.position = Vector3.MoveTowards(transform.position, target.position, baseSpeed);
         //rigid.MovePosition(transform.position + atkDirection * baseSpeed);
         baseSpeed = speedReset;
     }
 
     protected override void WallCheck(Vector3 direction)
     {
-        direction = target.position - transform.position;
-        direction = direction.normalized;
         // checks with raycasting if theres a wall, 
         hit = Physics2D.Raycast(transform.position, direction, baseSpeed, walls);
         if (hit.collider != null)
@@ -73,6 +84,15 @@ public class Berserker : Enemy
             baseSpeed = hit.distance;
             anim.SetBool("KnockedOut", true);
             StartCoroutine(KnockedCount(knockTimer));
+        }
+    }
+
+    new private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Rigidbody2D playerRB = collision.gameObject.GetComponent<Rigidbody2D>();
+            playerRB.velocity = Vector2.zero;
         }
     }
 }
