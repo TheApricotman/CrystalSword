@@ -14,6 +14,7 @@ public class Berserker : Enemy
     [SerializeField]
     private GameObject trail;
     private bool charging =false;
+    private Vector3 direction;
 
 
     // Start is called before the first frame update
@@ -38,12 +39,12 @@ public class Berserker : Enemy
 
     protected override void CheckDist()
     {
-        Vector3 direction = target.position - transform.position;
-        direction = direction.normalized;
+        Vector3 lookDirection = target.position - transform.position;
+        lookDirection = lookDirection.normalized;
         if (Vector3.Distance(target.position, transform.position) <= chaseRadius)
         {
-            anim.SetFloat("Horizontal", direction.x);
-            anim.SetFloat("Vertical", direction.y);
+            anim.SetFloat("Horizontal", lookDirection.x);
+            anim.SetFloat("Vertical", lookDirection.y);
         }
         if (Vector3.Distance(target.position, transform.position) <= atkRadius)
         {
@@ -53,13 +54,22 @@ public class Berserker : Enemy
     }
 
     private void FixedUpdate()
-    {
-        Vector3 direction = transform.position - target.position;
+    {  
         if (charging)
         {
-            rigid.MovePosition((transform.position + direction * baseSpeed) * Time.fixedDeltaTime);
+            StartCoroutine(ChargeDelay());
+            rigid.MovePosition(transform.position + direction * baseSpeed);
+            
             charging = false;
+            baseSpeed = speedReset;
         }
+    }
+    IEnumerator ChargeDelay()
+    {
+        direction = target.position - transform.position;
+        direction = direction.normalized;
+        yield return new WaitForSeconds(1f);
+        Debug.Log("I'm Waiting");       
     }
 
     private void Charge()
@@ -69,21 +79,24 @@ public class Berserker : Enemy
         atkDirection = atkDirection.normalized;
         WallCheck(atkDirection);
         charging = true;
-        //transform.Translate(atkDirection * baseSpeed);
-        //transform.position = Vector3.MoveTowards(transform.position, target.position, baseSpeed);
-        //rigid.MovePosition(transform.position + atkDirection * baseSpeed);
-        baseSpeed = speedReset;
     }
 
     protected override void WallCheck(Vector3 direction)
     {
         // checks with raycasting if theres a wall, 
-        hit = Physics2D.Raycast(transform.position, direction, baseSpeed, walls);
+        hit = Physics2D.Raycast(transform.position, direction, baseSpeed);
         if (hit.collider != null)
         {
-            baseSpeed = hit.distance;
-            anim.SetBool("KnockedOut", true);
-            StartCoroutine(KnockedCount(knockTimer));
+            if (hit.collider.gameObject.CompareTag("Wall"))
+            {
+                baseSpeed = hit.distance;
+                anim.SetBool("KnockedOut", true);
+                StartCoroutine(KnockedCount(knockTimer));
+            }
+            if (hit.collider.gameObject.CompareTag("Player"))
+            {
+                baseSpeed = hit.distance;
+            }
         }
     }
 
