@@ -56,6 +56,8 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("Horizontal", movement.x);
             anim.SetFloat("Vertical", movement.y);
         }
+
+        //detects diagonal stairs in desert level, goes "up and down" them with left or right inputs 
         if (stairRight)
         {        
                 movement.y += movement.x;

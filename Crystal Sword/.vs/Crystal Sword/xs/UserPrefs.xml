@@ -2,23 +2,24 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy Scripts/Berserker.cs">
     <Files>
       <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" Line="28" Column="16" />
-      <File FileName="Assets/Scripts/Player Scripts/Health.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/Health.cs" Line="107" Column="22" />
       <File FileName="Assets/Scripts/Scriptable Objects/VectorValue.cs" />
-      <File FileName="Assets/Scripts/SceneTransition.cs" Line="29" Column="45" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" />
+      <File FileName="Assets/Scripts/SceneTransition.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="60" Column="101" />
       <File FileName="Assets/Scripts/Puzzle Scripts/PuzzleManager.cs" />
       <File FileName="Assets/Scripts/Puzzle Scripts/LaserEmitter2.cs" />
       <File FileName="Assets/Scripts/Puzzle Scripts/Push.cs" />
       <File FileName="Assets/Scripts/Game management/PauseMenu.cs" />
       <File FileName="Assets/Scripts/DialogManager.cs" />
       <File FileName="Assets/Scripts/DialogTrigger.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Berserker.cs" Line="90" Column="9" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" Line="5" Column="23" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Berserker.cs" Line="16" Column="34" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" Line="168" Column="6" />
+      <File FileName="Assets/Scripts/Player Scripts/KnockBack.cs" Line="12" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e18b9d5e-199f-44f1-8276-5d3d463db966" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f0173055-6fa1-4963-9221-c725182f575c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
