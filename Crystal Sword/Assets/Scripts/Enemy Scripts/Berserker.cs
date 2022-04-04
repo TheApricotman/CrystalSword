@@ -68,8 +68,7 @@ public class Berserker : Enemy
     {
         direction = target.position - transform.position;
         direction = direction.normalized;
-        yield return new WaitForSeconds(1f);
-        Debug.Log("I'm Waiting");       
+        yield return new WaitForSeconds(1f);      
     }
 
     private void Charge()
@@ -106,6 +105,8 @@ public class Berserker : Enemy
         {
             Rigidbody2D playerRB = collision.gameObject.GetComponent<Rigidbody2D>();
             playerRB.velocity = Vector2.zero;
+            anim.SetBool("KnockedOut", true);
+            StartCoroutine(KnockedCount(1));
         }
     }
 }
