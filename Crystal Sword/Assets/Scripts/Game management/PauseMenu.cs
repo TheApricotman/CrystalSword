@@ -40,7 +40,7 @@ public class PauseMenu : MonoBehaviour
     public void LoadMenu()
     {
         //make a fucking menu already bro
-        Debug.Log("Laoding Menu");
+        Debug.Log("Loading Menu");
     }
     public void QuitGame()
     {
