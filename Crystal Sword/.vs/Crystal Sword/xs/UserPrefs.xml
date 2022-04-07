@@ -1,25 +1,26 @@
 ﻿<Properties StartupConfiguration="{03BB4C41-72D9-511D-695D-00086474B5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/Health.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/FallinHoles.cs">
     <Files>
-      <File FileName="Assets/Scripts/Puzzle Scripts/LaserEmitter2.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" Line="28" Column="16" />
+      <File FileName="Assets/Scripts/Puzzle Scripts/LaserEmitter2.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" />
       <File FileName="Assets/Scripts/Player Scripts/Health.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Scriptable Objects/VectorValue.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SceneTransition.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Scriptable Objects/VectorValue.cs" />
+      <File FileName="Assets/Scripts/SceneTransition.cs" />
       <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" />
       <File FileName="Assets/Scripts/Puzzle Scripts/PuzzleManager.cs" />
       <File FileName="Assets/Scripts/Puzzle Scripts/Push.cs" />
-      <File FileName="Assets/Scripts/Game management/PauseMenu.cs" Line="43" Column="23" />
+      <File FileName="Assets/Scripts/Game management/PauseMenu.cs" />
       <File FileName="Assets/Scripts/DialogManager.cs" />
       <File FileName="Assets/Scripts/DialogTrigger.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Berserker.cs" Line="10" Column="28" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" Line="10" Column="21" />
-      <File FileName="Assets/Scripts/Player Scripts/KnockBack.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Berserker.cs" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/KnockBack.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/FallinHoles.cs" Line="26" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="46fa9ad9-dd47-446d-aff5-c9b9b4dba648" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5f180e95-a945-4b45-84cd-b9b76e52e43b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
