@@ -7,6 +7,7 @@ public class FallinHoles : MonoBehaviour
     [SerializeField]
     private Animator playerAnim;
     private PlayerMovement move;
+    private Rigidbody2D playerRB;
     public VectorValue startPos;
     public Health health;
     private Vector3 offset = new Vector3(0, .5f, 0);
@@ -14,6 +15,7 @@ public class FallinHoles : MonoBehaviour
     private void Start()
     {
         move = GetComponent<PlayerMovement>();
+        playerRB = GetComponent<Rigidbody2D>();
     }
     //Simple falling mechanic, if player hits hole, plays the fall animation and resets position to start area
     private void OnTriggerEnter2D(Collider2D collision)
@@ -21,6 +23,7 @@ public class FallinHoles : MonoBehaviour
         if (collision.CompareTag("Hole"))
         {
             move.enabled = false;
+            playerRB.velocity = Vector3.zero;
             playerAnim.SetTrigger("Fall");
             transform.position = collision.transform.position - offset;
             health.TakeDamage(1);
