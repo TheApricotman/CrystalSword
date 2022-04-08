@@ -122,7 +122,7 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         Vector3 temp = transform.position + directionVector * baseSpeed * Time.deltaTime;
         if (bounds.bounds.Contains(temp))
         {
-            WallCheck(transform.position + directionVector);
+            WallCheck(directionVector);
             transform.Translate(directionVector * baseSpeed * Time.deltaTime);   
         }
         else if (!bounds.bounds.Contains(temp))

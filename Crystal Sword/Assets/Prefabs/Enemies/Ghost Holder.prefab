@@ -162,16 +162,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyName: Ghost
-  baseSpeed: 4
+  baseSpeed: 1.5
   health: 2
   baseAtk: 2
   homePos: {fileID: 993320822585892507}
   chaseRadius: 10
   bounds: {fileID: 993320822585892506}
-  isCrystal: 0
+  walls:
+    serializedVersion: 2
+    m_Bits: 0
+  isKnockable: 0
   atkRadius: 4
   deathCircleAngle: 60
-  multi: 2
+  multi: 1.5
 --- !u!1 &993320822175532683
 GameObject:
   m_ObjectHideFlags: 0
