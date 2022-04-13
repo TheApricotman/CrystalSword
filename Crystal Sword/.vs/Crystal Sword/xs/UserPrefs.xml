@@ -7,20 +7,20 @@
       <File FileName="Assets/Scripts/Scriptable Objects/VectorValue.cs" />
       <File FileName="Assets/Scripts/SceneTransition.cs" />
       <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" />
-      <File FileName="Assets/Scripts/Puzzle Scripts/PuzzleManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Puzzle Scripts/PuzzleManager.cs" />
       <File FileName="Assets/Scripts/Puzzle Scripts/Push.cs" />
       <File FileName="Assets/Scripts/Game management/PauseMenu.cs" />
       <File FileName="Assets/Scripts/DialogManager.cs" />
       <File FileName="Assets/Scripts/DialogTrigger.cs" />
       <File FileName="Assets/Scripts/Enemy Scripts/Berserker.cs" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" Line="183" Column="74" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" />
       <File FileName="Assets/Scripts/Player Scripts/KnockBack.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/FallinHoles.cs" Line="26" Column="45" />
+      <File FileName="Assets/Scripts/Player Scripts/FallinHoles.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7b8b2555-ba66-4e83-9bf3-4201b69d4d47" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5e812fe1-011b-4e64-aad0-c33316b8e0f3" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
