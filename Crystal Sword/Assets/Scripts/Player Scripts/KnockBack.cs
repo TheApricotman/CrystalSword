@@ -8,12 +8,16 @@ public class KnockBack : MonoBehaviour
     private float thrust;
     [SerializeField]
     private float knockTime;
+    [SerializeField]
+    private ParticleSystem absorbEnemy;
+    
 
     public void KnockBackGo(Rigidbody2D enemy)
     {
         if (enemy != null)
         {
             Enemy enemyMovement = enemy.GetComponent<Enemy>();
+            AbsorbEnemy();
             if (enemyMovement.isKnockable)
             {
                 enemyMovement.enabled = false;
@@ -36,5 +40,10 @@ public class KnockBack : MonoBehaviour
             enemy.isKinematic = true;
             Debug.Log("I Knocked back a " + enemy.name);
         } 
+    }
+
+    private void AbsorbEnemy()
+    {
+        absorbEnemy.Play();
     }
 }
