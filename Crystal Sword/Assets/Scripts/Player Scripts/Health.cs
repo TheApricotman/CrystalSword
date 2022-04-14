@@ -16,6 +16,8 @@ public class Health : MonoBehaviour
     private KnockBack knock;
     [SerializeField]
     private float playerKnockTime;
+    [SerializeField]
+    private ParticleSystem absorbCrystal;
 
     private SpriteRenderer sprite;
     private Color ogColour;
@@ -85,8 +87,12 @@ public class Health : MonoBehaviour
         {
             health = numOfBlocks;
         }
-        else health++;
-        Debug.Log("Gained Health");
+        else
+        {
+            health++;
+            Debug.Log("Gained Health");
+            absorbCrystal.Play();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
