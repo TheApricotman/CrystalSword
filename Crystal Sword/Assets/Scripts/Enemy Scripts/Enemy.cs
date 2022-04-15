@@ -26,8 +26,10 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     protected LayerMask walls;
     protected Vector3 directionVector;
     protected bool chasing;
-
     public bool isKnockable;
+    [SerializeField]
+    private ParticleSystem explode;
+
     //damage flicker stuff
     protected SpriteRenderer sprite;
     private int flicker = 5;
@@ -70,15 +72,33 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     public void Damage(int damage)
     {
         health -= damage;
-       
+        StartCoroutine(DamageFlash());
+        KnockBack absorb = target.gameObject.GetComponent<KnockBack>();
+        absorb.AbsorbEnemy();
         if (health <= 0)
         {
-            Destroy(gameObject, 0.3f);
+            //Disables collider during death animation, plays animation and destroys itself
+            GetComponent<Collider2D>().enabled = false;
+            target = transform;
+            explode.Play();
+            StartCoroutine(FadeTo(0f, 1f));
+            Destroy(gameObject, 1f);
+        }      
+    }
+    IEnumerator FadeTo(float fadeValue, float aTime)
+    {
+        //Enemy fades out when killed
+        float alpha = sprite.color.a;
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
+        {
+            Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha, fadeValue, t));
+            sprite.color = newColor;
+            yield return null;
         }
-        else StartCoroutine(DamageFlash());
     }
     IEnumerator DamageFlash()
     {
+        //enemy flashes when hit but not dead
         for (int i = 0; i < flicker; i++)
         {
             sprite.color = new Color(1f, 1f, 1f, .5f);

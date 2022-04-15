@@ -17,7 +17,6 @@ public class KnockBack : MonoBehaviour
         if (enemy != null)
         {
             Enemy enemyMovement = enemy.GetComponent<Enemy>();
-            AbsorbEnemy();
             if (enemyMovement.isKnockable)
             {
                 enemyMovement.enabled = false;
@@ -42,7 +41,7 @@ public class KnockBack : MonoBehaviour
         } 
     }
 
-    private void AbsorbEnemy()
+    public void AbsorbEnemy()
     {
         absorbEnemy.Play();
     }
