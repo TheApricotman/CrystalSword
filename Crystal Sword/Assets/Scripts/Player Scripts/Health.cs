@@ -113,6 +113,14 @@ public class Health : MonoBehaviour
             knock.KnockBackGo(enemyRB);  
         }
 
+        if (collision.gameObject.CompareTag("Upgrade") && numOfBlocks< healthBlocks.Length)
+        {
+            numOfBlocks++;
+            GetHealth();
+            absorbCrystal.Play();
+            Destroy(collision.gameObject);
+        }
+
     }
     private IEnumerator KnockCo(Rigidbody2D player)
     {

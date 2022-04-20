@@ -6,14 +6,17 @@ public class Crystal : MonoBehaviour, IDamageable
 {
     public bool IsCrystal { get; set; }
     public int Health { get; set; }
+    private Animator anim;
 
     private void Start()
     {
+        anim = GetComponent<Animator>();
         IsCrystal = true;
     }
     public void Damage(int damage)
     {
-        Destroy(gameObject, 0.3f);
+        anim.SetTrigger("dead");
+        Destroy(gameObject, 0.5f);
     }
     
 }

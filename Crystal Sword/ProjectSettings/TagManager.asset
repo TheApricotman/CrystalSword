@@ -16,6 +16,7 @@ TagManager:
   - StairLeft
   - StairRight
   - Stair
+  - Upgrade
   layers:
   - Default
   - TransparentFX
