@@ -9,6 +9,8 @@ public class PlayerAttack : MonoBehaviour
     private float chargeTime;
     public float startChargeTime;
     public Animator anim;
+    [SerializeField]
+    private GameObject aoeAnim;
     public Transform atkPos;
     public float atkRange;
     public float aoeRange;
@@ -41,7 +43,6 @@ public class PlayerAttack : MonoBehaviour
             {
                 charged = true;
                 anim.SetBool("Ready", true);
-                Debug.Log("Charged");
             }
         }
         //if space is not held down for long enough, player returns to idle state
@@ -55,18 +56,10 @@ public class PlayerAttack : MonoBehaviour
         //if space is held down long enough and released, player will perform AOE attack
         if (Input.GetKeyUp(KeyCode.Space) && charged)
         {
-            Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(transform.position, aoeRange, whatIsEnemy);
-            for (int i = 0; i < enemiesToDamage.Length; i++)
-            {
-                if (enemiesToDamage[i].GetComponent<IDamageable>().IsCrystal)
-                {
-                    health.GetHealth();
-                    enemiesToDamage[i].GetComponent<IDamageable>().Damage(damage);
-                }
-                else
-                enemiesToDamage[i].GetComponent<IDamageable>().Damage(damage);
-            }
-
+            StartCoroutine(LingerHit());
+            aoeAnim.SetActive(true);          
+            StartCoroutine(AnimWait(1f));
+          
             anim.SetTrigger("Release");
             anim.SetBool("Ready", false);
             anim.SetBool("Charging", false);
@@ -117,6 +110,44 @@ public class PlayerAttack : MonoBehaviour
         //draws a circle where the attack range is
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, aoeRange);
+    }
+
+    IEnumerator LingerHit()
+    {
+        int loops= 0;
+        while (loops < 100 )
+        {
+            loops++;
+            Debug.Log("Im fuckign coroutiningbruh");
+            Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(transform.position, aoeRange, whatIsEnemy);
+
+            for (int i = 0; i < enemiesToDamage.Length; i++)
+            {
+                if (enemiesToDamage[i].GetComponent<IDamageable>().IsCrystal)
+                {
+                    health.GetHealth();
+                    enemiesToDamage[i].GetComponent<IDamageable>().Damage(damage);
+                    Debug.Log("Hitting" + enemiesToDamage);
+                   
+                }
+                else
+                {
+                    enemiesToDamage[i].GetComponent<IDamageable>().Damage(damage);
+                    Rigidbody2D enemyRB = enemiesToDamage[i].GetComponent<Rigidbody2D>();
+                    knockBack.KnockBackGo(enemyRB);
+                    Debug.Log("Hitting" + enemiesToDamage);
+                 
+                }
+            }
+            
+        }
+        yield return null;        
+    }
+
+    IEnumerator AnimWait(float animLength)
+    {
+        yield return new WaitForSeconds(animLength);
+        aoeAnim.SetActive(false);
     }
 
 }
