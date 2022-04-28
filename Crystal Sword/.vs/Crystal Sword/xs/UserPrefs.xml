@@ -1,29 +1,21 @@
 ﻿<Properties StartupConfiguration="{03BB4C41-72D9-511D-695D-00086474B5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ColourSwitch.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Puzzle Scripts/LaserEmitter2.cs">
     <Files>
-      <File FileName="Assets/Scripts/Puzzle Scripts/LaserEmitter2.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerDash.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/Health.cs" />
-      <File FileName="Assets/Scripts/Scriptable Objects/VectorValue.cs" />
-      <File FileName="Assets/Scripts/SceneTransition.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" />
-      <File FileName="Assets/Scripts/Puzzle Scripts/PuzzleManager.cs" />
+      <File FileName="Assets/Scripts/Puzzle Scripts/LaserEmitter2.cs" Line="27" Column="37" />
+      <File FileName="Assets/Scripts/Puzzle Scripts/PuzzleManager.cs" Line="11" Column="18" />
       <File FileName="Assets/Scripts/Puzzle Scripts/Push.cs" />
       <File FileName="Assets/Scripts/Game management/PauseMenu.cs" />
       <File FileName="Assets/Scripts/DialogManager.cs" />
       <File FileName="Assets/Scripts/DialogTrigger.cs" />
       <File FileName="Assets/Scripts/Enemy Scripts/Berserker.cs" />
       <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/KnockBack.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/FallinHoles.cs" />
-      <File FileName="Assets/Scripts/Crystal.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" Line="118" Column="28" />
-      <File FileName="Assets/Scripts/ColourSwitch.cs" Line="11" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" />
+      <File FileName="Assets/Scripts/Puzzle Scripts/StartPuzzle.cs" Line="5" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5c87416a-2b3b-4c61-9a99-cbed9c9320d0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="347ca3ea-64da-4298-990e-9f98ccf28a1b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
