@@ -47,11 +47,8 @@ public class PuzzleManager : MonoBehaviour
                 yield return new WaitForSeconds(1);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
-
-            Debug.Log("Holy Shit This Hot Trash Returned!");
             yield break;
         }
-
         else
         {
             yield break;

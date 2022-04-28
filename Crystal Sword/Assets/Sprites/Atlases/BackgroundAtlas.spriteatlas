@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 5df8e6280785c4cd5b2d488b433db30b, type: 3}
-    totalSpriteSurfaceArea: 587061
+    totalSpriteSurfaceArea: 591669
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -56,6 +56,7 @@ SpriteAtlas:
   - {fileID: 21300008, guid: 4b8c7b11d5ed240d3978339eef3b9504, type: 3}
   - {fileID: 21300018, guid: 4b8c7b11d5ed240d3978339eef3b9504, type: 3}
   - {fileID: 21300016, guid: 4b8c7b11d5ed240d3978339eef3b9504, type: 3}
+  - {fileID: 21300000, guid: 75020df122d854286a9755a7b8aaca6f, type: 3}
   - {fileID: 21300104, guid: 5a1ff782363274615bd8ecc61e67a00a, type: 3}
   - {fileID: 21300106, guid: 5a1ff782363274615bd8ecc61e67a00a, type: 3}
   - {fileID: 21300100, guid: 5a1ff782363274615bd8ecc61e67a00a, type: 3}
@@ -92,6 +93,7 @@ SpriteAtlas:
   - {fileID: 21300120, guid: 5a1ff782363274615bd8ecc61e67a00a, type: 3}
   - {fileID: 21300130, guid: 5a1ff782363274615bd8ecc61e67a00a, type: 3}
   - {fileID: 21300128, guid: 5a1ff782363274615bd8ecc61e67a00a, type: 3}
+  - {fileID: 21300000, guid: c4db8134c87654d6190e5e8ba93895a7, type: 3}
   - {fileID: 21300062, guid: 45b099258a7214d73a2cf39a2928ac01, type: 3}
   - {fileID: 21300060, guid: 45b099258a7214d73a2cf39a2928ac01, type: 3}
   - {fileID: 21300066, guid: 45b099258a7214d73a2cf39a2928ac01, type: 3}
@@ -468,6 +470,7 @@ SpriteAtlas:
   - {fileID: 21300024, guid: 49d438a9d0332426f8a613562436536d, type: 3}
   - {fileID: 21300026, guid: 49d438a9d0332426f8a613562436536d, type: 3}
   - {fileID: 21300034, guid: 49d438a9d0332426f8a613562436536d, type: 3}
+  - {fileID: 21300000, guid: 45b70a0c0938849e9b780abfaf7224a0, type: 3}
   - {fileID: 21300006, guid: a30dea8c4d5874f3b8a14e06f83521f2, type: 3}
   - {fileID: 21300000, guid: a30dea8c4d5874f3b8a14e06f83521f2, type: 3}
   - {fileID: 21300002, guid: a30dea8c4d5874f3b8a14e06f83521f2, type: 3}
@@ -554,6 +557,7 @@ SpriteAtlas:
   - {fileID: 21300084, guid: 25c2941d6ac3c4246b6e845a553f43a9, type: 3}
   - {fileID: 21300058, guid: 25c2941d6ac3c4246b6e845a553f43a9, type: 3}
   - {fileID: 21300056, guid: 25c2941d6ac3c4246b6e845a553f43a9, type: 3}
+  - {fileID: 21300000, guid: 7dd92a5dbb8364d288f68a5460d20e8e, type: 3}
   - {fileID: 21300060, guid: 3cdd2f9dee64e4c3f8fd48c0864ef2f9, type: 3}
   - {fileID: 21300062, guid: 3cdd2f9dee64e4c3f8fd48c0864ef2f9, type: 3}
   - {fileID: 21300064, guid: 3cdd2f9dee64e4c3f8fd48c0864ef2f9, type: 3}
@@ -780,6 +784,7 @@ SpriteAtlas:
   - Bridge ocean_4
   - Bridge ocean_9
   - Bridge ocean_8
+  - Laser emitterDesert
   - deadxoneDun_16
   - deadxoneDun_17
   - deadxoneDun_14
@@ -816,6 +821,7 @@ SpriteAtlas:
   - deadxoneDun_24
   - deadxoneDun_29
   - deadxoneDun_28
+  - Laser emitterbase
   - Towngrass-path_31
   - Towngrass-path_30
   - Towngrass-path_33
@@ -1192,6 +1198,7 @@ SpriteAtlas:
   - dungeon changes_12
   - dungeon changes_13
   - forstdoorblank
+  - Laser emitterOcean
   - ocean 3
   - ocean tilecorners_0
   - ocean tilecorners_1
@@ -1278,6 +1285,7 @@ SpriteAtlas:
   - Desert Dungeon_42
   - Desert Dungeon_29
   - Desert Dungeon_28
+  - Laser emitterForest
   - Dungeon basecolour_30
   - Dungeon basecolour_31
   - Dungeon basecolour_32
