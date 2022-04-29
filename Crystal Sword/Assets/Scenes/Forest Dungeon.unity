@@ -624,6 +624,12 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &974693213 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7155682885115062269, guid: fbfd54b234a8f4c388e15c11aa256f75,
+    type: 3}
+  m_PrefabInstance: {fileID: 1930087649}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &979774574 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4230442977480422779, guid: a3dc3b51f7dfc464aba758540b2c80c1,
@@ -1059,6 +1065,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 3817490588435002694, guid: d3e36cbabb348439781cd35120c8c12b,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6278862268086353454, guid: d3e36cbabb348439781cd35120c8c12b,
+        type: 3}
+      propertyPath: textures.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: a7aba1c57dba74c5797f0cf7cd293015, type: 3}
+    - target: {fileID: 6278862268086353454, guid: d3e36cbabb348439781cd35120c8c12b,
+        type: 3}
+      propertyPath: textures.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: a8b7cf7df38b049d1a220b4b6fa7d583, type: 3}
+    - target: {fileID: 6278862268086353454, guid: d3e36cbabb348439781cd35120c8c12b,
+        type: 3}
+      propertyPath: textures.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: 8e573472bf158456884037838d3e1de6, type: 3}
+    - target: {fileID: 6278862268086353454, guid: d3e36cbabb348439781cd35120c8c12b,
+        type: 3}
+      propertyPath: textures.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: a8b7cf7df38b049d1a220b4b6fa7d583, type: 3}
+    - target: {fileID: 6436869354042451936, guid: d3e36cbabb348439781cd35120c8c12b,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 5341967501b684d51b42320f74d1247e,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3e36cbabb348439781cd35120c8c12b, type: 3}
 --- !u!4 &1203471551 stripped
@@ -1409,24 +1446,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 170794734195612379, guid: 5c1e7e279c5ff4b7cab9b797b30e5b59,
         type: 3}
-      propertyPath: startPuzzle
-      value: 
-      objectReference: {fileID: 1629719445}
-    - target: {fileID: 170794734195612379, guid: 5c1e7e279c5ff4b7cab9b797b30e5b59,
-        type: 3}
       propertyPath: lEmitter
       value: 
       objectReference: {fileID: 18959574}
     - target: {fileID: 170794734195612379, guid: 5c1e7e279c5ff4b7cab9b797b30e5b59,
         type: 3}
-      propertyPath: playerPos.x
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 170794734195612379, guid: 5c1e7e279c5ff4b7cab9b797b30e5b59,
-        type: 3}
-      propertyPath: playerPos.y
-      value: 34
-      objectReference: {fileID: 0}
+      propertyPath: startPuzzle
+      value: 
+      objectReference: {fileID: 1629719445}
     - target: {fileID: 170794734195612379, guid: 5c1e7e279c5ff4b7cab9b797b30e5b59,
         type: 3}
       propertyPath: transition
@@ -1589,27 +1616,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sword button
-      objectReference: {fileID: 0}
-    - target: {fileID: 4992959630325319035, guid: fbfd54b234a8f4c388e15c11aa256f75,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 120607931
-      objectReference: {fileID: 0}
-    - target: {fileID: 4992959630325319035, guid: fbfd54b234a8f4c388e15c11aa256f75,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4992959630325319035, guid: fbfd54b234a8f4c388e15c11aa256f75,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300002, guid: c4dcacc18ac3746b1a05036b5c3703aa,
-        type: 3}
-    - target: {fileID: 4992959630325319035, guid: fbfd54b234a8f4c388e15c11aa256f75,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4992959630325319036, guid: fbfd54b234a8f4c388e15c11aa256f75,
         type: 3}
@@ -1867,6 +1873,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2046606947}
     m_Modifications:
+    - target: {fileID: 5966583553997073348, guid: d535111bdaa4c4c8b92ba76b00bbb7d1,
+        type: 3}
+      propertyPath: endLaserHit
+      value: 
+      objectReference: {fileID: 974693213}
     - target: {fileID: 5966583553997073349, guid: d535111bdaa4c4c8b92ba76b00bbb7d1,
         type: 3}
       propertyPath: m_LocalPosition.x
