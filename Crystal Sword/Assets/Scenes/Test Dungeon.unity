@@ -124,6 +124,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword button
       objectReference: {fileID: 0}
+    - target: {fileID: 4992959630325319035, guid: fbfd54b234a8f4c388e15c11aa256f75,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c4dcacc18ac3746b1a05036b5c3703aa,
+        type: 3}
     - target: {fileID: 4992959630325319036, guid: fbfd54b234a8f4c388e15c11aa256f75,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -178,6 +184,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424004589423811106, guid: fbfd54b234a8f4c388e15c11aa256f75,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbfd54b234a8f4c388e15c11aa256f75, type: 3}
