@@ -1,9 +1,10 @@
 ﻿using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Health : MonoBehaviour
+public class Health : MonoBehaviour, ISaveable
 {
 
     public int health;
@@ -70,6 +71,7 @@ public class Health : MonoBehaviour
         StartCoroutine(DamageFlash());
             Debug.Log("Ouch!");    
     }
+
     IEnumerator DamageFlash()
     {
         for (int i = 0; i < flicker; i++)
@@ -130,5 +132,28 @@ public class Health : MonoBehaviour
             player.velocity = Vector2.zero;
             move.enabled = true;
         }
+    }
+
+    public object SaveState()
+    {
+        return new SaveData()
+        {
+            health = health,
+            maxHealth = numOfBlocks
+        };
+    }
+
+    public void LoadState(object state)
+    {
+        var saveData = (SaveData)state;
+        health = saveData.health;
+        numOfBlocks = saveData.maxHealth;        
+    }
+
+    [Serializable]
+    private struct SaveData
+    {
+        public int health;
+        public int maxHealth;
     }
 }
