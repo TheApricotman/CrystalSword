@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SaveLoadSystem : MonoBehaviour
 {
@@ -11,7 +12,9 @@ public class SaveLoadSystem : MonoBehaviour
     [ContextMenu("Save")]
     public void Save()
     {
+        Debug.Log(SavePath);
         var state = LoadFile();
+
         SaveState(state);
         SaveFile(state);
     }
@@ -23,14 +26,13 @@ public class SaveLoadSystem : MonoBehaviour
         LoadState(state);
     }
 
-
     public void SaveFile(object state)
-    {
-        using (var stream = File.Open(SavePath, FileMode.Open))
-        {
-            var formatter = new BinaryFormatter();
-            formatter.Serialize(stream, state);
-        }
+    { 
+            using (var stream = File.Open(SavePath, FileMode.Open))
+            {
+                var formatter = new BinaryFormatter();
+                formatter.Serialize(stream, state);
+            }        
     }
 
     Dictionary<string, object> LoadFile()
