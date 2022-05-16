@@ -89,6 +89,7 @@
     <Compile Include="Assets\Scripts\Enemy Scripts\Humanoid.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\Slime.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\Turret.cs" />
+    <Compile Include="Assets\Scripts\Game management\GameManager.cs" />
     <Compile Include="Assets\Scripts\Game management\ISaveable.cs" />
     <Compile Include="Assets\Scripts\Game management\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Game management\SaveableEntity.cs" />
