@@ -12,11 +12,11 @@ public class SaveLoadSystem : MonoBehaviour
     [ContextMenu("Save")]
     public void Save()
     {
-        Debug.Log(SavePath);
         var state = LoadFile();
 
         SaveState(state);
         SaveFile(state);
+        Debug.Log("Saved at " + SavePath);
     }
 
     [ContextMenu("Load")]
@@ -28,25 +28,28 @@ public class SaveLoadSystem : MonoBehaviour
 
     public void SaveFile(object state)
     { 
-            using (var stream = File.Open(SavePath, FileMode.Open))
+            using (var stream = File.Open(SavePath, FileMode.Create))
             {
                 var formatter = new BinaryFormatter();
-                formatter.Serialize(stream, state);
+                formatter.Serialize(stream, state);            
             }        
     }
 
     Dictionary<string, object> LoadFile()
     {
-        if (!File.Exists(SavePath))
+        if (!File.Exists(SavePath) || SavePath.Length >0)
         {
             Debug.Log("File Path does not exist!");
             return new Dictionary<string, object>();
         }
-        using (FileStream stream = File.Open(SavePath, FileMode.Open))
+        else
         {
+            FileStream stream = File.Open(SavePath, FileMode.Open);
+
             var formatter = new BinaryFormatter();
             return (Dictionary<string, object>)formatter.Deserialize(stream);
         }
+        
     }
 
     void SaveState(Dictionary<string, object> state)
