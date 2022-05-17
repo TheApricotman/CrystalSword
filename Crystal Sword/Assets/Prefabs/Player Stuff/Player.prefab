@@ -191,7 +191,7 @@ Animator:
   m_GameObject: {fileID: 752577303}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7aa9810f5cbbc4563bef32dcf6cd8770, type: 2}
+  m_Controller: {fileID: 9100000, guid: ba7ce189ad24149c88d690f23d6fbcf7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -242,7 +242,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5, y: 5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -5078,6 +5078,7 @@ GameObject:
   - component: {fileID: 202508000}
   - component: {fileID: 5289331673621610209}
   - component: {fileID: 1212743210}
+  - component: {fileID: 335831554}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -5390,6 +5391,19 @@ MonoBehaviour:
   thrust: 30
   knockTime: 0.1
   absorbEnemy: {fileID: 8877175308764860458}
+--- !u!114 &335831554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4230291778806151571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: befcee5b6a73e42628d5098f2e5fb9ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: bdd06bef-8a6f-4fc7-ac1e-1f80498bf75a
 --- !u!1 &4230291779453088378
 GameObject:
   m_ObjectHideFlags: 0
