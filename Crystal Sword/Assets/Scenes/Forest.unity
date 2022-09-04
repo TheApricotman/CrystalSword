@@ -49809,6 +49809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Forest Dungeon
+  songToPlay: {fileID: 0}
   playerPos: {x: -6, y: -2}
   playerStorage: {fileID: 11400000, guid: 0052cd5d3bfc841909aaba050a3122b0, type: 2}
   transition: {fileID: 1413189491}
@@ -50312,6 +50313,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 269693328, guid: b65277434e4564d39888007af1cdc788, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 621dd703249cd4bb6af8a271d83cd30f, type: 3}
     - target: {fileID: 3725873852338986808, guid: b65277434e4564d39888007af1cdc788,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -155543,6 +155548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Town
+  songToPlay: {fileID: 0}
   playerPos: {x: -37, y: 0}
   playerStorage: {fileID: 11400000, guid: 0052cd5d3bfc841909aaba050a3122b0, type: 2}
   transition: {fileID: 1413189491}

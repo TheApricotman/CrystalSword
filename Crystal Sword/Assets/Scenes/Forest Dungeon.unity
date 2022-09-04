@@ -1328,6 +1328,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 269693328, guid: b65277434e4564d39888007af1cdc788, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 87fa40d6597e64cbfa86cb66f65d1e1f, type: 3}
     - target: {fileID: 3725873852338986808, guid: b65277434e4564d39888007af1cdc788,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1844,6 +1848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Forest
+  songToPlay: {fileID: 0}
   playerPos: {x: -45, y: 11}
   playerStorage: {fileID: 11400000, guid: 0052cd5d3bfc841909aaba050a3122b0, type: 2}
   transition: {fileID: 1153897960}

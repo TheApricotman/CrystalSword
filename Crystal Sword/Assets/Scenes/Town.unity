@@ -5912,6 +5912,10 @@ PrefabInstance:
       propertyPath: playerPos.y
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: songToPlay
+      value: 
+      objectReference: {fileID: 8300000, guid: 00a692cb127484e5b937987a1288e5cd, type: 3}
     - target: {fileID: 1911591016, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
       propertyPath: playerPos.x
       value: -6
@@ -6246,6 +6250,10 @@ PrefabInstance:
       propertyPath: playerPos.y
       value: -12
       objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: songToPlay
+      value: 
+      objectReference: {fileID: 8300000, guid: b374a354774d445f8900d2a7b30e3f5d, type: 3}
     - target: {fileID: 1911591016, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
       propertyPath: playerPos.x
       value: -30
@@ -79528,6 +79536,10 @@ PrefabInstance:
       propertyPath: playerPos.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: songToPlay
+      value: 
+      objectReference: {fileID: 8300000, guid: 621dd703249cd4bb6af8a271d83cd30f, type: 3}
     - target: {fileID: 1911591016, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
       propertyPath: sceneToLoad
       value: Forest
@@ -81153,6 +81165,10 @@ PrefabInstance:
       propertyPath: playerPos.y
       value: -4
       objectReference: {fileID: 0}
+    - target: {fileID: 966486780, guid: 429ad37b9ef814b1bb263034804998d5, type: 3}
+      propertyPath: songToPlay
+      value: 
+      objectReference: {fileID: 8300000, guid: 87fa40d6597e64cbfa86cb66f65d1e1f, type: 3}
     - target: {fileID: 3320069360903214568, guid: 429ad37b9ef814b1bb263034804998d5,
         type: 3}
       propertyPath: m_LocalPosition.x
