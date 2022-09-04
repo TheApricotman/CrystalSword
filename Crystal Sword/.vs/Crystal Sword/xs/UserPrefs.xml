@@ -1,27 +1,28 @@
 ﻿<Properties StartupConfiguration="{03BB4C41-72D9-511D-695D-00086474B5DC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game management/SaveLoadSystem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneTransition.cs">
     <Files>
-      <File FileName="Assets/Scripts/Puzzle Scripts/LaserEmitter2.cs" Line="43" Column="1" />
+      <File FileName="Assets/Scripts/SceneTransition.cs" Line="21" Column="1" />
+      <File FileName="Assets/Scripts/Game management/SaveLoadSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Puzzle Scripts/LaserEmitter2.cs" />
       <File FileName="Assets/Scripts/Puzzle Scripts/PuzzleManager.cs" />
       <File FileName="Assets/Scripts/Puzzle Scripts/Push.cs" />
-      <File FileName="Assets/Scripts/Game management/PauseMenu.cs" />
+      <File FileName="Assets/Scripts/Game management/PauseMenu.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/DialogManager.cs" />
       <File FileName="Assets/Scripts/DialogTrigger.cs" />
       <File FileName="Assets/Scripts/Enemy Scripts/Berserker.cs" />
       <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" />
       <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" />
-      <File FileName="Assets/Scripts/Puzzle Scripts/StartPuzzle.cs" />
-      <File FileName="Assets/Scripts/Sign.cs" />
-      <File FileName="Assets/Scripts/Game management/ISaveable.cs" />
+      <File FileName="Assets/Scripts/Puzzle Scripts/StartPuzzle.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Sign.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Game management/ISaveable.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Player Scripts/Health.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Game management/SaveableEntity.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Game management/SaveLoadSystem.cs" Line="34" Column="52" />
       <File FileName="Assets/Scripts/Game management/GameManager.cs" Line="32" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9e1c499f-99bf-4150-bf29-d59c7411221d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="93e43443-2d3f-4e10-85ef-9b192e3f28ce" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
