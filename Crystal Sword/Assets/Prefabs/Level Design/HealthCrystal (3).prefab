@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4230442977480422773}
   - component: {fileID: 4230442977480422774}
   - component: {fileID: 6671331512206355802}
+  - component: {fileID: 1986879344}
   m_Layer: 8
   m_Name: HealthCrystal (3)
   m_TagString: Breakable
@@ -132,11 +133,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835bc93e6c26d49b988a539992d18ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyName: 
-  baseSpeed: 0
-  health: 0
-  baseAtk: 0
-  homePos: {fileID: 0}
-  chaseRadius: 0
-  bounds: {fileID: 0}
-  isCrystal: 1
+--- !u!95 &1986879344
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4230442977480422768}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: a2f1892ca7733458c86c41d76a6e9231, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

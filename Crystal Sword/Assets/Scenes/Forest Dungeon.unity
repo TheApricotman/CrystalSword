@@ -1137,6 +1137,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2046606947}
     m_Modifications:
+    - target: {fileID: 4193433613977824423, guid: afda0978cef4d4f718cb2d8b77f8a3dc,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4338332929213023083, guid: afda0978cef4d4f718cb2d8b77f8a3dc,
         type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -1848,10 +1853,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Forest
-  songToPlay: {fileID: 0}
+  audioSource: {fileID: 0}
   playerPos: {x: -45, y: 11}
   playerStorage: {fileID: 11400000, guid: 0052cd5d3bfc841909aaba050a3122b0, type: 2}
   transition: {fileID: 1153897960}
+  musicTransition: {fileID: 0}
 --- !u!4 &3485575775536480619
 Transform:
   m_ObjectHideFlags: 0
