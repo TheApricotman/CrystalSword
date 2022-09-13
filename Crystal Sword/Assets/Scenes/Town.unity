@@ -28390,31 +28390,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1530824343 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 109990102122326386, guid: 3164439f5b5bc43cfbdc7aa06bd54381,
-    type: 3}
-  m_PrefabInstance: {fileID: 109990101051767465}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1530824344
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1530824343}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 5fd9fa9da1f8f471dacbf63acbfde33a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1534990782
 GameObject:
   m_ObjectHideFlags: 0
@@ -79804,31 +79779,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e515f65e3530f457189d1f04294873a8, type: 3}
---- !u!1 &1912505757 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3980092661711192439, guid: 590adf9fd302b4620a85a0c4c0a24480,
-    type: 3}
-  m_PrefabInstance: {fileID: 3980092662685217319}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1912505758
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912505757}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: a6c23bab3ed3041389e31eab00b18664, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1913428728 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4230442977480422779, guid: a3dc3b51f7dfc464aba758540b2c80c1,
@@ -80017,31 +79967,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8159778237718236052}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1986879343 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4230442977480422768, guid: a3dc3b51f7dfc464aba758540b2c80c1,
-    type: 3}
-  m_PrefabInstance: {fileID: 4230442976104984451}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1986879344
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1986879343}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: a2f1892ca7733458c86c41d76a6e9231, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1988228046 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1198136008952537574, guid: 2fa95efb368944a8e9697fc7c3208e37,
@@ -80276,16 +80201,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HealthCrystal (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5820744548358580358, guid: 3164439f5b5bc43cfbdc7aa06bd54381,
-        type: 3}
-      propertyPath: enemyName
-      value: Crystal
-      objectReference: {fileID: 0}
-    - target: {fileID: 5820744548358580358, guid: 3164439f5b5bc43cfbdc7aa06bd54381,
-        type: 3}
-      propertyPath: health
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3164439f5b5bc43cfbdc7aa06bd54381, type: 3}
@@ -80803,16 +80718,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 827998224}
     m_Modifications:
-    - target: {fileID: 1051261474268853048, guid: 590adf9fd302b4620a85a0c4c0a24480,
-        type: 3}
-      propertyPath: enemyName
-      value: Crystal
-      objectReference: {fileID: 0}
-    - target: {fileID: 1051261474268853048, guid: 590adf9fd302b4620a85a0c4c0a24480,
-        type: 3}
-      propertyPath: health
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3980092661711192434, guid: 590adf9fd302b4620a85a0c4c0a24480,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -81060,16 +80965,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6671331512206355802, guid: a3dc3b51f7dfc464aba758540b2c80c1,
-        type: 3}
-      propertyPath: enemyName
-      value: friend
-      objectReference: {fileID: 0}
-    - target: {fileID: 6671331512206355802, guid: a3dc3b51f7dfc464aba758540b2c80c1,
-        type: 3}
-      propertyPath: health
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3dc3b51f7dfc464aba758540b2c80c1, type: 3}
